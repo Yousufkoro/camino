@@ -1,0 +1,613 @@
+{
+  "routes": [
+    {
+      "route": "home",
+      "width": 1440,
+      "heading": "Your futurestarts here.",
+      "overflow": false,
+      "wide": [],
+      "text": "CAMINO / YOUR FUTURE. YOUR DIRECTION.\nYour future\nstarts here.\n\nDiscover what you could study, find a college that fits, and see exactly what to do next.\n\nFind My Direction\n↗\nSee H"
+    },
+    {
+      "route": "explore",
+      "width": 1440,
+      "heading": "Explore what could be next.",
+      "overflow": false,
+      "wide": [],
+      "text": "SEATTLE · BOTHELL · TACOMA\nExplore every catalog-listed UW undergraduate major.\n\nCompare major families, exact degrees and formal options, with their published requirements.\n\nBrows"
+    },
+    {
+      "route": "roadmap",
+      "width": 1440,
+      "heading": "Your next step starts with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour next step starts with you.\nYour workspace · this device\n\nChoose a direction and tell us where you’re starting.\n\nMake My Plan\n↗\nNot sure yet? "
+    },
+    {
+      "route": "application-review",
+      "width": 1440,
+      "heading": "Essay & Application Review (Beta)",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEssay & Application Review (Beta)\nYour workspace · this device\n\nA separate preparation workspace, connected to your saved coursework. Honest feedb"
+    },
+    {
+      "route": "account",
+      "width": 1440,
+      "heading": "Your plan, on your device.",
+      "overflow": false,
+      "wide": [],
+      "text": "YOUR CAMINO WORKSPACE\nYour plan, on your device.\nYour workspace · this device\nNo sign-in needed.\n\nAccount creation, login and cross-device sync are not configured on this standalon"
+    },
+    {
+      "route": "discover",
+      "width": 1440,
+      "heading": "Your direction starts at a fork.",
+      "overflow": false,
+      "wide": [
+        {
+          "tag": "g",
+          "cls": {}
+        },
+        {
+          "tag": "g",
+          "cls": {}
+        },
+        {
+          "tag": "path",
+          "cls": {}
+        },
+        {
+          "tag": "path",
+          "cls": {}
+        },
+        {
+          "tag": "path",
+          "cls": {}
+        }
+      ],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour direction starts at a fork.\nYour workspace · this device\n\nFollow your curiosity. Let each choice light the way.\n\nYOUR LIGHT. YOUR PATH.\nThere"
+    },
+    {
+      "route": "profile",
+      "width": 1440,
+      "heading": "Let’s make this yours.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nLet’s make this yours.\nYour workspace · this device\n\nA little context. Then your next step.\n\nWhere are you now?\nI’m just exploring\n9th grade\n10th "
+    },
+    {
+      "route": "history",
+      "width": 1440,
+      "heading": "Bring your journey with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "MY ACADEMIC RECORD\nBring your journey with you.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nAll your transcripts. One connected path. Add documents from different scho"
+    },
+    {
+      "route": "degrees",
+      "width": 1440,
+      "heading": "More than one goal. One smarter route.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nMore than one goal. One smarter route.\nYour workspace · this device\nBrowse official programs · choose a primary or backup →\n\nConnect an associate "
+    },
+    {
+      "route": "uw-majors",
+      "width": 1440,
+      "heading": "Explore UW’s undergraduate majors.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nExplore UW’s undergraduate majors.\nYour workspace · this device\n\nChoose a primary program and a backup. Listings show availability; degree require"
+    },
+    {
+      "route": "programs",
+      "width": 1440,
+      "heading": "Every direction deserves a place.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEvery direction deserves a place.\nYour workspace · this device\n\nChoose a primary program and a backup. Listings show availability; degree requirem"
+    },
+    {
+      "route": "colleges",
+      "width": 1440,
+      "heading": "Find a college to explore.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nFind a college to explore.\nYour workspace · this device\n\nSearch by name or place. Compare up to three.\n\nCollege or location\nShow\nAll\nUniversity\nCo"
+    },
+    {
+      "route": "salaries",
+      "width": 1440,
+      "heading": "A direction. A place. A clearer picture.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nA direction. A place. A clearer picture.\nYour workspace · this device\nYOUR DIRECTION, IN THE REAL WORLD\nWhat could this career pay?\n\nCompare avera"
+    },
+    {
+      "route": "transfer-guides",
+      "width": 1440,
+      "heading": "Know what travels with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nKnow what travels with you.\nYour workspace · this device\n\nSearch the original published transfer statements, including course combinations, effect"
+    },
+    {
+      "route": "catalog-draft",
+      "width": 1440,
+      "heading": "Build from your actual catalog.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nBuild from your actual catalog.\nYour workspace · this device\n\nChoose a UW or WSU credential, then open its published requirements and build a sour"
+    },
+    {
+      "route": "source-library",
+      "width": 1440,
+      "heading": "Your plan should have receipts.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour plan should have receipts.\nYour workspace · this device\n\nOpen official program pages, requirements, transfer guides and deadlines. Read a cur"
+    },
+    {
+      "route": "bellevue-catalog",
+      "width": 1440,
+      "heading": "Bellevue. Your next step, mapped.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nBellevue. Your next step, mapped.\nYour workspace · this device\n\nSearch 155 official program overviews and their available faculty-recommended cour"
+    },
+    {
+      "route": "seattle-catalog",
+      "width": 1440,
+      "heading": "Read the source. Keep your options open.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nRead the source. Keep your options open.\nYour workspace · this device\n\nSeattle Colleges’ 2025–27 catalog, available here as searchable campus sect"
+    },
+    {
+      "route": "college-catalogs",
+      "width": 1440,
+      "heading": "A first degree. A bigger horizon.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nA first degree. A bigger horizon.\nYour workspace · this device\n\nRead all 29 degree and certificate pages in Cascadia’s reviewed 2026–27 catalog. A"
+    },
+    {
+      "route": "applications",
+      "width": 1440,
+      "heading": "Essay & Application Review (Beta)",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEssay & Application Review (Beta)\nYour workspace · this device\n\nA separate preparation workspace, connected to your saved coursework. Honest feedb"
+    },
+    {
+      "route": "career",
+      "width": 1440,
+      "heading": "Your future starts before graduation.",
+      "overflow": false,
+      "wide": [],
+      "text": "PREPARE FOR WHAT’S NEXT\nYour future starts before graduation.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nA preparation path for Electrical Engineering. Start small an"
+    },
+    {
+      "route": "scenarios",
+      "width": 1440,
+      "heading": "Try another staircase.",
+      "overflow": false,
+      "wide": [],
+      "text": "WHAT IF? / YOUR ORIGINAL STAYS SAVED\nTry another staircase.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nCompare a proposal against your current roadmap. Unsupported ma"
+    },
+    {
+      "route": "sources",
+      "width": 1440,
+      "heading": "Clarity includes knowing the limits.",
+      "overflow": false,
+      "wide": [],
+      "text": "Read current official requirements, deadlines and equivalency guides →\nTRANSPARENCY / COVERAGE\nClarity includes knowing the limits.\nYour workspace · this device\nWashington pilot · "
+    },
+    {
+      "route": "privacy",
+      "width": 1440,
+      "heading": "Keep your future yours.",
+      "overflow": false,
+      "wide": [],
+      "text": "YOUR DATA, YOUR CONTROL\nKeep your future yours.\nYour workspace · this device\nWhat is saved\n\nThis standalone site has no account backend. Reviewed courses, goals, results, milestone"
+    },
+    {
+      "route": "preview",
+      "width": 1440,
+      "heading": "See a plan before you start.",
+      "overflow": false,
+      "wide": [],
+      "text": "ILLUSTRATIVE ROADMAP / NO STUDENT RECORDS\nSee a plan before you start.\nYour workspace · this device\n\nAn example UWB EE foundation/core roadmap with no completed coursework. This is"
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "heading": "Your futurestarts here.",
+      "overflow": false,
+      "wide": [],
+      "text": "CAMINO / YOUR FUTURE. YOUR DIRECTION.\nYour future\nstarts here.\n\nDiscover what you could study, find a college that fits, and see exactly what to do next.\n\nFind My Direction\n↗\nSee H"
+    },
+    {
+      "route": "explore",
+      "width": 390,
+      "heading": "Explore what could be next.",
+      "overflow": false,
+      "wide": [
+        {
+          "tag": "TABLE",
+          "cls": ""
+        },
+        {
+          "tag": "THEAD",
+          "cls": ""
+        },
+        {
+          "tag": "TR",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        }
+      ],
+      "text": "SEATTLE · BOTHELL · TACOMA\nExplore every catalog-listed UW undergraduate major.\n\nCompare major families, exact degrees and formal options, with their published requirements.\n\nBrows"
+    },
+    {
+      "route": "roadmap",
+      "width": 390,
+      "heading": "Your next step starts with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour next step starts with you.\nYour workspace · this device\n\nChoose a direction and tell us where you’re starting.\n\nMake My Plan\n↗\nNot sure yet? "
+    },
+    {
+      "route": "application-review",
+      "width": 390,
+      "heading": "Essay & Application Review (Beta)",
+      "overflow": false,
+      "wide": [
+        {
+          "tag": "TABLE",
+          "cls": ""
+        },
+        {
+          "tag": "THEAD",
+          "cls": ""
+        },
+        {
+          "tag": "TR",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        }
+      ],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEssay & Application Review (Beta)\nYour workspace · this device\n\nA separate preparation workspace, connected to your saved coursework. Honest feedb"
+    },
+    {
+      "route": "account",
+      "width": 390,
+      "heading": "Your plan, on your device.",
+      "overflow": false,
+      "wide": [],
+      "text": "YOUR CAMINO WORKSPACE\nYour plan, on your device.\nYour workspace · this device\nNo sign-in needed.\n\nAccount creation, login and cross-device sync are not configured on this standalon"
+    },
+    {
+      "route": "discover",
+      "width": 390,
+      "heading": "Your direction starts at a fork.",
+      "overflow": false,
+      "wide": [
+        {
+          "tag": "g",
+          "cls": {}
+        },
+        {
+          "tag": "g",
+          "cls": {}
+        },
+        {
+          "tag": "path",
+          "cls": {}
+        },
+        {
+          "tag": "g",
+          "cls": {}
+        },
+        {
+          "tag": "path",
+          "cls": {}
+        }
+      ],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour direction starts at a fork.\nYour workspace · this device\n\nFollow your curiosity. Let each choice light the way.\n\nYOUR LIGHT. YOUR PATH.\nThere"
+    },
+    {
+      "route": "profile",
+      "width": 390,
+      "heading": "Let’s make this yours.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nLet’s make this yours.\nYour workspace · this device\n\nA little context. Then your next step.\n\nWhere are you now?\nI’m just exploring\n9th grade\n10th "
+    },
+    {
+      "route": "history",
+      "width": 390,
+      "heading": "Bring your journey with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "MY ACADEMIC RECORD\nBring your journey with you.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nAll your transcripts. One connected path. Add documents from different scho"
+    },
+    {
+      "route": "degrees",
+      "width": 390,
+      "heading": "More than one goal. One smarter route.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nMore than one goal. One smarter route.\nYour workspace · this device\nBrowse official programs · choose a primary or backup →\n\nConnect an associate "
+    },
+    {
+      "route": "uw-majors",
+      "width": 390,
+      "heading": "Explore UW’s undergraduate majors.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nExplore UW’s undergraduate majors.\nYour workspace · this device\n\nChoose a primary program and a backup. Listings show availability; degree require"
+    },
+    {
+      "route": "programs",
+      "width": 390,
+      "heading": "Every direction deserves a place.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEvery direction deserves a place.\nYour workspace · this device\n\nChoose a primary program and a backup. Listings show availability; degree requirem"
+    },
+    {
+      "route": "colleges",
+      "width": 390,
+      "heading": "Find a college to explore.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nFind a college to explore.\nYour workspace · this device\n\nSearch by name or place. Compare up to three.\n\nCollege or location\nShow\nAll\nUniversity\nCo"
+    },
+    {
+      "route": "salaries",
+      "width": 390,
+      "heading": "A direction. A place. A clearer picture.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nA direction. A place. A clearer picture.\nYour workspace · this device\nYOUR DIRECTION, IN THE REAL WORLD\nWhat could this career pay?\n\nCompare avera"
+    },
+    {
+      "route": "transfer-guides",
+      "width": 390,
+      "heading": "Know what travels with you.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nKnow what travels with you.\nYour workspace · this device\n\nSearch the original published transfer statements, including course combinations, effect"
+    },
+    {
+      "route": "catalog-draft",
+      "width": 390,
+      "heading": "Build from your actual catalog.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nBuild from your actual catalog.\nYour workspace · this device\n\nChoose a UW or WSU credential, then open its published requirements and build a sour"
+    },
+    {
+      "route": "source-library",
+      "width": 390,
+      "heading": "Your plan should have receipts.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nYour plan should have receipts.\nYour workspace · this device\n\nOpen official program pages, requirements, transfer guides and deadlines. Read a cur"
+    },
+    {
+      "route": "bellevue-catalog",
+      "width": 390,
+      "heading": "Bellevue. Your next step, mapped.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nBellevue. Your next step, mapped.\nYour workspace · this device\n\nSearch 155 official program overviews and their available faculty-recommended cour"
+    },
+    {
+      "route": "seattle-catalog",
+      "width": 390,
+      "heading": "Read the source. Keep your options open.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nRead the source. Keep your options open.\nYour workspace · this device\n\nSeattle Colleges’ 2025–27 catalog, available here as searchable campus sect"
+    },
+    {
+      "route": "college-catalogs",
+      "width": 390,
+      "heading": "A first degree. A bigger horizon.",
+      "overflow": false,
+      "wide": [],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nA first degree. A bigger horizon.\nYour workspace · this device\n\nRead all 29 degree and certificate pages in Cascadia’s reviewed 2026–27 catalog. A"
+    },
+    {
+      "route": "applications",
+      "width": 390,
+      "heading": "Essay & Application Review (Beta)",
+      "overflow": false,
+      "wide": [
+        {
+          "tag": "TABLE",
+          "cls": ""
+        },
+        {
+          "tag": "THEAD",
+          "cls": ""
+        },
+        {
+          "tag": "TR",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        }
+      ],
+      "text": "1\nDiscover\n2\nChoose\n3\nPlan\n← Back\nEssay & Application Review (Beta)\nYour workspace · this device\n\nA separate preparation workspace, connected to your saved coursework. Honest feedb"
+    },
+    {
+      "route": "career",
+      "width": 390,
+      "heading": "Your future starts before graduation.",
+      "overflow": false,
+      "wide": [],
+      "text": "PREPARE FOR WHAT’S NEXT\nYour future starts before graduation.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nA preparation path for Electrical Engineering. Start small an"
+    },
+    {
+      "route": "scenarios",
+      "width": 390,
+      "heading": "Try another staircase.",
+      "overflow": false,
+      "wide": [],
+      "text": "WHAT IF? / YOUR ORIGINAL STAYS SAVED\nTry another staircase.\n1\nDiscover\n2\nChoose\n3\nPlan\nYour workspace · this device\n\nCompare a proposal against your current roadmap. Unsupported ma"
+    },
+    {
+      "route": "sources",
+      "width": 390,
+      "heading": "Clarity includes knowing the limits.",
+      "overflow": true,
+      "wide": [
+        {
+          "tag": "A",
+          "cls": "journey-secondary"
+        },
+        {
+          "tag": "TABLE",
+          "cls": ""
+        },
+        {
+          "tag": "TBODY",
+          "cls": ""
+        },
+        {
+          "tag": "TR",
+          "cls": ""
+        },
+        {
+          "tag": "TH",
+          "cls": ""
+        }
+      ],
+      "text": "Read current official requirements, deadlines and equivalency guides →\nTRANSPARENCY / COVERAGE\nClarity includes knowing the limits.\nYour workspace · this device\nWashington pilot · "
+    },
+    {
+      "route": "privacy",
+      "width": 390,
+      "heading": "Keep your future yours.",
+      "overflow": false,
+      "wide": [],
+      "text": "YOUR DATA, YOUR CONTROL\nKeep your future yours.\nYour workspace · this device\nWhat is saved\n\nThis standalone site has no account backend. Reviewed courses, goals, results, milestone"
+    },
+    {
+      "route": "preview",
+      "width": 390,
+      "heading": "See a plan before you start.",
+      "overflow": false,
+      "wide": [],
+      "text": "ILLUSTRATIVE ROADMAP / NO STUDENT RECORDS\nSee a plan before you start.\nYour workspace · this device\n\nAn example UWB EE foundation/core roadmap with no completed coursework. This is"
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "quiz": {
+    "start": {
+      "ready": true,
+      "labels": [
+        {
+          "text": "01\nA working device\n↖",
+          "rect": {
+            "x": 192.36553955078125,
+            "y": 474.6588134765625,
+            "width": 168.47171020507812,
+            "height": 90.9193115234375,
+            "top": 474.6588134765625,
+            "right": 360.8372497558594,
+            "bottom": 565.578125,
+            "left": 192.36553955078125
+          },
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "02\nA story about people\n↖",
+          "rect": {
+            "x": 443.5677185058594,
+            "y": 488.15765380859375,
+            "width": 124.33145141601562,
+            "height": 73.21978759765625,
+            "top": 488.15765380859375,
+            "right": 567.899169921875,
+            "bottom": 561.37744140625,
+            "left": 443.5677185058594
+          },
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "03\nAn interactive installation\n↗",
+          "rect": {
+            "x": 874.1133422851562,
+            "y": 488.1185302734375,
+            "width": 124.2208251953125,
+            "height": 73.212646484375,
+            "top": 488.1185302734375,
+            "right": 998.3341674804688,
+            "bottom": 561.3311767578125,
+            "left": 874.1133422851562
+          },
+          "visibility": "visible",
+          "opacity": "1"
+        },
+        {
+          "text": "04\nA student-run venture\n↗",
+          "rect": {
+            "x": 1081.1778564453125,
+            "y": 474.6225891113281,
+            "width": 168.339111328125,
+            "height": 90.91079711914062,
+            "top": 474.6225891113281,
+            "right": 1249.5169677734375,
+            "bottom": 565.5333862304688,
+            "left": 1081.1778564453125
+          },
+          "visibility": "visible",
+          "opacity": "1"
+        }
+      ],
+      "renderer": {
+        "frame": 10,
+        "calls": 68,
+        "triangles": 39628,
+        "points": 45,
+        "lines": 0
+      }
+    },
+    "afterClick": "1",
+    "mobileLabels": [
+      "01Finding the logic↖",
+      "02Listening carefully↖",
+      "03Imagining alternatives↗",
+      "04Getting everyone organized↗"
+    ]
+  }
+}

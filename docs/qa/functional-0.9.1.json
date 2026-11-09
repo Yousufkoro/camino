@@ -1,0 +1,54 @@
+{
+  "catalogOptions": 962,
+  "setup": {
+    "selects": [
+      {
+        "id": "j-stage",
+        "name": "grade",
+        "options": 13,
+        "value": "University sophomore"
+      },
+      {
+        "id": "j-major-school",
+        "name": "",
+        "options": 8,
+        "value": ""
+      },
+      {
+        "id": "j-major",
+        "name": "major",
+        "options": 962,
+        "value": "Electrical Engineering"
+      },
+      {
+        "id": "j-school",
+        "name": "target",
+        "options": 5,
+        "value": "University of Washington Bothell"
+      },
+      {
+        "id": "j-credential",
+        "name": "credential",
+        "options": 5,
+        "value": ""
+      }
+    ]
+  },
+  "plan": {
+    "courses": 34,
+    "heading": "One step at a time.",
+    "schoolSwap": true,
+    "image": "camino-course-plan.png"
+  },
+  "salary": {
+    "states": 51,
+    "occupations": 829,
+    "reading": "Electrical Engineers · Washington$136,970average per year · USDU.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics · May 2025Source and meaningBLS Occupational Employment and Wage Statistics, state estimates, A_MEAN field. These are workplace-location estimates. Self-employed workers are outside OEWS coverage.Source: https://www.bls.gov/oes/special-requests/oesm25st.zip"
+  },
+  "essay": {
+    "saved": true,
+    "localFeedback": "What you have already doneYou have a draft to work from: 36 words.Next revisionsAdd the exact application prompt before checking relevance.This is a short draft. Check whether you have answered each part of the actual prompt.Review one concrete example: what you did, its outcome, and what you learned. A writing check cannot verify those facts.Activity review checklistAdd activities, work, personal projects or care responsibilities you want reviewers to understand.These checks cannot determine whether the essay answers the prompt, identify admissions weaknesses or estimate changes in acceptance probability. Ask a counselor or qualified reviewer for substantive feedback.",
+    "restored": true
+  },
+  "errors": []
+}

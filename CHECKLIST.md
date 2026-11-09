@@ -19,7 +19,7 @@ Detailed release evidence and limitations: [RELEASE-0.9.md](RELEASE-0.9.md).
 - [ ] Research and display publicly available admitted-GPA and competitive-grade evidence by program/cohort; explicitly report when institutions do not publish it. No private institutional access is required.
 - [ ] Validated personal admission percentages. No representative calibrated outcome dataset is available.
 - [x] Live Cloudflare AI inference restored and synthetic HTTP200 received. Structured feedback/parser and quality guards corrected; model feedback remains fallible and is not an admissions prediction.
-- [ ] Real-browser visual/mobile verification. Managed browser control unavailable.
+- [x] Live Chromium desktop/mobile viewport inspection and key functional flows; see RELEASE-0.9.2.md. Physical-device, Safari/Firefox and performance testing remain unverified.
 - [x] Deploy release 0.7 to the existing workers.dev URL. Cloudflare build succeeded and the live release marker returned 0.7.0.
 
 Checked software items do not certify eligibility, institutional approval, application submission or admission outcomes. Unchecked items remain incomplete.
@@ -45,4 +45,11 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [x] WebGL2 forest, physical signboards and4.2-second camera travel replace CSS zoom transitions on supported devices.
 - [x] Essay/Application Review shows (Beta) in navigation and page heading.
 - [x] Geometry, travel lifecycle, catalog selection and regression tests added.
-- [ ] Actual GPU/device visual and performance checks remain unverified; mathematical projection tests are not browser QA.
+- [x] Real Chromium WebGL rendering and desktop/mobile screenshots inspected with software GPU rendering.
+- [ ] Physical-device GPU performance and cross-browser verification.
+
+## Audit and privacy updates in 0.9.2
+
+- [x] Fifty live route/viewport checks, seeded quiz-to-plan, school swap, actual PNG export, salary selectors and essay upload/save/restore.
+- [x] Readable phone answer controls, larger projected desktop labels, mobile source-page overflow and nested plan heading fixed.
+- [x] Confirmed full Camino browser-data wipe, draft/import/quiz reset, stale-tab notification and signed-in workspace deletion handling.
