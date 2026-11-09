@@ -1,8 +1,8 @@
 # Camino requested-work checklist
 
-Detailed release evidence and limitations: [RELEASE-0.7.md](RELEASE-0.7.md).
+Detailed release evidence and limitations: [RELEASE-0.8.md](RELEASE-0.8.md).
 
-- [x] First-person road quiz, lantern cursor, clickable forks and animated confirmation.
+- [x] Eye-level forest quiz, tapered paths, four sign/road anchors, lantern cursor, depth/parallax and animated fork confirmation.
 - [x] Keyboard/touch alternatives, standard cursor and reduced motion.
 - [x] All current indexed UW undergraduate bachelor credential/option headings and full published source text.
 - [x] Primary, backup and concurrent goals; shared-course allocation and first dedicated-quarter checkpoint for entered constraints.
@@ -18,8 +18,17 @@ Detailed release evidence and limitations: [RELEASE-0.7.md](RELEASE-0.7.md).
 - [ ] Exhaustive verified coverage for every non-UW major, equivalency route and program-specific deadline.
 - [ ] Published admitted-GPA/competitive-grade evidence for every major and cohort. Missing evidence is labeled.
 - [ ] Validated personal admission percentages. No representative calibrated outcome dataset is available.
-- [ ] Live Cloudflare AI inference/model quality. Production Python POST received error 1010; a curl POST reached the service but returned a review failure. Provider diagnostics are being checked.
+- [x] Live Cloudflare AI inference restored and synthetic HTTP200 received. Structured feedback/parser and quality guards corrected; model feedback remains fallible and is not an admissions prediction.
 - [ ] Real-browser visual/mobile verification. Managed browser control unavailable.
 - [x] Deploy release 0.7 to the existing workers.dev URL. Cloudflare build succeeded and the live release marker returned 0.7.0.
 
 Checked software items do not certify eligibility, institutional approval, application submission or admission outcomes. Unchecked items remain incomplete.
+
+## Additional requested updates in 0.8
+
+- [x] Essay & Application Review visible in top navigation/mobile menu.
+- [x] UW Seattle, UW Bothell and Bellevue prioritized in that order.
+- [x] On-page annual salary means for 50 states + DC and829 occupations, with source year and missing estimates shown.
+- [x] Bellevue program/course-map reader:155 overviews,130 usable mapped-program records and full elective menus where available.
+- [x] Seattle catalog reader:340 original source pages and286 indexed sections, accurately scoped.
+- [x] Additional priority-campus admission rules and qualified GPA context.

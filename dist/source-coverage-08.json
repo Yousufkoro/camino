@@ -1,0 +1,55 @@
+{
+  "checked": "2026-11-09",
+  "seattle": {
+    "catalogYear": "2025\u20132027",
+    "sourceUrl": "https://www.seattlecolleges.edu/sites/seattlecolleges.southseattle.edu/files/2026-04/25-27_Catalog_accessible.pdf",
+    "pdfPageCount": 340,
+    "indexedSections": 286,
+    "campusSections": {
+      "North Seattle College": 104,
+      "Seattle Central College": 104,
+      "South Seattle College": 78
+    },
+    "coverage": "All catalog pages retained. Campus program headings identified from official PDF typography. General transfer, graduation and course description pages captured separately.",
+    "gaps": [
+      "286 sections include transfer focus and noncredit training; not286 distinct awards.",
+      "PDF typography indexing is heuristic, not approved credential inventory. Complete page text retained for layout review.",
+      "Alternatives, elective menus, prerequisites and totals remain exact prose; no automatic audit rules inferred."
+    ]
+  },
+  "bellevue": {
+    "publicOverviewPages": 155,
+    "http200": 155,
+    "catalogRoot": "https://catalog.bellevuecollege.edu/",
+    "catalogProbe": "https://catalog.bellevuecollege.edu/preview_program.php?catoid=16&poid=5105",
+    "catalogProbeStatus": 403,
+    "gaps": [
+      "Catalog root and exact linked catalog program page403; access restrictions respected.",
+      "Public course maps are faculty-recommended plans, not an exhaustive catalog/official degree audit.",
+      "Course map active public snapshot is2025; do not label2026 or2027.",
+      "155 existing overview records are source-listed scope, not proof of exhaustive current awarded credential inventory.",
+      "14 public program endpoints returned NOT_FOUND bodies despite HTTP200; excluded from the usable program source reader. Their overviews remain available."
+    ],
+    "overviewPagesWithMaps": 105,
+    "uniqueMappedPrograms": 144,
+    "maps": 175,
+    "mapElements": 2852,
+    "elementTypes": {
+      "COURSE": 1822,
+      "MILESTONE": 269,
+      "CHOICE": 761
+    },
+    "choiceDetailPages": 761,
+    "choiceDetailErrors": 0,
+    "apiBaseUrl": "https://b.api.programmapper.com",
+    "activePublicSiteContentId": "5b00782e-ff4a-4679-81f2-626ae544dc21",
+    "siteSnapshotYear": 2025,
+    "sourceDiscovery": "Official Bellevue program pages link coursemaps.bellevuecollege.edu. Public main JS and assets/env-specific.json specify public read-only API; college vanity URL query selects2025 snapshot. Program, pathway, program-map, choice-opportunity GETs retained.",
+    "metadataConflicts": [
+      "3D overview title Certificate of Accomplishment versus Degree field Certificate of Achievement; retain both source values."
+    ],
+    "mappedProgramRequests": 144,
+    "usableMappedProgramRecords": 130,
+    "publicOverviewsWithUsableMaps": 91
+  }
+}
