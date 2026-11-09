@@ -1,0 +1,6 @@
+{
+  "release": "0.6.0",
+  "marker": "camino-github-autodeploy-verified-source",
+  "repository": "https://github.com/Yousufkoro/camino",
+  "purpose": "Public deployment marker for the tested GitHub-connected source"
+}
