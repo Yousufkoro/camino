@@ -53,3 +53,10 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [x] Fifty live route/viewport checks, seeded quiz-to-plan, school swap, actual PNG export, salary selectors and essay upload/save/restore.
 - [x] Readable phone answer controls, larger projected desktop labels, mobile source-page overflow and nested plan heading fixed.
 - [x] Confirmed full Camino browser-data wipe, draft/import/quiz reset, stale-tab notification and signed-in workspace deletion handling.
+
+## Transcript updates in 0.9.3
+
+- [x] Major/school selection immediately prompts transcript import; confirmation continues to the plan, with an explicit skip option.
+- [x] Bellevue logo/OCR name variants, full UWB names, issuer-vs-transfer-school protection and mixed transcript section boundaries.
+- [x] Editable document issuer and separate original-school/recording-school fields; required source review for transfer rows.
+- [x] Actual Chromium PDF upload/OCR and mixed-source reconciliation tested with synthetic Bellevue/UWB documents.

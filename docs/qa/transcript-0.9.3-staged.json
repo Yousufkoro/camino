@@ -1,0 +1,102 @@
+{
+  "live": false,
+  "records": [
+    {
+      "include": true,
+      "code": "MATH 124",
+      "title": "Calculus I",
+      "credits": "5",
+      "grade": "3.8",
+      "term": "Transfer credit · 2024-2025",
+      "institution": "University of Washington Bothell",
+      "creditType": "transfer",
+      "sourceInstitution": "Bellevue College",
+      "completed": true
+    },
+    {
+      "include": true,
+      "code": "B CORE 107",
+      "title": "Discovery Core",
+      "credits": "5",
+      "grade": "3.7",
+      "term": "AUTUMN 2026",
+      "institution": "University of Washington Bothell",
+      "creditType": "institutional",
+      "completed": true
+    },
+    {
+      "include": true,
+      "code": "MATH& 151",
+      "title": "Calculus I",
+      "credits": "5",
+      "grade": "3.8",
+      "term": "FALL 2024",
+      "institution": "Bellevue College",
+      "creditType": "institutional",
+      "completed": true
+    }
+  ],
+  "courses": [
+    {
+      "code": "MATH 124",
+      "title": "Calculus I",
+      "credits": 5,
+      "grade": "3.8",
+      "term": "Transfer credit · 2024-2025",
+      "institution": "University of Washington Bothell",
+      "completed": true,
+      "prereqs": [],
+      "imported": true,
+      "parserVersion": 5,
+      "recordKey": "UNIVERSITY OF WASHINGTON BOTHELL|BELLEVUE COLLEGE|MATH 124|CALCULUS I|5|3.8|TRANSFER CREDIT · 2024-2025|1",
+      "sourceInstitution": "Bellevue College",
+      "creditType": "transfer",
+      "attemptStatus": "completed",
+      "transcriptCredits": 5,
+      "creditOrigins": [
+        {
+          "code": "MATH& 151",
+          "title": "Calculus I",
+          "credits": 5,
+          "grade": "3.8",
+          "term": "FALL 2024",
+          "institution": "Bellevue College",
+          "completed": true,
+          "prereqs": [],
+          "imported": true,
+          "parserVersion": 5,
+          "recordKey": "BELLEVUE COLLEGE||MATH& 151|CALCULUS I|5|3.8|FALL 2024|1",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "attemptStatus": "completed"
+        }
+      ],
+      "equivalenceEvidence": {
+        "url": "https://www.uwb.edu/stem/undergraduate/resources/stem-transfer-courses",
+        "checked": "2026-11-08",
+        "kind": "Published course mapping with transcript evidence"
+      }
+    },
+    {
+      "code": "B CORE 107",
+      "title": "Discovery Core",
+      "credits": 5,
+      "grade": "3.7",
+      "term": "AUTUMN 2026",
+      "institution": "University of Washington Bothell",
+      "completed": true,
+      "prereqs": [],
+      "imported": true,
+      "parserVersion": 5,
+      "recordKey": "UNIVERSITY OF WASHINGTON BOTHELL||B CORE 107|DISCOVERY CORE|5|3.7|AUTUMN 2026|1",
+      "sourceInstitution": "",
+      "creditType": "institutional",
+      "attemptStatus": "completed",
+      "transcriptCredits": 5,
+      "creditOrigins": []
+    }
+  ],
+  "creditLedger": [],
+  "errors": [],
+  "responses": []
+}
