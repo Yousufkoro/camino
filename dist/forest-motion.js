@@ -1,0 +1,2 @@
+/* Camera timing is independent of frame rate; velocity and acceleration settle at both ends. */
+var ForestMotion=(()=>{const clamp=t=>Math.max(0,Math.min(1,t)),ease=t=>{t=clamp(t);return t*t*t*(t*(t*6-15)+10)};function sample(elapsed,duration=4200){const t=clamp(elapsed/duration),u=ease(t);return{t,u,bob:t===0||t===1?0:Math.sin(u*Math.PI*16)*.012*Math.sin(Math.PI*t),finished:t===1}}return{ease,sample,duration:4200}})();if(typeof module!=='undefined')module.exports=ForestMotion;

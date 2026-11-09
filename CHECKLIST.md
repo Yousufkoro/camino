@@ -1,6 +1,6 @@
 # Camino requested-work checklist
 
-Detailed release evidence and limitations: [RELEASE-0.8.md](RELEASE-0.8.md).
+Detailed release evidence and limitations: [RELEASE-0.9.md](RELEASE-0.9.md).
 
 - [x] Eye-level forest quiz, tapered paths, four sign/road anchors, lantern cursor, depth/parallax and animated fork confirmation.
 - [x] Keyboard/touch alternatives, standard cursor and reduced motion.
@@ -38,3 +38,11 @@ Checked software items do not certify eligibility, institutional approval, appli
 Publicly accessible academic sources and independently checkable calculations are the required standard. Institutional certification or approval is not a completion requirement. Source citations, catalog/applicant-year scope and unresolved conditions must remain visible. Do not present simulated admissions percentages as validated personal probabilities without sufficient public outcome data and calibration.
 
 The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Further Cloudflare admin credentials are not a prerequisite for the remaining academic research or ordinary code updates.
+
+## Priority issues addressed in 0.9
+
+- [x] Actual setup direction selector searches all953 loaded catalog entries, with campus/credential identity saved.
+- [x] WebGL2 forest, physical signboards and4.2-second camera travel replace CSS zoom transitions on supported devices.
+- [x] Essay/Application Review shows (Beta) in navigation and page heading.
+- [x] Geometry, travel lifecycle, catalog selection and regression tests added.
+- [ ] Actual GPU/device visual and performance checks remain unverified; mathematical projection tests are not browser QA.
