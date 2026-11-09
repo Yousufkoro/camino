@@ -1,0 +1,15 @@
+{
+  "name": "camino",
+  "version": "0.6.0",
+  "private": true,
+  "scripts": {
+    "test": "node scripts/test.cjs",
+    "check": "node scripts/check.cjs",
+    "build": "node scripts/build-standalone.cjs",
+    "test:dom": "node scripts/dom-test.cjs",
+    "validate": "npm run check && npm test && npm run test:dom && npm run build"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

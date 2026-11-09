@@ -1,0 +1,9 @@
+import {liveSource,applicationReview} from './academic-service.mjs';
+// Standalone has no account database or raw-file uploads. Optional AI review requires explicit submission.
+const headers={
+ 'X-Content-Type-Options':'nosniff',
+ 'Referrer-Policy':'strict-origin-when-cross-origin',
+ 'Permissions-Policy':'camera=(), microphone=(), geolocation=()',
+ 'Content-Security-Policy':"default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' blob: data:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+};
+export default {async fetch(request,env){try{const url=new URL(request.url);let response;if(url.pathname==='/api/application-review')response=await applicationReview(request,env);else if(url.pathname==='/api/college-source'&&request.method==='GET')response=await liveSource(request,env);else if(!['GET','HEAD'].includes(request.method))response=new Response('Method not allowed',{status:405});else if(url.pathname==='/api/me')response=Response.json({standalone:true,user:null},{headers:{'Cache-Control':'no-store'}});else if(url.pathname.startsWith('/api/')||/sign(?:in|out)-with-chatgpt/.test(url.pathname))response=new Response('Not found',{status:404});else{if(url.pathname==='/vendor/eng.traineddata.gz')url.pathname='/vendor/fast/eng.traineddata.gz';response=await env.ASSETS.fetch(new Request(url,request));}const result=new Response(request.method==='HEAD'?null:response.body,response);for(const [key,value]of Object.entries(headers))result.headers.set(key,value);return result}catch{return Response.json({error:'Camino is temporarily unavailable. Please retry.'},{status:503,headers:{...headers,'Cache-Control':'no-store'}})}}};

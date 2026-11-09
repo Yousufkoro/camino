@@ -1,0 +1,89 @@
+# Camino implementation audit — November 8, 2026 (Pacific)
+
+## Architecture inspected
+
+The existing application is a vanilla JavaScript hash-router SPA, static CSS/SVG, a deterministic course planner, and an on-device PDF.js/Tesseract importer. There is no framework build, relational database or live university API. The standalone Cloudflare Worker serves assets and reports local-only mode. A separate Sites Worker uses trusted dispatch identity and account-scoped R2 JSON workspaces. That separate account Worker must not be deployed directly to an untrusted public origin.
+
+The existing bookshelf-cube logo, staircase artwork, course-school selectors, quarter landings, source-checked academic rules, reviewed transcript flow and PNG export have been retained.
+
+## Confirmed bugs and unsafe/misleading behavior
+
+- Quiz results displayed invented 62–92-style compatibility percentages. These were not scientifically calibrated or admission probabilities.
+- Quiz answers were not saved between unfinished visits. Full mode repeated a small question bank with prefixed wording.
+- The default route was transcript import rather than the advertised student journey.
+- The How It Works route returned before normal event binding and account-state handling.
+- Mobile CSS hid primary navigation with no replacement menu.
+- The automatic UWB EE roadmap ignored manual schedule edits; generic moves checked only earlier prerequisites and target-term credits.
+- The application assumed a fixed Winter 2027 start and could not represent a user-chosen calendar. Fall-to-Winter and Fall-to-Spring labels needed civil-year rollover checks.
+- A scenario had only a saved term count and workload, not requirement/course differences. Changing major or university was not simulated.
+- Standalone privacy and some source-page copy implied account sync existed. It does not exist on workers.dev.
+- Backup validation did not share an account-write schema; nested arbitrary values were insufficiently constrained.
+- Document extension and size checks did not verify PDF/image byte signatures or MIME mismatch.
+- Import-save failure rolled back only the course list rather than the entire updated workspace.
+- Failed account saves could lose their pending version after reload. A network request without a deadline could leave the main view inert indefinitely.
+- Core scripts contained duplicate unused pages and obsolete percentage-result rendering.
+
+## Design recommendations implemented
+
+The homepage now names the actual Discover → Explore → Plan journey and uses the requested headline, CTAs and four promises. A visibly illustrative, interactive roadmap preview replaces reliance on aspirational copy. The hero includes an explicit scope note so the requested supporting sentence does not imply a verified deadline service. Desktop/mobile navigation uses Discover, Explore Colleges, My Roadmap, How It Works and My Account. The logo always links home.
+
+The staircase and bookshelf identity remains consistent. New directory, comparison, progress, milestone and scenario views use existing colors, typography, cards and motion settings. Focus styling, touch targets, semantic progress, labeled controls, native dialogs, alerts and reduced-motion behavior were improved. This is not a claim of WCAG conformance; real browser, assistive technology and mobile layout audits remain outstanding.
+
+## Actual code changes
+
+- `product-core.js`: 32 original scenario questions spanning 12 categories, deterministic transparent theme ranking, resumable draft validation, source-aware institution directory, quarter/semester date labels, plan validation, scenario delta calculation and a structured equivalency registry.
+- `product-ui.js`: clear homepage; illustrative student journeys; read-only preview; quiz resume/back/retake; three distinct recommendations; save/replace recommendations; saved result snapshots; three-path comparison; searchable college directory and up-to-three institution comparison; optional student profile; manual planning integration; status/grade updates; removed-course history; five-view unofficial progress; saved scenario differences; milestone tasks and calendar downloads; deployment-specific privacy; recovery/error boundaries.
+- Existing `app.js` and `plan-flow.js`: connected the new experiences to the current router/importer; removed unused duplicate pages; enabled validated manual moves for automatic plans; persisted workload mode; retained completed and excluded attempts; fixed How It Works/default routes and keyboard quiz selection.
+- `academic-pathway.js`: added first-term rotation, optional course-count preference and a semester guard. Preserved published prerequisites, co-requisites, season restrictions, sequence continuity and per-course school choices.
+- `workspace-schema.js`: shared structural validation, bounded nesting/collections, prohibited prototype keys, numeric course bounds and a course-field allowlist that excludes original transcript/raw extraction text.
+- `account.js`: bounded API requests, validated server-loaded workspaces, pending local save recovery, conflict-preserving retry and honest standalone-account copy.
+- `import-ui.js`: extension/MIME/signature checks, batch size bound and transactional rollback on storage failure. Existing local parsing/OCR/review confirmation remains functional.
+- Standalone Worker: method restrictions, rejection of account endpoints and forged identity headers, security headers/CSP, asset-error response. No new account provider or database was created.
+- Build/test scripts: reproducible syntax/unit/DOM checks, content-hash frontend asset versions, standalone dry-run packaging.
+
+## Academic evidence and actual coverage
+
+Existing data coverage remains limited, intentionally:
+
+1. UWB Electrical Engineering foundation, writing and core requirements, with selected electives and existing prerequisites/co-requisites. It is not a complete 180-credit audit. General education, residency, catalog-year exceptions, offering schedules, local enrollment rules and skills-lab waivers need institutional review.
+2. Selected Bellevue → UWB course-content guidance, including the complete CS 210/211 series. Single-course mixed-school programming requires advisor confirmation.
+3. Two direct Bellevue → UW Seattle math credit mappings: MATH& 151 → MATH 124 and MATH& 152 → MATH 125. Effective course terms must match. Credit transfer is not blanket major applicability.
+4. Bellevue PHYS 121/122/123 local numbering and split credit are retained from the UW guide and existing UWB catalog relationship. Offering availability is not verified.
+
+Official pages read successfully during this task:
+- https://www.uwb.edu/stem/undergraduate/majors/electrical/curriculum
+- https://www.uwb.edu/stem/undergraduate/majors/electrical/admissions
+- https://www.uwb.edu/stem/undergraduate/resources/stem-transfer-courses
+- https://admit.washington.edu/apply/transfer/equivalency-guide/bellevue/
+
+Extracted content confirmed the existing core course list, 180-credit/minimum-grade policy, EE transfer-credit limit, admission GPA/grade thresholds, full Bellevue programming series and the two UW Seattle math mappings. A successful HTTP response alone was not treated as verification of every rule or future offering. Existing course/catalog evidence dates remain visible; no broad date refresh was fabricated.
+
+Bellevue and WSU homepages returned HTTP 403 during automated retrieval. Their URLs remain research starting points, not newly verified academic records. UW Tacoma, Cascadia, Seattle Colleges and WSU do not have newly loaded degree requirements or mappings. No admissions chances, tuition figures, salaries or official deadlines were invented.
+
+## Privacy/security and remaining risks
+
+Original documents and extracted raw text are not sent to a Camino/AI backend. Confirmed course records are stored locally in standalone mode. Anyone with this browser profile can access them; backups require care. Standalone storage has no cross-device sync, encryption-at-rest guarantee, account login or remote deletion service. Clearing site data deletes local work.
+
+The Sites API remains account-scoped with same-origin writes and optimistic concurrency. Tests use an in-memory R2 substitute; this release did not change production records, credentials or R2 configuration. Sites trusted headers are not an authentication design for a public standalone Worker.
+
+The standalone CSP and headers require real-browser PDF/OCR validation. Pinned PDF/OCR libraries need ongoing upstream vulnerability review; PDF eval remains disabled. No student data is placed in public URLs or static files. No analytics or email/push system was added.
+
+No COPPA, FERPA, Washington-law or WCAG certification is claimed. Before a broader service for minors, obtain appropriate legal/security review, age/consent policies, retention procedures and any institutional agreements required for the service model. Production abuse controls and account-provider-specific rate limiting require the eventual authentication/storage architecture.
+
+## Explicitly unfinished / constrained
+
+- Standalone account creation/login/logout/cloud sync: not implemented. Requires a chosen authentication provider and secure server storage, credentials and session lifecycle. UI explicitly states local-only mode. Existing Sites sign-in remains a separate deployment feature.
+- Background email/push reminders: not implemented. Calendar files and workspace milestones work; downloading an ICS is not scheduling a notification.
+- Automatic degree audits for other majors/institutions, nationwide coverage, fresh future offerings, verified deadlines and catalog-year completeness: no authoritative dataset loaded. Unsupported selections are flagged.
+- Semester support means manual semester-unit scheduling and correct term labels, not inferred conversion of quarter transcripts or a verified WSU degree audit.
+- GPA conversions, acceptance prediction and cost estimation are not implemented. Source links replace unsupported figures.
+- In-progress records are tracked and not counted as earned credit. Complex ongoing enrollment/prerequisite exceptions need advisor review; Camino does not assume a future passing grade.
+- Scenario comparisons are snapshots, not a degree-completion forecast. Switching to an unsupported program cannot establish that removed generated courses are no longer required.
+- Work-life preferences are exploratory reflections within the theme quiz, not a validated occupational suitability model. University program suggestions remain official research links where major availability is not verified.
+- Visual browser rendering, real mobile layout, assistive-technology checks, actual login/logout, real R2 and browser PDF/OCR under the new CSP remain untested here. The required managed Sites browser tool (`cua_repl.js`) is unavailable. DOM tests are not screenshots or browser QA.
+
+## Deployment policy
+
+Public URL supplied by the owner: https://camino-your-direction.playsleuth.workers.dev/
+
+No deployment to this public Worker and no production-data or secret changes were performed. The release is packaged and tested with Wrangler dry-run. Any owner-private Sites review deployment is separate from that public site and preserves its owner-private audience. See TESTING.md for exact validation and HOSTING.md for deployment steps.

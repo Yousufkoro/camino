@@ -1,0 +1,1 @@
+const fs=require('node:fs'),{spawnSync}=require('node:child_process');for(const file of fs.readdirSync('tests').filter(f=>f.endsWith('-dom.test.cjs'))){const r=spawnSync(process.execPath,['tests/'+file],{stdio:'inherit'});if(r.status!==0)process.exit(r.status||1)}
