@@ -18,8 +18,8 @@ Detailed release evidence and limitations: [RELEASE-0.7.md](RELEASE-0.7.md).
 - [ ] Exhaustive verified coverage for every non-UW major, equivalency route and program-specific deadline.
 - [ ] Published admitted-GPA/competitive-grade evidence for every major and cohort. Missing evidence is labeled.
 - [ ] Validated personal admission percentages. No representative calibrated outcome dataset is available.
-- [ ] Live Cloudflare AI inference/model quality. Production POST test blocked with error 1010.
+- [ ] Live Cloudflare AI inference/model quality. Production Python POST received error 1010; a curl POST reached the service but returned a review failure. Provider diagnostics are being checked.
 - [ ] Real-browser visual/mobile verification. Managed browser control unavailable.
-- [ ] Deploy and verify release 0.7. Deployment evidence is recorded after the production build.
+- [x] Deploy release 0.7 to the existing workers.dev URL. Cloudflare build succeeded and the live release marker returned 0.7.0.
 
 Checked software items do not certify eligibility, institutional approval, application submission or admission outcomes. Unchecked items remain incomplete.
