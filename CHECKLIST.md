@@ -14,9 +14,9 @@ Detailed release evidence and limitations: [RELEASE-0.8.md](RELEASE-0.8.md).
 - [x] Record-based GPA estimates and personal grade-target calculations.
 - [x] Separate local statement/activities uploads and consent-based review backend with constructive feedback schema.
 - [x] GitHub → Cloudflare automatic deployment configured and verified for the preceding release.
-- [ ] Institution-approved complete degree audits for every major. Drafts retain unmodeled policies explicitly.
+- [ ] Complete public-source requirement models and prerequisite-first planning for every covered major, prioritizing UW Seattle, UW Bothell and Bellevue College. Institutional approval is not required; source year, interpretation and unresolved clauses remain visible.
 - [ ] Exhaustive verified coverage for every non-UW major, equivalency route and program-specific deadline.
-- [ ] Published admitted-GPA/competitive-grade evidence for every major and cohort. Missing evidence is labeled.
+- [ ] Research and display publicly available admitted-GPA and competitive-grade evidence by program/cohort; explicitly report when institutions do not publish it. No private institutional access is required.
 - [ ] Validated personal admission percentages. No representative calibrated outcome dataset is available.
 - [x] Live Cloudflare AI inference restored and synthetic HTTP200 received. Structured feedback/parser and quality guards corrected; model feedback remains fallible and is not an admissions prediction.
 - [ ] Real-browser visual/mobile verification. Managed browser control unavailable.
@@ -32,3 +32,9 @@ Checked software items do not certify eligibility, institutional approval, appli
 - [x] Bellevue program/course-map reader:155 overviews,130 usable mapped-program records and full elective menus where available.
 - [x] Seattle catalog reader:340 original source pages and286 indexed sections, accurately scoped.
 - [x] Additional priority-campus admission rules and qualified GPA context.
+
+## Public-source scope clarified by owner
+
+Publicly accessible academic sources and independently checkable calculations are the required standard. Institutional certification or approval is not a completion requirement. Source citations, catalog/applicant-year scope and unresolved conditions must remain visible. Do not present simulated admissions percentages as validated personal probabilities without sufficient public outcome data and calibration.
+
+The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Further Cloudflare admin credentials are not a prerequisite for the remaining academic research or ordinary code updates.
