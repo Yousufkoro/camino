@@ -27,8 +27,6 @@ Choose one deployment owner. Do not enable a second GitHub Actions deployment wo
 
 ## Current connection status
 
-This file documents the prepared setup, not proof that a remote repository or Cloudflare build is connected. Completion requires the actual repository URL, verified write access, and a successful Cloudflare build/deployment. The current task must verify those results before reporting automatic deployment as active.
+GitHub repository: https://github.com/Yousufkoro/camino · production branch `main`.
 
-## Repository connected for this project
-
-Verified GitHub source: https://github.com/Yousufkoro/camino, branch `main`. Initial GitHub validation passed. The owner reported completing the Cloudflare connection; its first successful production build still needs verification. After deployment, `/build-info.json` identifies this tested source.
+Cloudflare Workers Builds successfully deployed commit `a3649227cb3c4e68a33941814dc69ee8e71f2460`. Production `/build-info.json` returned the expected 0.6 marker. Version 0.7 is being validated before its push. The latest release marker identifies deployed source; consult Cloudflare build checks for deployment outcome.

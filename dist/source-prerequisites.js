@@ -1,0 +1,17 @@
+/* Conservative course-source grammar; ambiguity is a review item. */
+var SourcePrerequisites=(()=>{
+/* Conservative formal-prerequisite parser. Unknown wording produces review, never an inferred AND list. */
+function parseRule(raw){if(!raw)return{status:'none-listed',rule:null};let text=raw.trim().replace(/\.$/,'');if(/\b(?:placement|permission|standing|major|equivalent|high school|recommended|score|exam|test|credits?|enrollment|student|AP|IB|eligible|previous|background|experience|calculus|algebra|sophomore|junior|senior)\b/i.test(text)||/[\/]/.test(text))return{status:'review-required',rule:null,reason:'Placement, eligibility, equivalency, credit or other non-course condition needs review.'};
+ function parse(s){s=s.trim().replace(/^and\s+/i,'');const parts=s.split(/;\s*(?:and\s+)?/i).filter(Boolean);if(parts.length>1)return{all:parts.map(parse)};const explicit=s.split(/\band\s+(?=(?:a\s+)?minimum\b|either\b)/i).filter(Boolean);if(explicit.length>1)return{all:explicit.map(parse)};if(/^either\b/i.test(s)&&!/\bor\b/i.test(s))throw Error('Either alternatives need an explicit OR');s=s.replace(/^either\s+/i,'');let concurrent=/\b(?:may be taken concurrently|may be concurrent|concurrent enrollment)\b/i.test(s);s=s.replace(/\(?\s*(?:which )?may be taken concurrently\s*\)?/gi,'').replace(/\(?\s*(?:which )?may be concurrent\s*\)?/gi,'').trim();if(/[()]/.test(s))throw Error('Parenthesized condition needs review');
+
+ let minimumGrade=null;const grade=s.match(/(?:a\s+)?minimum\s+(?:(?:grade\s+of\s+)?([0-4]\.\d+)\s+grade|grade\s+(?:of\s+)?([0-4]\.\d+))\s+in\s+(?:each\s+of\s+)?/i);if(grade){if(grade.index!==0)throw Error('Minimum grade scope needs review');minimumGrade=+(grade[1]||grade[2]);if(minimumGrade<0||minimumGrade>4)throw Error('Minimum grade outside 0–4 scale');s=s.replace(grade[0],'').trim()}
+ const choose=s.match(/^(one|two|three|four|[1-4])\s+(?:courses?\s+)?(?:from|of)(?:\s+the\s+following)?\s*:?\s*/i);if(choose){const count=({one:1,two:2,three:3,four:4}[choose[1].toLowerCase()]||+choose[1]);const rest=s.slice(choose[0].length),codes=extract(rest);if(codes.length<count||!/^[\s,;]*(?:(?:and|or)\s*)?$/i.test(stripCodes(rest)))throw Error('Choose wording needs review');return{choose:{count,from:codes.map(code=>minimumGrade===null?code:{code,minimumGrade})},...(concurrent?{mayBeConcurrent:true}:{})}}
+ if(/\band\b/i.test(s)&&/\bor\b/i.test(s)){if(/\band\s+either\b/i.test(s))return{all:s.split(/\band\s+(?=either\b)/i).map(parse),...(concurrent?{mayBeConcurrent:true}:{})};throw Error('Mixed AND/OR scope needs review')}
+ const codes=extract(s),remaining=stripCodes(s).replace(/\b(?:or|and|either)\b/gi,'').replace(/[\s,;.]+/g,'');if(remaining||!codes.length)throw Error('Unparsed source wording: '+remaining);const leaves=codes.map(code=>({code,...(minimumGrade===null?{}:{minimumGrade})}));let rule=leaves.length===1?leaves[0]:/\bor\b/i.test(s)?{any:leaves}:{all:leaves};if(concurrent)rule.mayBeConcurrent=true;return rule;
+ }
+ const codeRegex=/\b[A-Z][A-Z&]*(?:[ \t]+[A-Z][A-Z&]*){0,2}[ \t]+\d{3}[A-Z]?\b/g;function extract(s){return[...new Set((s.match(codeRegex)||[]).map(c=>c.replace(/\s+/g,' ')))]}function stripCodes(s){return s.replace(codeRegex,'')}
+ try{return{status:'parsed-source-rule',rule:parse(text)}}catch(e){return{status:'review-required',rule:null,reason:e.message}}
+}
+return{parseRule};
+})();
+if(typeof module!=="undefined")module.exports=SourcePrerequisites;

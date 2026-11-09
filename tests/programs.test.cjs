@@ -7,4 +7,4 @@ const result={courses:[{...a,term:0},{...b,term:1}],usage:[{key:M.key(a),assignm
 assert.deepEqual(M.checkpoint(result,goals),{term:1,backupPending:false});result.usage[1].assignments=[];assert.equal(M.checkpoint(result,goals),null);result.mixedUnits=true;assert.equal(M.checkpoint(result,goals),null);
 console.log('Official Informatics listing, seven-school coverage disclosure, and conservative primary-only checkpoint passed.');
 
-assert.ok(C.programs.some(p=>p.institution==='Bellevue College'&&/Associate in Arts and Sciences/i.test(p.title)));assert.ok(C.programs.some(p=>p.institution==='Washington State University'&&p.campus==='Tri-Cities'));assert.ok(C.programs.some(p=>p.institution==='Seattle Colleges'&&p.campus==='North Seattle College'));
+assert.ok(C.programs.some(p=>p.institution==='Bellevue College'&&/Associate in Arts and Sciences/i.test(p.title)));assert.ok(C.programs.some(p=>p.institution==='Washington State University'&&p.id.startsWith('wsu-catalog-')));assert.ok(C.programs.some(p=>p.institution==='Seattle Colleges'&&p.campus==='North Seattle College'));
