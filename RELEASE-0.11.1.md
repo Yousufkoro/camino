@@ -1,0 +1,5 @@
+# Camino 0.11.1 — readable Pathfinder signs
+
+The 3D forest boards are wider and taller. Native answer labels use near-screen-sized DOM surfaces rather than shrinking a 1000px layout, with 18–20px semibold system text, stronger contrast and a lighter text shadow. Whole-board click targets grow with the board. Hover/focus outlines and CSS direction chevrons make targets visible without relying on font glyphs. On phones the distant world boards show clear path numbers, with the full wording on matching answer controls below, using 76px minimum heights and 18px text. Non-WebGL sign labels are also larger.
+
+The camera's passing offset clears the larger boards. Geometry checks confirm all boards remain visible, do not overlap and do not intersect the walking camera at desktop, tablet and phone sizes. Chromium software-WebGL checks cover all 12 questions, all four answer targets, long-label fit on desktop, edge clicks and completion on desktop/mobile. Software rendering does not measure physical phone GPU performance.
