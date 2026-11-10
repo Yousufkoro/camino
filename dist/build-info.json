@@ -1,6 +1,6 @@
 {
-  "release": "0.12.0",
-  "marker": "camino-source-record-requirement-checks",
+  "release": "0.12.1",
+  "marker": "camino-foundations-before-elective-continuations",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-09"
 }

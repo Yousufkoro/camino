@@ -89,3 +89,10 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [ ] Continue reviewer quality work; (Beta) was restored in0.11.2 and remains until that work is complete.
 
 Deploy each completed task separately. The earlier0.10 Beta removal describes that historical release; it is not the current status.
+
+## Foundation scheduling correction —0.12.1
+
+- [x] Prevent an elective continuation from delaying an available foundation into the next academic year.
+- [x] Prioritize documented foundation classes/continuations and dependency chains in combined-degree drafts; retain earlier-term prerequisites, co-requisites, offerings and workload limits.
+- [x] Preserve UWB EE preset foundation metadata for math, physics and programming.
+- [ ] Complete underlying program requirements/prerequisite metadata for every major. Scheduler correctness does not fill missing academic data.
