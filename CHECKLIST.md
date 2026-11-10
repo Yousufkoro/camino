@@ -78,3 +78,14 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [x] Text-PDF paragraph handling, invalid-file recovery, timeout/cancellation/retry and preserved drafts.
 - [x] Staged real-browser workflow at desktop and 390/430px widths; unit/DOM release tests.
 - [x] Beta removed from the current reviewer name. This is a release of the supplied-input review workflow, not a claim of infallible AI or official application certification.
+
+## Continued checklist work — 0.12.0
+
+- [x] Connect all953 retained program-source snapshots to an on-page completed-record checker, accessible from My Plan and connected degrees.
+- [x] Separate computed matches, missing rules, unresolved source conditions, student-noted checks and provisional transfer-guide matches.
+- [x] Preserve campus, credential, credit units, catalog-source context and source-check notes in workspace backups.
+- [x] Test exact-institution/unit boundaries, grades, repeats, cross-lists, planned-course exclusion and transfer-origin reuse.
+- [ ] Expand the remaining unmodeled source clauses into complete, catalog-year/route-specific academic rules and prerequisite-first plans. A source snapshot is not a complete modeled degree.
+- [ ] Continue reviewer quality work; (Beta) was restored in0.11.2 and remains until that work is complete.
+
+Deploy each completed task separately. The earlier0.10 Beta removal describes that historical release; it is not the current status.

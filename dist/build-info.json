@@ -1,6 +1,6 @@
 {
-  "release": "0.11.2",
-  "marker": "camino-review-beta-restored",
+  "release": "0.12.0",
+  "marker": "camino-source-record-requirement-checks",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-09"
 }
