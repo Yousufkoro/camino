@@ -96,3 +96,13 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Prioritize documented foundation classes/continuations and dependency chains in combined-degree drafts; retain earlier-term prerequisites, co-requisites, offerings and workload limits.
 - [x] Preserve UWB EE preset foundation metadata for math, physics and programming.
 - [ ] Complete underlying program requirements/prerequisite metadata for every major. Scheduler correctness does not fill missing academic data.
+
+## Additional priority-program source rules —0.13.0
+
+- [x] UW Seattle Psychology BA/BS admission math, psychology course grades and credit-weighted prerequisite GPA checks.
+- [x] Psychology degree/statistics/breadth choices, distinct-course allocation and BA/BS-specific grade/course differences.
+- [x] Foster upper-division application course alternatives and bounded degree-core/writing checks; first-year direct-entry and other policies remain distinct.
+- [x] Six regular UW Bothell Business program/concentration entries: native course/grade checks; ELC routes are not assigned those rules.
+- [x] UW Bothell Psychology prerequisite/core course checks.
+- [x] Bellevue AAS-DTA necessary90-credit count excluding below100 courses; this is not a complete degree-applicability audit.
+- [ ] Complete all remaining program clauses, prerequisites, degree-specific applicability and route/year policies.45 of953 source models now contain structured rules; no full-degree completeness is inferred from that count.
