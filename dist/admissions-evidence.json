@@ -1,0 +1,763 @@
+{
+  "checked": "2026-11-09",
+  "method": "Public cohort evidence. No validated individual GPA/essay adjustment model.",
+  "metrics": [
+    {
+      "id": "seattle-firstyear-mean",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "mean-high-school-gpa",
+      "cohort": "Fall 2025",
+      "population": "Enrolled degree-seeking first-time first-year students who submitted GPA",
+      "value": 3.84,
+      "sourceId": "cds-2025-26-seattle",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "scale": 4,
+      "percentSubmittingGPA": 99.87,
+      "sourceSection": "C12",
+      "warning": "Enrolled students, not all applicants or all admitted students. Not a minimum or personal admission probability."
+    },
+    {
+      "id": "seattle-first-year-cohort",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "cohort-applicants-admits",
+      "cohort": "Fall 2025",
+      "population": "Degree-seeking first-year applicants",
+      "value": {
+        "applicants": 72933,
+        "admitted": 30446,
+        "derivedCohortAdmitPercent": 41.75
+      },
+      "sourceId": "cds-2025-26-seattle",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "sourceSection": "C1",
+      "warning": "Percent is arithmetic from official counts, not a published rounded rate or personal probability; campus admission does not imply selective major admission."
+    },
+    {
+      "id": "seattle-transfer-cohort",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "cohort-applicants-admits",
+      "cohort": "Fall 2025",
+      "population": "Degree-seeking transfer applicants",
+      "value": {
+        "applicants": 5830,
+        "admitted": 2469,
+        "derivedCohortAdmitPercent": 42.35
+      },
+      "sourceId": "cds-2025-26-seattle",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "sourceSection": "D2",
+      "warning": "Percent is arithmetic from official counts, not a published rounded rate or personal probability; campus admission does not imply selective major admission."
+    },
+    {
+      "id": "bothell-firstyear-mean",
+      "institution": "UW Bothell",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "mean-high-school-gpa",
+      "cohort": "Fall 2025",
+      "population": "Enrolled degree-seeking first-time first-year students who submitted GPA",
+      "value": 3.53,
+      "sourceId": "cds-2025-26-bothell",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "scale": 4,
+      "percentSubmittingGPA": 100,
+      "sourceSection": "C12",
+      "warning": "Enrolled students, not all applicants or all admitted students. Not a minimum or personal admission probability."
+    },
+    {
+      "id": "bothell-first-year-cohort",
+      "institution": "UW Bothell",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "cohort-applicants-admits",
+      "cohort": "Fall 2025",
+      "population": "Degree-seeking first-year applicants",
+      "value": {
+        "applicants": 5616,
+        "admitted": 4852,
+        "derivedCohortAdmitPercent": 86.4
+      },
+      "sourceId": "cds-2025-26-bothell",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "sourceSection": "C1",
+      "warning": "Percent is arithmetic from official counts, not a published rounded rate or personal probability; campus admission does not imply selective major admission."
+    },
+    {
+      "id": "bothell-transfer-cohort",
+      "institution": "UW Bothell",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "cohort-applicants-admits",
+      "cohort": "Fall 2025",
+      "population": "Degree-seeking transfer applicants",
+      "value": {
+        "applicants": 1419,
+        "admitted": 987,
+        "derivedCohortAdmitPercent": 69.56
+      },
+      "sourceId": "cds-2025-26-bothell",
+      "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+      "status": "found",
+      "individualProbability": false,
+      "sourceSection": "D2",
+      "warning": "Percent is arithmetic from official counts, not a published rounded rate or personal probability; campus admission does not imply selective major admission."
+    },
+    {
+      "id": "seattle-firstyear-middle50",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "middle-50-high-school-gpa",
+      "cohort": "Autumn 2025",
+      "population": "Admitted first-year students",
+      "value": {
+        "p25": 3.75,
+        "p75": 3.98
+      },
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false,
+      "scale": 4,
+      "warning": "Not a mean, full range, or individual odds."
+    },
+    {
+      "id": "seattle-fy-7",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Washington resident",
+      "value": 47,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-fy-8",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Non-Washington resident",
+      "value": 39,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-fy-9",
+      "institution": "UW Seattle",
+      "program": "Engineering Direct to College",
+      "route": "First-year direct",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Washington resident",
+      "value": 43,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-fy-10",
+      "institution": "UW Seattle",
+      "program": "Engineering Direct to College",
+      "route": "First-year direct",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Non-Washington resident",
+      "value": 37,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-fy-11",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering Direct to Major",
+      "route": "First-year direct",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Washington resident",
+      "value": 30,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-fy-12",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering Direct to Major",
+      "route": "First-year direct",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "3-year average; specific component years not printed in page heading",
+      "population": "Non-Washington resident",
+      "value": 2,
+      "sourceId": "uws-profile",
+      "sourceUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-transfer-middle50",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "middle-50-college-gpa",
+      "cohort": "2023\u201325 (page-wide heading)",
+      "population": "Transfer profile; GPA cohort not separately specified",
+      "value": {
+        "p25": 3.26,
+        "p75": 3.86
+      },
+      "sourceId": "uws-transfer",
+      "sourceUrl": "https://admit.washington.edu/apply/transfer/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false,
+      "sourceLabel": "Average College GPA / Middle 50%",
+      "warning": "Actual statistic is middle 50%, not arithmetic mean. Do not infer mean or admitted-versus-enrolled population beyond source."
+    },
+    {
+      "id": "seattle-transfer-14",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "2023\u201325 three-year average",
+      "population": "Washington community colleges",
+      "value": 70,
+      "sourceId": "uws-transfer",
+      "sourceUrl": "https://admit.washington.edu/apply/transfer/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "seattle-transfer-15",
+      "institution": "UW Seattle",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "published-cohort-admit-percent",
+      "cohort": "2023\u201325 three-year average",
+      "population": "All other four-year and two-year institutions",
+      "value": 21,
+      "sourceId": "uws-transfer",
+      "sourceUrl": "https://admit.washington.edu/apply/transfer/by-the-numbers/",
+      "status": "found",
+      "individualProbability": false
+    },
+    {
+      "id": "allen-2025-16",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2025 and Autumn 2025 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; WA residents from WA community college",
+      "value": {
+        "eligibleApplicants": 161,
+        "admitted": 62,
+        "publishedAdmitPercent": 38.51
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2025-17",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2025 and Autumn 2025 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; Non-residents from WA community college",
+      "value": {
+        "eligibleApplicants": 75,
+        "admitted": 12,
+        "publishedAdmitPercent": 16
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2025-18",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2025 and Autumn 2025 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; WA residents from four-year and out-of-state institutions",
+      "value": {
+        "eligibleApplicants": 33,
+        "admitted": 2,
+        "publishedAdmitPercent": 6.06
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2025-19",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2025 and Autumn 2025 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; Non-residents from four-year and out-of-state institutions",
+      "value": {
+        "eligibleApplicants": 114,
+        "admitted": 0,
+        "publishedAdmitPercent": 0
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2024-20",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2024 and Autumn 2024 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; WA residents from WA community college",
+      "value": {
+        "eligibleApplicants": 171,
+        "admitted": 62,
+        "publishedAdmitPercent": 36.3
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2024-21",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2024 and Autumn 2024 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; Non-residents from WA community college",
+      "value": {
+        "eligibleApplicants": 72,
+        "admitted": 9,
+        "publishedAdmitPercent": 12.5
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2024-22",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2024 and Autumn 2024 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; WA residents from four-year and out-of-state institutions",
+      "value": {
+        "eligibleApplicants": 40,
+        "admitted": 4,
+        "publishedAdmitPercent": 10
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-2024-23",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "eligible-major-cohort-admissions",
+      "cohort": "Spring 2024 and Autumn 2024 application cycles",
+      "population": "Eligible applicants considered for Allen School transfer admissions; Non-residents from four-year and out-of-state institutions",
+      "value": {
+        "eligibleApplicants": 110,
+        "admitted": 2,
+        "publishedAdmitPercent": 1.8
+      },
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Denominator is eligible major applicants, not all UW applicants. Historical rates do not estimate individual chances."
+    },
+    {
+      "id": "allen-majority-24",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "qualitative-majority-threshold",
+      "cohort": "Not specified",
+      "population": "Washington state resident transfer admits",
+      "value": 3.75,
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "sourceQualifier": "Most",
+      "warning": "Not mean, median, range, percentile, or minimum. Cohort year and sample size not specified."
+    },
+    {
+      "id": "allen-majority-25",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "qualitative-majority-threshold",
+      "cohort": "Not specified",
+      "population": "Domestic nonresident and international transfer admits",
+      "value": 3.9,
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "sourceQualifier": "Most",
+      "warning": "Not mean, median, range, percentile, or minimum. Cohort year and sample size not specified."
+    },
+    {
+      "id": "allen-no-minimum",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "no-minimum-gpa-to-apply",
+      "cohort": "Current page checked 2026-11-09",
+      "population": "Allen School transfer applicants",
+      "value": null,
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "publishedText": "No, there is no minimum GPA required to apply."
+    },
+    {
+      "id": "allen-recent-prereq",
+      "institution": "UW Seattle",
+      "program": "Computer Science / Computer Engineering",
+      "route": "Transfer",
+      "metric": "qualitative-majority-threshold",
+      "cohort": "Not specified",
+      "population": "Transfer students, most recent prerequisite subject area courses",
+      "value": 3.8,
+      "sourceId": "uws-cs",
+      "sourceUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "status": "found",
+      "individualProbability": false,
+      "sourceQualifier": "Most transfer students enter with around two years of coursework and a GPA of 3.8 or better in their most recent prerequisite subject area courses.",
+      "warning": "Not arithmetic mean or minimum; recent prerequisite GPA differs from overall GPA."
+    },
+    {
+      "id": "bothell-first-year-minimum",
+      "institution": "UW Bothell",
+      "program": "Campus overall",
+      "route": "First-year",
+      "metric": "minimum-cumulative-gpa",
+      "cohort": "Current page checked 2026-11-09",
+      "population": "First-year applicants considered for admission",
+      "value": 2,
+      "sourceId": "uwb-first-req",
+      "sourceUrl": "https://www.uwb.edu/admissions/apply/first-year/admissions-requirements",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Minimum eligibility does not guarantee admission or admission to a capacity-constrained major."
+    },
+    {
+      "id": "bothell-transfer-minimum",
+      "institution": "UW Bothell",
+      "program": "Campus overall",
+      "route": "Transfer",
+      "metric": "minimum-cumulative-gpa",
+      "cohort": "Current page checked 2026-11-09",
+      "population": "Transfer applicants considered for admission",
+      "value": 2,
+      "sourceId": "uwb-transfer-req",
+      "sourceUrl": "https://www.uwb.edu/admissions/apply/transfer/admissions-requirements",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Minimum eligibility does not guarantee admission or admission to a capacity-constrained major."
+    },
+    {
+      "id": "bothell-csse-minimum",
+      "institution": "UW Bothell",
+      "program": "Computer Science & Software Engineering BS",
+      "route": "Major application (internal or transfer)",
+      "metric": "minimum-individual-prerequisite-grade",
+      "cohort": "Current page checked 2026-11-09",
+      "population": "CSSE major applicants; all listed prerequisite courses",
+      "value": 2,
+      "sourceId": "uwb-csse",
+      "sourceUrl": "https://www.uwb.edu/stem/undergraduate/majors/bscsse/admissions",
+      "status": "found",
+      "individualProbability": false,
+      "publishedText": "To be considered for admission, complete the courses below with a minimum grade of 2.0 or higher in all courses.",
+      "warning": "Individual prerequisite minimum; not admitted-cohort mean. Capacity constrained, minimum does not guarantee admission."
+    },
+    {
+      "id": "info-31",
+      "institution": "UW Seattle",
+      "program": "Informatics BS",
+      "route": "Prerequisites benchmark",
+      "metric": "published-course-average-and-range",
+      "cohort": "2025\u201326",
+      "population": "Source does not explicitly define population",
+      "value": {
+        "average": 3.83,
+        "min": 2.8,
+        "max": 4
+      },
+      "sourceId": "uws-info",
+      "sourceUrl": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Course grade, not cumulative GPA; population is unspecified, so do not label admitted-cohort mean or individual odds."
+    },
+    {
+      "id": "info-32",
+      "institution": "UW Seattle",
+      "program": "Informatics BS",
+      "route": "Prerequisites benchmark",
+      "metric": "published-course-average-and-range",
+      "cohort": "2025\u201326",
+      "population": "Source does not explicitly define population",
+      "value": {
+        "average": 3.82,
+        "min": 2.7,
+        "max": 4
+      },
+      "sourceId": "uws-info",
+      "sourceUrl": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Course grade, not cumulative GPA; population is unspecified, so do not label admitted-cohort mean or individual odds."
+    },
+    {
+      "id": "info-33",
+      "institution": "UW Seattle",
+      "program": "Informatics BS",
+      "route": "Prerequisites benchmark",
+      "metric": "published-course-average-and-range",
+      "cohort": "2025\u201326",
+      "population": "Source does not explicitly define population",
+      "value": {
+        "average": 3.78,
+        "min": 3,
+        "max": 4
+      },
+      "sourceId": "uws-info",
+      "sourceUrl": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Course grade, not cumulative GPA; population is unspecified, so do not label admitted-cohort mean or individual odds."
+    },
+    {
+      "id": "info-34",
+      "institution": "UW Seattle",
+      "program": "Informatics BS",
+      "route": "Prerequisites benchmark",
+      "metric": "published-course-average-and-range",
+      "cohort": "2025\u201326",
+      "population": "Source does not explicitly define population",
+      "value": {
+        "average": 3.98,
+        "min": 3.7,
+        "max": 4
+      },
+      "sourceId": "uws-info",
+      "sourceUrl": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "status": "found",
+      "individualProbability": false,
+      "warning": "Course grade, not cumulative GPA; population is unspecified, so do not label admitted-cohort mean or individual odds."
+    }
+  ],
+  "sourceChecks": [
+    {
+      "id": "uws-profile",
+      "url": "https://admit.washington.edu/apply/freshman/by-the-numbers/",
+      "finalUrl": "https://admit.washington.edu/apply/first-year/by-the-numbers/",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uws-transfer",
+      "url": "https://admit.washington.edu/apply/transfer/by-the-numbers/",
+      "finalUrl": "https://admit.washington.edu/apply/transfer/by-the-numbers/",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-profile",
+      "url": "https://www.uwb.edu/admissions/first-year",
+      "finalUrl": "https://www.uwb.edu/admissions/apply/first-year",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-cds",
+      "url": "https://www.uwb.edu/planning-administration/institutional-research/common-data-set",
+      "finalUrl": "https://www.uwb.edu/planning-administration/institutional-research/common-data-set",
+      "httpStatus": 404,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "bellevue-admission",
+      "url": "https://www.bellevuecollege.edu/admissions/",
+      "finalUrl": "https://www.bellevuecollege.edu/admissions/",
+      "httpStatus": 403,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "bellevue-nursing",
+      "url": "https://www.bellevuecollege.edu/nursing/adn/admissions/",
+      "finalUrl": "https://www.bellevuecollege.edu/nursing/adn/admissions/",
+      "httpStatus": 403,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "uwb-csse",
+      "url": "https://www.uwb.edu/stem/undergraduate/majors/bscsse/admission",
+      "finalUrl": "https://www.uwb.edu/stem/undergraduate/majors/bscsse/admissions",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uws-info",
+      "url": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "finalUrl": "https://ischool.uw.edu/programs/informatics/admissions/prerequisites",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uws-cs",
+      "url": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "finalUrl": "https://www.cs.washington.edu/academics/undergraduate/admissions/transfers/",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-facts",
+      "url": "https://www.uwb.edu/about/facts",
+      "finalUrl": "https://www.uwb.edu/about/at-a-glance",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-ir",
+      "url": "https://www.uwb.edu/planning-administration/institutional-research",
+      "finalUrl": "https://www.uwb.edu/planning-administration/institutional-research",
+      "httpStatus": 404,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "uwb-first-req",
+      "url": "https://www.uwb.edu/admissions/apply/first-year/admissions-requirements",
+      "finalUrl": "https://www.uwb.edu/admissions/apply/first-year/admissions-requirements",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-transfer-req",
+      "url": "https://www.uwb.edu/admissions/apply/transfer/admissions-requirements",
+      "finalUrl": "https://www.uwb.edu/admissions/apply/transfer/admissions-requirements",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-cs-prereq",
+      "url": "https://www.uwb.edu/stem/undergraduate/majors/bscsse/admissions/prerequisites",
+      "finalUrl": "https://www.uwb.edu/stem/graduate/certificate-electrical-computer-engineering-foundations/admissions/prerequisites",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "uw-cds-index",
+      "url": "https://www.washington.edu/opb/uw-data/external-reporting/common-data-set/",
+      "finalUrl": "https://finance.uw.edu/iads/iads-teams/institutional-reporting-analysis/external-reporting/common-data-set",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "uwb-oir",
+      "url": "https://www.uwb.edu/oea/institutional-research",
+      "finalUrl": "https://www.uwb.edu/oea/institutional-research",
+      "httpStatus": 404,
+      "checked": "2026-11-09",
+      "status": "unavailable"
+    },
+    {
+      "id": "uwb-admin",
+      "url": "https://www.uwb.edu/planning-administration",
+      "finalUrl": "https://www.uwb.edu/planning-administration/",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "cds-2025-26-bothell",
+      "url": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+      "finalUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    },
+    {
+      "id": "cds-2025-26-seattle",
+      "url": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf",
+      "finalUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf",
+      "httpStatus": 200,
+      "checked": "2026-11-09",
+      "status": "found"
+    }
+  ]
+}
