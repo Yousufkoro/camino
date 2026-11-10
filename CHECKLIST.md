@@ -70,3 +70,11 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [x] Synthetic file-format/layout browser matrix and expanded regression fixtures.
 - [ ] Reproduce the friend's precise UW Seattle PDF failure; the document was not provided.
 - [ ] Universal institution/layout recognition and physical-device/cross-browser validation. These are not established by the synthetic matrix.
+
+## Essay & Application Review release 0.10.0
+
+- [x] Requirement-by-requirement evidence review; separate unverified suggestions and revision tracking.
+- [x] Source-noted application checklist, explicitly saved review versions, saved-feedback reading/download and safe restore/deletion.
+- [x] Text-PDF paragraph handling, invalid-file recovery, timeout/cancellation/retry and preserved drafts.
+- [x] Staged real-browser workflow at desktop and 390/430px widths; unit/DOM release tests.
+- [x] Beta removed from the current reviewer name. This is a release of the supplied-input review workflow, not a claim of infallible AI or official application certification.

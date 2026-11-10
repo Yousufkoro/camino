@@ -1,0 +1,18 @@
+{
+  "live": false,
+  "requirements": true,
+  "pdfParagraphs": true,
+  "invalidPdfPreservesDraft": true,
+  "consent": true,
+  "posts": 1,
+  "versions": true,
+  "staleGuard": true,
+  "restoreWithoutSending": true,
+  "checklistPersistence": true,
+  "deleteAll": true,
+  "mobileWidths": [
+    390,
+    430
+  ],
+  "errors": []
+}
