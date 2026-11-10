@@ -106,3 +106,13 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] UW Bothell Psychology prerequisite/core course checks.
 - [x] Bellevue AAS-DTA necessary90-credit count excluding below100 courses; this is not a complete degree-applicability audit.
 - [ ] Complete all remaining program clauses, prerequisites, degree-specific applicability and route/year policies.45 of953 source models now contain structured rules; no full-degree completeness is inferred from that count.
+
+## Bothell science, education and ELC rules —0.14.0
+
+- [x] Chemistry BA/BS/Biochemistry admission lecture+lab and calculus requirements; whole physics alternatives, chemistry core and biochemistry aliases.
+- [x] Economics route-specific prerequisites/core, Earth System Science bounded science/writing/GIS clauses.
+- [x] Developmental and Youth Studies/Elementary Education core groups, whole endorsement alternatives and variable-credit capstone safeguards.
+- [x] Interactive Media Design required core; recommendations/approved alternative admission courses remain separate.
+- [x] Exact ELCBUS courses for the two ELC Business entries, without inheriting regular Business rules.
+- [x] All-course groups enforce stated minimum credits as well as names/grades; unknown credits remain unresolved.
+- [ ] Full academic modeling still unfinished:55 of953 entries contain structured source rules, including40 of43 UW Bothell entries. A structured rule is not a complete verified degree.

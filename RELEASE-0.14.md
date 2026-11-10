@@ -1,0 +1,11 @@
+# Camino0.14.0 — Bothell course/credit checks
+
+Added bounded rules to10 source models: Chemistry BA, Chemistry BS, Chemistry/Biochemistry, Economics, Earth System Science, Developmental and Youth Studies, Elementary Education, Interactive Media Design, and the two ELC Business credentials. Structured coverage is55/953 entries and40/43 Bothell entries. Health Studies and the two Nursing entries remain source-only; licensure, clinical/background checks and unbounded approved-course categories are not inferred from coursework. No claim of complete program modeling is made.
+
+Fresh UW catalog pages for Physical Science, Business, IAS, Education and IMD were opened November10,2026 (Pacific). Added course quotes were matched to the fresh source text. The models show a rule-review date separately from their retained snapshot date.
+
+General Chemistry requires lectures and labs; physics alternatives must be completed as a whole sequence. Chemistry BA/BS/Biochemistry differ and cross-listed biochemistry aliases cannot fill extra slots. Economics route/grade checks do not assign upper-division prerequisites to first-year direct entry. ELC courses have their own ELCBUS identities, without copying regular B BUS requirements or turning recommended first-year courses into prerequisites.
+
+Elementary endorsement alternatives do not allow mixed ESOL/SPED fragments. Variable/repeated capstone and student-teaching credits/field hours stay reviewable, not automatically certified. Bounded all-course rules now check published credit floors as well as identities and grades: matched names with insufficient credits stay remaining, and unknown credit amounts require review. Elective lists, caps, approved substitutions, cross-campus applicability, cumulative GPA, residency, placements and total-degree policy remain unresolved where not modeled.
+
+Validation: full checks plus positive/negative course/grade/credit fixtures, missing labs, mixed physics sequences, chemistry variants, cross-list identity, Economics route boundaries, endorsement alternatives, short-credit capstones and ELC identity isolation. Desktop/mobile browser workflows cover the live rule outputs after deployment. Essay & Application Review remains(Beta).
