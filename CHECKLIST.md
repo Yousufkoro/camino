@@ -116,3 +116,11 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Exact ELCBUS courses for the two ELC Business entries, without inheriting regular Business rules.
 - [x] All-course groups enforce stated minimum credits as well as names/grades; unknown credits remain unresolved.
 - [ ] Full academic modeling still unfinished:55 of953 entries contain structured source rules, including40 of43 UW Bothell entries. A structured rule is not a complete verified degree.
+
+## Published writing instructions —0.15.0
+
+- [x] Official UW Seattle first-year Common App prompt picker:seven choices,250-word minimum and650-word maximum.
+- [x] Transfer statement required-topic instructions;750–1,000 words is treated as a suggestion, not an invented hard limit.
+- [x] Explicit preview/apply, source/date/scope, preserved essay/activities, no automatic save or AI send, and stale-feedback updates.
+- [x] Word-policy checks stop claiming an exact source match when the instruction fields are edited; saved matching instructions can be recognized on reload.
+- [ ] Additional colleges/major-specific prompts, further reviewer quality work, and comprehensive application verification. The reviewer remains(Beta).

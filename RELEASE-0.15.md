@@ -1,0 +1,9 @@
+# Camino0.15.0 — published writing instruction picker
+
+The Essay & Application Review(Beta) workspace now previews and explicitly applies public UW Seattle writing instructions. It includes the seven current Common App personal-essay prompts and the transfer narrative instructions, with source links and a November10,2026 (Pacific) check date. It does not claim coverage of every college/major-specific prompt or verify a particular applicant cycle automatically.
+
+The fresh UW first-year page requires250–650 words. The transfer page calls750–1,000 words a suggested length; the preset therefore leaves the hard word-limit field blank and identifies the suggestion. Required transfer topics are distinguished from optional context, and the source's instruction not to address every subquestion is retained. Local counts are approximate; the portal is authoritative.
+
+Choosing a source previews it. An explicit apply button replaces prompt, context, requirement notes and word-limit fields, preserving essay/activities. It neither saves nor transmits automatically. Existing stale-review and request-cancellation handling is triggered by instruction changes. Source-policy word checks apply only while the loaded instruction fields match that preset, so edited portal instructions are not falsely labelled as verified. Explicitly saved matching draft instructions are recognized on reload without a new personal-data storage key.
+
+Validation covers source/payload bounds,250/650 boundaries, transfer suggestions versus hard caps, preview-only selection, draft preservation, no auto-save/send, stale-feedback marking, custom edits, reload and desktop/mobile rendering. Full validation and exact-commit deployment checks are required. Beta remains because the overall reviewer quality checklist is unfinished.
