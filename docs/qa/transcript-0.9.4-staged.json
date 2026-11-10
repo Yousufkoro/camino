@@ -1,0 +1,383 @@
+{
+  "live": false,
+  "results": [
+    {
+      "name": "uw-seattle-native.pdf",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 3,
+            "parsedRows": 3,
+            "missingCredits": 0,
+            "parsedCredits": 15,
+            "warnings": [],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Seattle Central College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2024"
+        },
+        {
+          "code": "MATH 124",
+          "credits": "5",
+          "grade": "3.7",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Bellevue College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2025"
+        },
+        {
+          "code": "CHEM 142",
+          "credits": "5",
+          "grade": "3.9",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "uw-wrapped.pdf",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 1,
+            "parsedRows": 1,
+            "missingCredits": 0,
+            "parsedCredits": 5,
+            "warnings": [],
+            "printedTotals": [
+              "TOTAL CREDITS EARNED: 5.0"
+            ]
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "uw-two-column.pdf",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 4,
+            "parsedRows": 4,
+            "missingCredits": 0,
+            "parsedCredits": 20,
+            "warnings": [],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        },
+        {
+          "code": "MATH 124",
+          "credits": "5",
+          "grade": "3.7",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        },
+        {
+          "code": "CHEM 142",
+          "credits": "5",
+          "grade": "3.9",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        },
+        {
+          "code": "ENGL 131",
+          "credits": "5",
+          "grade": "3.6",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "uw-scanned.pdf",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 3,
+            "parsedRows": 3,
+            "missingCredits": 0,
+            "parsedCredits": 15,
+            "warnings": [],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Seattle Central College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2024"
+        },
+        {
+          "code": "MATH 124",
+          "credits": "5",
+          "grade": "3.7",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Bellevue College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2025"
+        },
+        {
+          "code": "CHEM 142",
+          "credits": "5",
+          "grade": "3.9",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "uw-scan.png",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 3,
+            "parsedRows": 3,
+            "missingCredits": 0,
+            "parsedCredits": 15,
+            "warnings": [],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Seattle Central College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2024"
+        },
+        {
+          "code": "MATH 124",
+          "credits": "5",
+          "grade": "3.7",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Bellevue College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2025"
+        },
+        {
+          "code": "CHEM 142",
+          "credits": "5",
+          "grade": "3.9",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "uw-photo.jpg",
+      "files": [
+        {
+          "institution": "University of Washington Seattle",
+          "status": "Ready for your review",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 3,
+            "parsedRows": 3,
+            "missingCredits": 0,
+            "parsedCredits": 15,
+            "warnings": [],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Seattle Central College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2024"
+        },
+        {
+          "code": "MATH 124",
+          "credits": "5",
+          "grade": "3.7",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "Bellevue College",
+          "creditType": "transfer",
+          "term": "Transfer credit · 2025"
+        },
+        {
+          "code": "CHEM 142",
+          "credits": "5",
+          "grade": "3.9",
+          "institution": "University of Washington Seattle",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "bellevue-ctclink.txt",
+      "files": [
+        {
+          "institution": "Bellevue College",
+          "status": "Text extracted",
+          "schoolVerified": true,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 1,
+            "parsedRows": 1,
+            "missingCredits": 0,
+            "parsedCredits": 5,
+            "warnings": [],
+            "printedTotals": [
+              "TOTAL CREDITS EARNED: 5.0"
+            ]
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "Bellevue College",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "AUTUMN 2026"
+        }
+      ]
+    },
+    {
+      "name": "semester-review.txt",
+      "files": [
+        {
+          "institution": "Sample Valley University",
+          "status": "Text extracted",
+          "schoolVerified": false,
+          "diagnostics": {
+            "units": "Semester",
+            "courseLikeLines": 1,
+            "parsedRows": 1,
+            "missingCredits": 0,
+            "parsedCredits": 3,
+            "warnings": [
+              "Semester credits detected. The quarter-based planner must not treat them as quarter credits."
+            ],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "3",
+          "grade": "3.8",
+          "institution": "Sample Valley University",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "Fall 2026"
+        }
+      ]
+    },
+    {
+      "name": "unknown-school.txt",
+      "files": [
+        {
+          "institution": "",
+          "status": "Text extracted",
+          "schoolVerified": false,
+          "diagnostics": {
+            "units": "Quarter",
+            "courseLikeLines": 1,
+            "parsedRows": 1,
+            "missingCredits": 0,
+            "parsedCredits": 5,
+            "warnings": [
+              "Issuing school not identified. Enter its name."
+            ],
+            "printedTotals": []
+          }
+        }
+      ],
+      "rows": [
+        {
+          "code": "OCEAN 101",
+          "credits": "5",
+          "grade": "3.8",
+          "institution": "",
+          "sourceInstitution": "",
+          "creditType": "institutional",
+          "term": "Fall 2026"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

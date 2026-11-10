@@ -60,3 +60,13 @@ The existing GitHub-to-Cloudflare build connection and live AI endpoint work. Fu
 - [x] Bellevue logo/OCR name variants, full UWB names, issuer-vs-transfer-school protection and mixed transcript section boundaries.
 - [x] Editable document issuer and separate original-school/recording-school fields; required source review for transfer rows.
 - [x] Actual Chromium PDF upload/OCR and mixed-source reconciliation tested with synthetic Bellevue/UWB documents.
+
+## Priority quality work in 0.9.4
+
+- [x] Oceanography wrapping/credit arithmetic; Seattle Central aliases; multi-source UW transcript recognition; file-level extraction diagnostics.
+- [x] Attempted/earned credit preservation and source-institution GPA fixes.
+- [x] Application context, exact requirement notes, grounded local feedback, evidence-source labels and stale-review warnings.
+- [x] Mobile course-review cards, direct writing navigation and original motion-aware bookshelf artwork.
+- [x] Synthetic file-format/layout browser matrix and expanded regression fixtures.
+- [ ] Reproduce the friend's precise UW Seattle PDF failure; the document was not provided.
+- [ ] Universal institution/layout recognition and physical-device/cross-browser validation. These are not established by the synthetic matrix.
