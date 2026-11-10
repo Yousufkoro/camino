@@ -124,3 +124,11 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Explicit preview/apply, source/date/scope, preserved essay/activities, no automatic save or AI send, and stale-feedback updates.
 - [x] Word-policy checks stop claiming an exact source match when the instruction fields are edited; saved matching instructions can be recognized on reload.
 - [ ] Additional colleges/major-specific prompts, further reviewer quality work, and comprehensive application verification. The reviewer remains(Beta).
+
+## Reviewer working-draft preservation —0.16.0
+
+- [x] Fix reproduced loss of unsaved writing during internal redraw/account bootstrap; preserve active editor focus/caret/viewport.
+- [x] Keep the six writing/context fields and unsaved application-checklist edits in RAM across Camino view changes; restore source word-policy selection/meters.
+- [x] No automatic persistence or server send; explicit Save is still needed before a tab reload/close.
+- [x] Clear current working drafts on deletion/full reset, and preserve recoverable work after cancellation or failed account deletion.
+- [ ] Reviewer quality and broader file/device coverage remain unfinished; keep(Beta).

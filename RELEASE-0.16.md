@@ -1,0 +1,9 @@
+# Camino0.16.0 — protect working review drafts
+
+Reproduced: type an unsaved essay, then an internal render (including asynchronous account bootstrap) replaces it with an empty editor. The review's six writing/context fields and current application-checklist edits now stay in RAM for the current document across internal redraws and navigation. A delayed account response and saving other preparation data no longer discard that text. Published prompt selection and word-policy meters are restored from the current fields. When a background redraw interrupts an active writing/checklist field, focus, caret and viewport are restored so typing can continue.
+
+This is not autosave: no new localStorage/sessionStorage key, workspace field or server write is introduced. Explicit Save still controls disk persistence. Closing or reloading the tab loses unsaved RAM work; the writing copy states that behavior. Coursework/model-review consent is not restored automatically. Feedback remains version-specific and should be rerun after an internal view refresh.
+
+Delete current draft clears working writing RAM while leaving the separate checklist intact; new writing entered afterward is preserved normally. Full data wipe clears writing and checklist RAM before redraw can recapture old fields. Cancelled wipes or failed signed-in deletion preserve recoverable working text. A wipe notification from another tab clears working memory before reloading. Saved review versions remain separate from deleting just the current draft.
+
+Tests cover slow bootstrap, direct redraw, navigation, source-picker restoration, absence from workspace serialization/storage, deletion then new text, cancelled/failed deletion and completed wipe. Existing data-wipe tests and full validation remain required. Browser workflows verify desktop/mobile behavior. The reviewer stays(Beta); this does not certify all writing-feedback quality or pending file-conversion cases.

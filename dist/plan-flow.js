@@ -31,6 +31,7 @@ async function deleteWorkspace(){
  if(accountUser){try{const res=await accountFetch('/api/workspace',{method:'DELETE',headers:accountHeaders()});const data=await res.json();if(!res.ok)throw Error(data.error||'Deletion failed');accountGeneration++;accountEtag=null;accountCloud=null;}catch(e){toast('Could not delete your saved account workspace: '+e.message+'. Your data has not been cleared.');return}}
  try{for(const storage of [localStorage,sessionStorage])for(const key of Object.keys(storage))if(key.startsWith('camino-'))storage.removeItem(key);}catch(e){toast('Could not clear browser storage. Use your browser’s site-data settings to finish deletion.');return}
  if(typeof essayRequestController!=='undefined'){essayRequestController?.abort();essayRequestController=null;essayRequestTarget=null;}
+ if(typeof ReviewSession!=='undefined')ReviewSession.clear();
  state={courses:[],tasks:{},scenarios:[]};window.currentPlan=[];answers=[];quizIndex=0;quizLength=12;mode='Balanced';importToken++;OCRRuntime.stop();schoolHeaderCache.clear();importDraft={files:[],rows:[],busy:false,message:''};globalThis.caminoRecoveryError=null;globalThis.caminoRecoveryRaw=null;
  if(typeof Forest3D!=='undefined')Forest3D.sync(null);
  for(const form of document.querySelectorAll('form'))form.reset();
