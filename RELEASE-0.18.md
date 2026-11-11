@@ -1,0 +1,7 @@
+# 0.18 — Public-source course subsets into planning
+
+Public-source audits now offer a reviewable admission-preparation or degree-course subset. The bridge uses existing explicit source rules. It requires one whole alternative sequence, handles declared cross-listed aliases without claiming cross-college equivalence, preserves conditional/policy/credit/GPA clauses, and uses the existing course metadata, prerequisite review and explicit import workflow. Unsupported scope/route combinations show an explanation and disable creation. Academic records stay unchanged.
+
+Admission-course foundations retain their priority through prerequisite construction. Completed records without explicit matching credit units do not receive an earned-credit advantage when choosing prerequisite alternatives. Scope and applicant route remain visible on the draft.
+
+Validation: real UW Bothell Chemistry admission/whole-physics examples; synthetic route/campus/alias/unit boundaries; 216 modeled phase/route combinations validated against workspace schema; Chromium at1440/390 through audit, draft, explicit clause/eligibility review, blocked import before acknowledgement, import and retained unresolved policies. These checks simulate deliberate student eligibility review; they do not establish any real student's eligibility. Full regression validation passed. The 55 structured models remain partial; this release does not claim complete automatic requirements for all953 programs.

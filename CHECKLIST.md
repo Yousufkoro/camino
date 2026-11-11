@@ -134,3 +134,4 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [ ] Reviewer quality and broader file/device coverage remain unfinished; keep(Beta).
 
 - [x] 0.17: selectable Infinite Path/Living Compass homepage experiences, saved-direction visual mapping, readable heading, responsive rendering and reduced-motion fallback. See RELEASE-0.17.md.
+- [x] 0.18: connect modeled public-source audits to scoped, reviewable course-plan drafts; preserve whole alternatives, remaining policies and academic records. Admission foundations and explicit credit units are respected. See RELEASE-0.18.md.
