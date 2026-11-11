@@ -164,3 +164,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Add Accounting, Finance, Leadership & Strategic Innovation, Marketing and Supply Chain Management concentration cores and experience choices; preserve ELC/direct-entry distinctions and unbounded electives.
 - [x] Treat missing/invalid credits as unresolved in named-course credit floors; retain real zero-credit records distinctly.
 - [ ] Full priority-family modeling remains unfinished. This release enriches eight existing models;64 of953 program entries contain some structured rules, not complete degree coverage.
+
+## Medicine/health foundations —0.24
+
+- [x] Fresh-source Biology BA/BS and Biochemistry BA/BS course, grade, credit and whole-alternative models, with distinct admission routes and conditional reapplication policies.
+- [x] Display official Biochemistry typical successful-direct-transfer GPA guidance with its exact scope and missing cohort/cycle definition; do not label it an admitted average or probability.
+- [ ] Full medicine/health and other core-family modeling remains incomplete.68 of953 entries contain some structured rules, not complete degree coverage; professional medical admission is separate.
