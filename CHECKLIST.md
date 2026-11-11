@@ -135,3 +135,4 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 - [x] 0.17: selectable Infinite Path/Living Compass homepage experiences, saved-direction visual mapping, readable heading, responsive rendering and reduced-motion fallback. See RELEASE-0.17.md.
 - [x] 0.18: connect modeled public-source audits to scoped, reviewable course-plan drafts; preserve whole alternatives, remaining policies and academic records. Admission foundations and explicit credit units are respected. See RELEASE-0.18.md.
+- [x] 0.19: Infinite Path spans the viewport-sized homepage while Living Compass runs simultaneously at middle-right; mobile layout and combined reduced-motion fallback verified. Supersedes the0.17 mode selector.
