@@ -183,3 +183,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Add fixed Winter 2027 priority date with exact program/route/cycle matching; expose conflicting source dates without guessing corrections.
 - [x] Label engineering-vs-CS transfer pathways and recommended-map metadata; block imports while current credits/eligibility remain unresolved.
 - [ ] Finish current Bellevue catalog requirements/prerequisites and remaining core-family coverage.75 of953 entries contain some structured rules; full degree coverage remains incomplete. Essay & Application Review remains(Beta).
+
+## Aerospace application/enrollment/core —0.27
+
+- [x] Fresh-source UW Seattle aerospace application and before-enrollment subsets, with route-specific timing, whole alternatives and scoped course-grade minima.
+- [x] Add named degree fundamentals/core and paired capstone tracks; retain honors-math exceptions, GPA, composition, credit totals, Engineering Undeclared placement and elective policies for review.
+- [ ] Continue remaining core-family modeling.76 of953 entries contain some structured rules; complete degree coverage remains unfinished. Essay & Application Review remains(Beta).
