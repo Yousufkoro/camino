@@ -197,3 +197,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Prevent prompt/requirement text from being treated as evidence for praise or criticism of the student's writing; retain supported prompt observations separately.
 - [x] Independently calculate word count/over-limit result, identify the entered limit as unverified, and order grounded revisions by priority.
 - [ ] Complete varied live review quality checks, broader prompt/file coverage and remaining semantic-feedback issues before removing(Beta). A text match alone does not validate the model's interpretation.
+
+## Remove criticism quota —0.28.1
+
+- [x] Inspect real care/work and off-topic AI results; preserve explicit uncertainty where no supporting quote is found.
+- [x] Remove mandatory criticism count, permit a clear no-specific-revision result, and instruct the coach to distinguish optional enrichment from actual missing requirements.
+- [ ] Complete remaining semantic-feedback, source-prompt and file/device gates before removing(Beta); the reviewer remains the first priority. Popular programs precede narrow specializations when academic coverage resumes.

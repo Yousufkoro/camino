@@ -1,6 +1,6 @@
 {
-  "release": "0.28.0",
-  "marker": "camino-reviewer-evidence-and-word-limit-quality",
+  "release": "0.28.1",
+  "marker": "camino-reviewer-no-forced-criticism",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-11"
 }
