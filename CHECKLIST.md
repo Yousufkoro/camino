@@ -142,3 +142,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Fresh public-source checks and course/grade models for Chemistry BA, BS and ACS-certified BS, with whole alternative sequences and distinct credential requirements.
 - [x] Connect admission/degree-course subsets to existing source-to-plan review; retain GPA, credit, research/exception and continuation policies as unresolved where not fully modeled.
 - [ ] Complete remaining academic modeling:58 of953 entries now contain some structured rules. Full degree applicability, all majors and comprehensive prerequisites remain unfinished.
+
+## Sociology and subject categories —0.21
+
+- [x] Fresh UW Seattle Sociology core/statistics and subject-category checks with source-specific grade, level, exclusion, five-credit course and practicum-cap rules.
+- [x] Preserve admission-in-progress exception, GPA, residency, major-credit totals and cross-requirement allocation as unresolved; connect only bounded named-course choices to planning drafts.
+- [ ] Full academic coverage remains unfinished:59 of953 entries have some structured rules. Category checks are necessary checks, not complete degree audits.
