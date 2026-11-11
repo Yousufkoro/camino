@@ -136,3 +136,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] 0.17: selectable Infinite Path/Living Compass homepage experiences, saved-direction visual mapping, readable heading, responsive rendering and reduced-motion fallback. See RELEASE-0.17.md.
 - [x] 0.18: connect modeled public-source audits to scoped, reviewable course-plan drafts; preserve whole alternatives, remaining policies and academic records. Admission foundations and explicit credit units are respected. See RELEASE-0.18.md.
 - [x] 0.19: Infinite Path spans the viewport-sized homepage while Living Compass runs simultaneously at middle-right; mobile layout and combined reduced-motion fallback verified. Supersedes the0.17 mode selector.
+
+## UW Seattle Chemistry —0.20
+
+- [x] Fresh public-source checks and course/grade models for Chemistry BA, BS and ACS-certified BS, with whole alternative sequences and distinct credential requirements.
+- [x] Connect admission/degree-course subsets to existing source-to-plan review; retain GPA, credit, research/exception and continuation policies as unresolved where not fully modeled.
+- [ ] Complete remaining academic modeling:58 of953 entries now contain some structured rules. Full degree applicability, all majors and comprehensive prerequisites remain unfinished.
