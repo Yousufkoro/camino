@@ -1,0 +1,110 @@
+{
+  "scope": "Recommended-map credits/titles only; prerequisite/placement review is mandatory.",
+  "records": [
+    {
+      "code": "ENGL& 101",
+      "title": "English Composition I",
+      "institution": "Bellevue College",
+      "units": "Quarter",
+      "credits": null,
+      "creditsMin": null,
+      "creditsMax": null,
+      "mapSuggestedCredits": 5,
+      "source": "https://b.api.programmapper.com/site-contents/5b00782e-ff4a-4679-81f2-626ae544dc21/program-maps/94a84a57-3f0c-40cd-820c-2dfeeb4aa881",
+      "checked": "2026-11-09",
+      "sourceType": "faculty-recommended-map-2025",
+      "prerequisiteStatus": "review-required",
+      "corequisiteStatus": "review-required",
+      "prerequisiteRule": null,
+      "corequisiteRule": null,
+      "prerequisiteText": "No verified current Bellevue catalog prerequisite or credit award is loaded. The retained faculty-recommended 2025 map suggests 5 credits; verify current credits, placement, prerequisite and co-requisite rules.",
+      "restrictionPhrases": [
+        "Recommendation-map metadata only; not verified catalog rules or current offerings."
+      ]
+    },
+    {
+      "code": "MATH& 151",
+      "title": "Calculus I",
+      "institution": "Bellevue College",
+      "units": "Quarter",
+      "credits": null,
+      "creditsMin": null,
+      "creditsMax": null,
+      "mapSuggestedCredits": 5,
+      "source": "https://b.api.programmapper.com/site-contents/5b00782e-ff4a-4679-81f2-626ae544dc21/program-maps/94a84a57-3f0c-40cd-820c-2dfeeb4aa881",
+      "checked": "2026-11-09",
+      "sourceType": "faculty-recommended-map-2025",
+      "prerequisiteStatus": "review-required",
+      "corequisiteStatus": "review-required",
+      "prerequisiteRule": null,
+      "corequisiteRule": null,
+      "prerequisiteText": "No verified current Bellevue catalog prerequisite or credit award is loaded. The retained faculty-recommended 2025 map suggests 5 credits; verify current credits, placement, prerequisite and co-requisite rules.",
+      "restrictionPhrases": [
+        "Recommendation-map metadata only; not verified catalog rules or current offerings."
+      ]
+    },
+    {
+      "code": "MATH& 152",
+      "title": "Calculus II",
+      "institution": "Bellevue College",
+      "units": "Quarter",
+      "credits": null,
+      "creditsMin": null,
+      "creditsMax": null,
+      "mapSuggestedCredits": 5,
+      "source": "https://b.api.programmapper.com/site-contents/5b00782e-ff4a-4679-81f2-626ae544dc21/program-maps/94a84a57-3f0c-40cd-820c-2dfeeb4aa881",
+      "checked": "2026-11-09",
+      "sourceType": "faculty-recommended-map-2025",
+      "prerequisiteStatus": "review-required",
+      "corequisiteStatus": "review-required",
+      "prerequisiteRule": null,
+      "corequisiteRule": null,
+      "prerequisiteText": "No verified current Bellevue catalog prerequisite or credit award is loaded. The retained faculty-recommended 2025 map suggests 5 credits; verify current credits, placement, prerequisite and co-requisite rules.",
+      "restrictionPhrases": [
+        "Recommendation-map metadata only; not verified catalog rules or current offerings."
+      ]
+    },
+    {
+      "code": "CS 210",
+      "title": "Fundamentals of Computer Science I",
+      "institution": "Bellevue College",
+      "units": "Quarter",
+      "credits": null,
+      "creditsMin": null,
+      "creditsMax": null,
+      "mapSuggestedCredits": 5,
+      "source": "https://b.api.programmapper.com/site-contents/5b00782e-ff4a-4679-81f2-626ae544dc21/program-maps/94a84a57-3f0c-40cd-820c-2dfeeb4aa881",
+      "checked": "2026-11-09",
+      "sourceType": "faculty-recommended-map-2025",
+      "prerequisiteStatus": "review-required",
+      "corequisiteStatus": "review-required",
+      "prerequisiteRule": null,
+      "corequisiteRule": null,
+      "prerequisiteText": "No verified current Bellevue catalog prerequisite or credit award is loaded. The retained faculty-recommended 2025 map suggests 5 credits; verify current credits, placement, prerequisite and co-requisite rules.",
+      "restrictionPhrases": [
+        "Recommendation-map metadata only; not verified catalog rules or current offerings."
+      ]
+    },
+    {
+      "code": "CS 211",
+      "title": "Fundamentals of Computer Science II",
+      "institution": "Bellevue College",
+      "units": "Quarter",
+      "credits": null,
+      "creditsMin": null,
+      "creditsMax": null,
+      "mapSuggestedCredits": 5,
+      "source": "https://b.api.programmapper.com/site-contents/5b00782e-ff4a-4679-81f2-626ae544dc21/program-maps/94a84a57-3f0c-40cd-820c-2dfeeb4aa881",
+      "checked": "2026-11-09",
+      "sourceType": "faculty-recommended-map-2025",
+      "prerequisiteStatus": "review-required",
+      "corequisiteStatus": "review-required",
+      "prerequisiteRule": null,
+      "corequisiteRule": null,
+      "prerequisiteText": "No verified current Bellevue catalog prerequisite or credit award is loaded. The retained faculty-recommended 2025 map suggests 5 credits; verify current credits, placement, prerequisite and co-requisite rules.",
+      "restrictionPhrases": [
+        "Recommendation-map metadata only; not verified catalog rules or current offerings."
+      ]
+    }
+  ]
+}

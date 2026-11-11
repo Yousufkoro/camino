@@ -176,3 +176,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Source-backed Seattle BSN/ABSN and Bothell RN-to-BSN/Health Studies cores; keep prior-degree, licensure, clinical eligibility, source credit/version and prerequisite-grade differences visible.
 - [x] Show pathway notices during exact-major selection and audits; do not infer NCLEX credit or convert sample prerequisite courses into mandatory lists.
 - [ ] Complete remaining health/medicine, engineering, computing, business and Bellevue requirements.73 of953 entries contain some structured rules, not complete degree coverage. Reviewer remains(Beta).
+
+## Bellevue CS before-enrollment preparation —0.26
+
+- [x] Distinguish first-year placement from transfer preparation before enrollment; add standard/Data Science BSCS course subsets with scoped CS 211 grade minimum.
+- [x] Add fixed Winter 2027 priority date with exact program/route/cycle matching; expose conflicting source dates without guessing corrections.
+- [x] Label engineering-vs-CS transfer pathways and recommended-map metadata; block imports while current credits/eligibility remain unresolved.
+- [ ] Finish current Bellevue catalog requirements/prerequisites and remaining core-family coverage.75 of953 entries contain some structured rules; full degree coverage remains incomplete. Essay & Application Review remains(Beta).
