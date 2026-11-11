@@ -189,3 +189,11 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Fresh-source UW Seattle aerospace application and before-enrollment subsets, with route-specific timing, whole alternatives and scoped course-grade minima.
 - [x] Add named degree fundamentals/core and paired capstone tracks; retain honors-math exceptions, GPA, composition, credit totals, Engineering Undeclared placement and elective policies for review.
 - [ ] Continue remaining core-family modeling.76 of953 entries contain some structured rules; complete degree coverage remains unfinished. Essay & Application Review remains(Beta).
+
+
+## Reviewer evidence and length quality —0.28
+
+- [x] Prioritize essay/application reviewer completion; popular programs before narrow options when academic modeling resumes.
+- [x] Prevent prompt/requirement text from being treated as evidence for praise or criticism of the student's writing; retain supported prompt observations separately.
+- [x] Independently calculate word count/over-limit result, identify the entered limit as unverified, and order grounded revisions by priority.
+- [ ] Complete varied live review quality checks, broader prompt/file coverage and remaining semantic-feedback issues before removing(Beta). A text match alone does not validate the model's interpretation.
