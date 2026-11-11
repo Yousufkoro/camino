@@ -157,3 +157,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Add fresh-source models for Seattle Bioengineering (standard/Data Science/Nanoscience) and Chemical Engineering (standard/Nanoscience).
 - [x] Preserve pre-application vs later-course timing, complete alternatives, scoped course-grade minima, capstone substitutions, option-specific requirements and remaining policies.
 - [ ] Continue engineering, medicine/health, CS/data/software/cybersecurity/informatics and business coverage at UW Seattle, UW Bothell and Bellevue College.64 of953 models contain some structured rules; full academic coverage remains incomplete.
+
+## Priority CS/business depth —0.23
+
+- [x] Enrich Bothell CSSE/cybersecurity admission/core and named option-elective credit checks; enforce degree core grade minima without copying another program's admission policy.
+- [x] Add Accounting, Finance, Leadership & Strategic Innovation, Marketing and Supply Chain Management concentration cores and experience choices; preserve ELC/direct-entry distinctions and unbounded electives.
+- [x] Treat missing/invalid credits as unresolved in named-course credit floors; retain real zero-credit records distinctly.
+- [ ] Full priority-family modeling remains unfinished. This release enriches eight existing models;64 of953 program entries contain some structured rules, not complete degree coverage.
