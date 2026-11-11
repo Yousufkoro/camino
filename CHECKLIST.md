@@ -1,5 +1,7 @@
 # Camino requested-work checklist
 
+Active priority (user request): engineering and its specializations; medicine/health pathways including biology, biochemistry, nursing and applicable professional-program prerequisites; computer science, software, data science, cybersecurity and informatics; business and its concentrations. Prioritize UW Seattle, UW Bothell and Bellevue College in these families ahead of unrelated majors. Medical preparation is not presented as an MD degree or an admission guarantee.
+
 Detailed release evidence and limitations: [RELEASE-0.9.md](RELEASE-0.9.md).
 
 - [x] Eye-level forest quiz, tapered paths, four sign/road anchors, lantern cursor, depth/parallax and animated fork confirmation.
@@ -148,3 +150,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Fresh UW Seattle Sociology core/statistics and subject-category checks with source-specific grade, level, exclusion, five-credit course and practicum-cap rules.
 - [x] Preserve admission-in-progress exception, GPA, residency, major-credit totals and cross-requirement allocation as unresolved; connect only bounded named-course choices to planning drafts.
 - [ ] Full academic coverage remains unfinished:59 of953 entries have some structured rules. Category checks are necessary checks, not complete degree audits.
+
+## Core-priority engineering/health/data pathways —0.22
+
+- [x] Record the user's priority families: engineering, medicine/health pathways, computer science and business, including related specializations, before unrelated majors.
+- [x] Add fresh-source models for Seattle Bioengineering (standard/Data Science/Nanoscience) and Chemical Engineering (standard/Nanoscience).
+- [x] Preserve pre-application vs later-course timing, complete alternatives, scoped course-grade minima, capstone substitutions, option-specific requirements and remaining policies.
+- [ ] Continue engineering, medicine/health, CS/data/software/cybersecurity/informatics and business coverage at UW Seattle, UW Bothell and Bellevue College.64 of953 models contain some structured rules; full academic coverage remains incomplete.
