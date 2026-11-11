@@ -132,3 +132,5 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] No automatic persistence or server send; explicit Save is still needed before a tab reload/close.
 - [x] Clear current working drafts on deletion/full reset, and preserve recoverable work after cancellation or failed account deletion.
 - [ ] Reviewer quality and broader file/device coverage remain unfinished; keep(Beta).
+
+- [x] 0.17: selectable Infinite Path/Living Compass homepage experiences, saved-direction visual mapping, readable heading, responsive rendering and reduced-motion fallback. See RELEASE-0.17.md.
