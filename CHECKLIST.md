@@ -170,3 +170,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Fresh-source Biology BA/BS and Biochemistry BA/BS course, grade, credit and whole-alternative models, with distinct admission routes and conditional reapplication policies.
 - [x] Display official Biochemistry typical successful-direct-transfer GPA guidance with its exact scope and missing cohort/cycle definition; do not label it an admitted average or probability.
 - [ ] Full medicine/health and other core-family modeling remains incomplete.68 of953 entries contain some structured rules, not complete degree coverage; professional medical admission is separate.
+
+## Nursing and Health Studies —0.25
+
+- [x] Source-backed Seattle BSN/ABSN and Bothell RN-to-BSN/Health Studies cores; keep prior-degree, licensure, clinical eligibility, source credit/version and prerequisite-grade differences visible.
+- [x] Show pathway notices during exact-major selection and audits; do not infer NCLEX credit or convert sample prerequisite courses into mandatory lists.
+- [ ] Complete remaining health/medicine, engineering, computing, business and Bellevue requirements.73 of953 entries contain some structured rules, not complete degree coverage. Reviewer remains(Beta).
