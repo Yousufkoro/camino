@@ -217,3 +217,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Reassess requirements against the entire draft, including later-sentence responses; retain exact source evidence and activity-only limits, and allow corrected revision source attribution.
 - [x] Add engineering, business, care/work and activities-only synthetic cases plus saved/download/restore and reassessment regression tests.
 - [ ] Continue broader semantic, source-prompt and file/device validation before removing(Beta); reviewer completion remains first priority, then popular programs ahead of narrower options.
+
+## Clear evidence fallback —0.30.1
+
+- [x] Correct blank/whitespace model explanation fallback so matched essay/activity evidence is described accurately.
+- [x] Inspect four live0.30 cases: engineering response recognized, care/work avoids unnecessary criticism, missing business decision remains incomplete, and activity-only evidence does not satisfy essay coverage.
+- [ ] Improve weakly implied/partial requirement interpretation and complete remaining prompt/file/device reviewer gates before removing(Beta).

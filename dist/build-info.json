@@ -1,6 +1,6 @@
 {
-  "release": "0.30.0",
-  "marker": "camino-reviewer-requirement-and-saved-feedback-consistency",
+  "release": "0.30.1",
+  "marker": "camino-reviewer-clear-evidence-fallback",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-11"
 }
