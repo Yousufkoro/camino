@@ -293,3 +293,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Distinguish explicit650-word caps, general-transfer inherited limits and AC/CSSE's two-page formatting policy; no invented word cap for the latter.
 - [x] Flag ambiguous AC wording in the joint AC/CSSE source, preserve explicit apply and existing writing.
 - [ ] Remaining health/IAS/Nursing and Bellevue scopes, live AI quality/latency and broader device checks still prevent Beta removal.
+
+## Remaining Bothell linked prompts —0.37
+
+- [x] Health Studies500–650; RN-to-BSN650 maximum with ambiguous lower-bound wording visible and optional context preserved.
+- [x] IAS intended-major guidance, general-transfer limit provenance and explicit applicant/pathway scopes.
+- [ ] Bellevue and other writing scopes, final live AI quality/latency and broader device gates remain incomplete. Keep(Beta).

@@ -465,6 +465,72 @@ var PublishedWritingPrompts=[
     "relatedSources": [
       "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
     ]
+  },
+  {
+    "id": "uwb-transfer-health",
+    "institution": "UW Bothell",
+    "route": "Transfer — Health Studies",
+    "section": "Program-specific personal statement",
+    "label": "Health Studies — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/Health-Studies-Prompt.pdf",
+    "prompt": "The Personal Statement is a critical part of your application and is a required part of your admission file. Please address all of the following topics when completing your personal statement (in an attached document with a minimum of 500 words and a maximum of 650 words): • What are the main reasons you are choosing the Health Studies degree program? • What are your personal and professional goals as they relate to health? • Describe any relevant experience that has influenced your desire for a Health Studies degree? • Anything else you would like the Admissions Committee to consider, including an explanation of any patterns of poor grades or gaps in your educational progress.",
+    "minWords": 500,
+    "maxWords": 650,
+    "requirements": [
+      "Required personal statement: 500–650 words.",
+      "Address your reasons for choosing Health Studies, personal and professional health goals and relevant experience that influenced your choice.",
+      "The source also invites other relevant context, including explanations of poor grades or educational gaps when applicable. Do not invent gaps or require disclosure of nonexistent experiences."
+    ],
+    "scope": "Health Studies, not Nursing or medical-school admission. The PDF explicitly specifies 500–650 words. Relevant context applies to your actual experience; no need to invent poor grades or educational gaps. Confirm your current application cycle.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-ias",
+    "institution": "UW Bothell",
+    "route": "Transfer — Interdisciplinary Arts & Sciences",
+    "section": "Program-specific personal statement",
+    "label": "Interdisciplinary Arts & Sciences — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/Interdisciplinary-Arts-an.pdf",
+    "prompt": "In your personal statement, be sure to discuss your interest in the major you are applying to, as well as why you think you would be a great fit for that major (e.g. career goals, research interests, relevant personal experiences).",
+    "minWords": null,
+    "maxWords": 650,
+    "requirements": [
+      "Discuss your interest in the actual IAS major you are applying to and why you would be a good fit.",
+      "Career goals, research interests and personal experiences are examples, not a requirement to discuss every example.",
+      "Maximum: 650 words from the general transfer instructions; the IAS PDF does not specify its own numeric limit. Confirm your portal."
+    ],
+    "scope": "IAS division guidance: use the name of the actual major you are applying to in your response. This is not a standalone IAS degree or a claim that every IAS program has identical application requirements. The 650-word cap is inherited from the general transfer page; confirm any portal override.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-nursing",
+    "minimumAmbiguous": true,
+    "institution": "UW Bothell",
+    "route": "Transfer — Nursing RN to BSN",
+    "section": "Program-specific personal statement",
+    "label": "Nursing RN to BSN — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/Nursing-RN-to-BSN-Prompt.pdf",
+    "prompt": "The personal statement is a crucial part of your application for admission and is a required part of your admission file.\n\nFocusing on the following three points, in 400-650 words or less describe your professional plans and goals.  What inspires your interest in continuing your nursing education in our program?  Describe your long term professional plans and aspirations.  How do you feel the BSN will help you towards those goals and/or enhance your nursing practice?\n\nOptional: You may provide anything else you would like the BSN admissions committee to consider, including any additional explanation of gaps in work history or an explanation of weak educational performance.",
+    "minWords": null,
+    "maxWords": 650,
+    "formatPolicy": "Source wording: 400–650 words or less. Maximum 650; confirm whether a minimum applies in your current portal.",
+    "requirements": [
+      "Required personal statement for the RN-to-BSN pathway, not an initial nursing licensure application.",
+      "Address all three points: inspiration to continue nursing education, long-term professional plans and how the BSN supports your goals or nursing practice.",
+      "The PDF says 400–650 words or less. Maximum: 650 words. The lower-bound wording is ambiguous; confirm the current portal rather than treating 400 as a verified minimum.",
+      "Additional context about work gaps or educational performance is explicitly optional."
+    ],
+    "scope": "For the RN-to-BSN pathway. Do not substitute this for first-year nursing or initial RN preparation. The PDF lower-bound wording is ambiguous. Additional explanations are optional; do not invent hardships or work gaps. Confirm current pathway and application cycle.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
   }
 ];
 if(typeof module!=='undefined')module.exports=PublishedWritingPrompts;
