@@ -203,3 +203,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Inspect real care/work and off-topic AI results; preserve explicit uncertainty where no supporting quote is found.
 - [x] Remove mandatory criticism count, permit a clear no-specific-revision result, and instruct the coach to distinguish optional enrichment from actual missing requirements.
 - [ ] Complete remaining semantic-feedback, source-prompt and file/device gates before removing(Beta); the reviewer remains the first priority. Popular programs precede narrow specializations when academic coverage resumes.
+
+## Whole-draft revision screening —0.29
+
+- [x] Check proposed criticism against the entire essay in a focused second pass; remove already-covered advice only with an actual matching answer quote.
+- [x] Require a concrete unanswered question for retained revisions; label optional enrichment and keep missing/duplicate/vague/unavailable assessments uncertain.
+- [x] Add synthetic care/work regression, secondary-output admission-claim guards and no-extra-call behavior for empty revisions.
+- [ ] Verify broader live semantic quality, source prompts and file/device coverage before removing(Beta). Reviewer first; popular core programs before narrow specializations afterward.

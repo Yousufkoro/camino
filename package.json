@@ -1,6 +1,6 @@
 {
   "name": "camino",
-  "version": "0.28.1",
+  "version": "0.29.0",
   "private": true,
   "scripts": {
     "test": "node scripts/test.cjs",

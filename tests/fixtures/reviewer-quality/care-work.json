@@ -1,0 +1,17 @@
+{
+  "id": "care-work",
+  "prompt": "Describe a responsibility, your contribution, and what you learned.",
+  "requirements": "Describe your responsibility.\nExplain what you learned.",
+  "essay": "After school I cared for my younger brother while our mother worked. I prepared dinner, helped him practice reading, and kept a shared calendar so I could finish my own assignments. At first I tried to solve every homework question for him. When I started asking him to explain his reasoning, he began working more independently. I learned that being helpful sometimes means giving someone time to work through a problem. Now I plan our evening around his questions rather than my answers.",
+  "activities": "Family care, approximately ten hours weekly.",
+  "wordLimit": 250,
+  "proposedRevision": {
+    "evidence": "At first I tried to solve every homework question for him",
+    "feedback": "Consider adding more detail on the challenges faced and how they were overcome",
+    "action": "Elaborate on the challenges and their resolution",
+    "priority": "medium",
+    "evidenceSource": "essay",
+    "verification": "quote-matched"
+  },
+  "alreadyCoveredQuote": "When I started asking him to explain his reasoning, he began working more independently."
+}
