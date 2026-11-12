@@ -1,6 +1,6 @@
 {
-  "release": "0.33.1",
-  "marker": "camino-reviewer-complete-upload-checks",
+  "release": "0.34.0",
+  "marker": "camino-optional-writing-instructions",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

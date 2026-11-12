@@ -272,3 +272,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Keep accessible upload status visible, preserve edits/restored writing made during a pending read, and clear status on reset.
 - [x] Pass22 format/limit cases per desktop/mobile run plus activities, mixed-page, race, persistence/transmission and quota-local-fallback checks.
 - [ ] Live AI timing remains blocked by Cloudflare quota. Resume after reset/increased allowance, then finish remaining reviewer release gates before removing(Beta).
+
+## Optional writing instructions —0.34
+
+- [x] Recheck current UW Seattle first-year and transfer writing pages; retain seven personal essay choices and transfer suggested length.
+- [x] Add separate optional Challenges and Circumstances(250 maximum) and Additional Information(300 maximum), with no invented minimum or mandatory disclosure.
+- [x] Identify UW's challenges description as a description, not the portal's exact question; preserve explicit preview/apply and existing writing.
+- [ ] Live AI quality/long-draft timing, remaining institutions/major-specific writing instructions and broader supported-device checks still need completion before Beta removal.
