@@ -1,0 +1,47 @@
+[
+  {
+    "id": "multi-part-observed",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a problem, your own action, and the observed outcome after your change.",
+    "requirements": "Describe a problem, your own action, and the observed outcome after your change.",
+    "essay": "Our club kept losing receipts before the weekly budget meeting. I made a shared folder and asked each member to upload a photo after a purchase. We have only just started using it.",
+    "activities": "",
+    "wordLimit": 200
+  },
+  {
+    "id": "observed-repeat",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a problem, your own action, and the observed outcome after your change.",
+    "requirements": "Describe a problem, your own action, and the observed outcome after your change.",
+    "essay": "Our club kept losing receipts before the weekly budget meeting. I made a shared folder and asked each member to upload a photo after a purchase. We have only just started using it.",
+    "activities": "",
+    "wordLimit": 200
+  },
+  {
+    "id": "observed-complete",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a problem, your own action, and the observed outcome after your change.",
+    "requirements": "Describe a problem, your own action, and the observed outcome after your change.",
+    "essay": "Our club kept losing receipts before the weekly budget meeting. I made a shared folder and asked each member to upload a photo after a purchase. At the next budget meeting all five members had uploaded their receipts.",
+    "activities": "",
+    "wordLimit": 200
+  },
+  {
+    "id": "business-partial",
+    "applicationContext": "Synthetic business application; not an official institutional prompt",
+    "prompt": "Describe a team contribution, its outcome and an ethical decision you faced.",
+    "requirements": "Describe your own contribution.\nDescribe the outcome.\nExplain an ethical decision you personally faced.",
+    "essay": "At our student shop I organized the weekly inventory sheet. I asked each volunteer to record deliveries in one shared spreadsheet instead of separate notebooks. I checked the entries against the boxes on Friday and taught the next shift how to find missing items. We stopped ordering products we already had and reduced duplicate orders during the next month. I learned to ask the people using a system what slows them down before designing a replacement.",
+    "activities": "I also attended a school seminar about business ethics.",
+    "wordLimit": 250
+  },
+  {
+    "id": "choice-interest",
+    "applicationContext": "Synthetic one-option writing prompt quality test; not an official application",
+    "prompt": "Describe your background, identity, interest or talent.",
+    "requirements": "Describe your background, identity, interest or talent.",
+    "essay": "My interest is repairing old radios. I first opened one with my grandfather and began tracing the circuit on paper. I now keep a notebook of component failures and test one replacement at a time. Sharing working radios with our neighbors keeps the work practical.",
+    "activities": "",
+    "wordLimit": 250
+  }
+]

@@ -244,3 +244,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Use the checked question as the canonical action; prevent an old expected-outcome instruction from contradicting observed-outcome feedback. Preserve this in saved display and export.
 - [x] Verify immutable legacy alignment and desktop/mobile saving, download and restoration; communicate measured review wait time.
 - [ ] Finish remaining prompt, supported-file/device and latency reviewer quality checks before removing(Beta).
+
+## Part-by-part evidence aggregation —0.32
+
+- [x] Derive stable parts from clear source wording and aggregate source-matched part evidence; preserve answered portions when another part is missing or uncertain.
+- [x] Show each part in fresh/saved feedback and exports; keep alternatives/conditions grouped and disclose bounded/manual grouping.
+- [x] Cover partial/full results, duplicate/missing/malformed evidence, provider-failure summary, source guards and nested admission-claim rejection; verify desktop/mobile display/download/restore.
+- [ ] Confirm repeated production controls and finish remaining complex-prompt, upload/device and latency release gates before removing(Beta).
