@@ -1,4 +1,4 @@
-/* Public UW writing instructions checked2026-11-12; cycle-specific portals remain authoritative. */
+/* Public writing instructions checked2026-11-12; cycle-specific portals remain authoritative. */
 var PublishedWritingPrompts=[
   {
     "id": "uws-first-year-1",
@@ -191,6 +191,164 @@ var PublishedWritingPrompts=[
       "The writing must be your own original work."
     ],
     "scope": "The source lists additional optional topics: challenges/hardships, community service, experiential learning and additional comments. Include them if applicable; they are not universal requirements. Confirm the current application cycle."
+  },
+  {
+    "id": "uwb-first-year-1",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Background, identity, interest or talent",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Some students have a background, identity, interest, or talent that is so meaningful they believe their application would be incomplete without it. If this sounds like you, then please share your story.",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-2",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Challenge, setback or failure",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "The lessons we take from obstacles we encounter can be fundamental to later success. Recount a time when you faced a challenge, setback, or failure. How did it affect you, and what did you learn from the experience?",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-3",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Questioning a belief or idea",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Reflect on a time when you questioned or challenged a belief or idea. What prompted your thinking? What was the outcome?",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-4",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Gratitude and motivation",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Reflect on something that someone has done for you that has made you happy or thankful in a surprising way. How has this gratitude affected or motivated you?",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-5",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Personal growth",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Discuss an accomplishment, event, or realization that sparked a period of personal growth and a new understanding of yourself or others.",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-6",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Intellectual curiosity",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Describe a topic, idea, or concept you find so engaging that it makes you lose all track of time. Why does it captivate you? What or who do you turn to when you want to learn more?",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-first-year-7",
+    "institution": "UW Bothell",
+    "route": "First-year college admission",
+    "section": "Common App personal essay",
+    "label": "Topic of your choice",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/first-year/how-to-apply",
+    "prompt": "Share an essay on any topic of your choice. It can be one you’ve already written, one that responds to a different prompt, or one of your own design.",
+    "minWords": 250,
+    "maxWords": 650,
+    "requirements": [
+      "Respond to the selected Common App prompt.",
+      "Submit a personal essay between 250 and 650 words, using the application portal counter.",
+      "The writing must be your own original work."
+    ],
+    "scope": "UW Bothell first-year Common App personal essay. Choose one prompt, not all seven. Confirm your current application cycle; transfer and major-specific applications have different instructions."
+  },
+  {
+    "id": "uwb-transfer-general",
+    "institution": "UW Bothell",
+    "route": "Transfer college admission — general prompt only",
+    "section": "Personal statement (general transfer prompt)",
+    "label": "Transfer — undeclared / programs without a separate prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/apply/transfer/how-to-apply",
+    "prompt": "What is your intended major, and how did your interest in this subject evolve? Describe any relevant experience you have had in the field (employment, internships, military service, volunteer work, campus or civic activities, etc.) and what you have gained from your involvement. How will UW Bothell prepare you for your future endeavors?",
+    "minWords": null,
+    "maxWords": 650,
+    "excludedMajors": [
+      "Business Administration",
+      "Computer Engineering",
+      "Computer Science & Software Engineering",
+      "Applied Computing",
+      "Electrical Engineering",
+      "Health Studies",
+      "Interdisciplinary Arts & Sciences",
+      "Mechanical Engineering",
+      "Nursing (RN to BSN)"
+    ],
+    "requirements": [
+      "Use this general prompt only for undeclared applicants or majors without a separate published prompt.",
+      "Describe your intended major and how your interest evolved.",
+      "Describe relevant experience you have had and what you gained from it; the listed experience types are examples, not a requirement to have all of them.",
+      "Explain how UW Bothell will prepare you for your future endeavors.",
+      "Maximum: 650 words. No minimum is stated on this source page.",
+      "For the submitted statement file, include your name and Personal Statement as a heading on each page. Camino does not verify page headings or submit the application."
+    ],
+    "scope": "General transfer prompt only. Do not use for Business Administration; Computer Engineering; Computer Science & Software Engineering; Applied Computing; Electrical Engineering; Health Studies; Interdisciplinary Arts & Sciences; Mechanical Engineering; Nursing (RN to BSN). Those programs have separate prompts linked on the source page. This is not a major-specific application review. The public instructions accept PDF, DOC, RTF or TXT for submission; Camino currently imports TXT and text PDFs only. Confirm your portal instructions and current cycle."
   }
 ];
 if(typeof module!=='undefined')module.exports=PublishedWritingPrompts;

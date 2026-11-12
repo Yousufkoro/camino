@@ -279,3 +279,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Add separate optional Challenges and Circumstances(250 maximum) and Additional Information(300 maximum), with no invented minimum or mandatory disclosure.
 - [x] Identify UW's challenges description as a description, not the portal's exact question; preserve explicit preview/apply and existing writing.
 - [ ] Live AI quality/long-draft timing, remaining institutions/major-specific writing instructions and broader supported-device checks still need completion before Beta removal.
+
+## UW Bothell writing instructions —0.35
+
+- [x] Seven published first-year personal essay choices with250–650 policy and choose-one scope.
+- [x] General transfer prompt with650 maximum and explicit exclusions for programs requiring separate prompts; preserve Seattle/Bothell policy differences.
+- [x] Preserve writing and explicit preview/apply without auto transmission or saving.
+- [ ] Bothell's separate program prompts, Bellevue writing/application scopes, live AI quality/latency and remaining device gates are unfinished. Keep(Beta).
