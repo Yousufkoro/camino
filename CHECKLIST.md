@@ -230,3 +230,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Preserve the distinction in fresh and saved feedback, including actual download/restore and responsive layout.
 - [x] Add business missing/direct choice, genuinely partial response, participation-versus-leadership and engineering regression cases.
 - [ ] Complete remaining semantic, public prompt and supported-file/device reviewer gates before removing(Beta); popular core programs follow reviewer completion.
+
+## Separate reasoning check and fallback —0.31.1
+
+- [x] Record0.31's live ethics false positive; do not equate its passed contract tests with semantic accuracy.
+- [x] Use a separate current Cloudflare-hosted reasoning model for secondary review, parse final content only, and make incomplete/unavailable assessments uncertain.
+- [x] Add provider response/failure/truncation tests and a clearly observed-outcome partial-answer case alongside the original ambiguous case.
+- [ ] Confirm production classification quality and finish remaining prompt/file/device reviewer gates before removing(Beta).

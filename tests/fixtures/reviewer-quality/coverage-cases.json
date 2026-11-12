@@ -43,5 +43,14 @@
     "essay": "Our robotics club wanted to sort paper cups by color. I wrote the sensor calibration routine while two teammates built the conveyor. Under the classroom lights the sensor misclassified blue cups as green. I compared readings with the lights on and off, covered the sensor with a cardboard hood, and tested the same twenty cups again. The hood reduced errors from eight cups to one. I recorded both trials so the next team could repeat the test. I learned to test the environment before assuming my code was wrong. On our next prototype I included lighting tests in the first checklist.",
     "activities": "",
     "wordLimit": 250
+  },
+  {
+    "id": "multi-part-observed",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a problem, your own action, and the observed outcome after your change.",
+    "requirements": "Describe a problem, your own action, and the observed outcome after your change.",
+    "essay": "Our club kept losing receipts before the weekly budget meeting. I made a shared folder and asked each member to upload a photo after a purchase. We have only just started using it.",
+    "activities": "",
+    "wordLimit": 200
   }
 ]
