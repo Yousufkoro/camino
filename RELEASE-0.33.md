@@ -1,0 +1,11 @@
+# 0.33 — Preserve uploaded writing and its evidence
+
+The browser upload matrix exposed interleaved columns, silently replaced invalid text bytes, unhelpful locked/corrupt PDF messages and empty text files replacing a draft. The reader now preserves clear paragraph-like column blocks, retains normal table/date row order, strictly decodes UTF-8/BOM-marked UTF-16, rejects unreadable or empty text, and explains PDF recovery options. PDF loading tasks are destroyed on both success and failure. Ambiguous layouts still require the user's reading-order check; scanned/blank PDFs require a text copy.
+
+Model evidence matching now tolerates whitespace differences such as PDF line wraps, tabs and nonbreaking spaces. The returned quote is always the actual source slice. Case, words and punctuation are not silently rewritten, and short/unsupported quotations still require review. This applies to strengths, revisions, requirement parts and already-covered-answer checks. Matcher indexes are lazy and request-scoped, not persistent server storage.
+
+The production service returned `AI_QUOTA_EXCEEDED` before long-draft timing could be measured. The error now names the quota limit and offers a local-checks action that preserves the current draft and sends no additional AI request. Quota recovery guidance is in docs/AI-QUOTA.md. Quota recovery uses account-owner usage/billing settings.
+
+Validation: 13 synthetic text/PDF fixtures,20 statement format/limit cases at1440/390 widths, activities-field limits, last-file-wins races, no automatic transmission/persistence, and quota-to-local-checks behavior. Unicode, multi-page paragraphs, columns, blank/scanned, password, corrupt, over-page/byte/character limits and unsupported formats are covered. Full syntax/unit/DOM/build validation passes, including source-span matching and source/grade/part aggregation regressions. Browser production-origin verification follows deployment with inference intercepted, so it does not consume quota.
+
+Live AI timing remains blocked by the provider quota; Beta stays. Academic coverage is unchanged at76/953 partly structured entries. Reviewer completion remains first priority, then popular core programs ahead of narrow specializations.

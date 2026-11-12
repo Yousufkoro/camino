@@ -257,3 +257,11 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Keep exported part identifiers consistent with their parent requirement; regression covers multiple parents with local part index0.
 - [x] Confirm production stability: repeated incomplete draft2/3, completed draft3/3, original ethics regression and one-option prompt; live desktop/mobile and fresh mobile AI flow pass.
 - [ ] Finish remaining reviewer prompt, supported-upload and long-draft latency release gates before removing(Beta).
+
+## Reviewer upload integrity —0.33
+
+- [x] Cover UTF-8/BOM UTF-16 and Unicode preservation, multi-page/column PDF reading, clear invalid/empty/locked/corrupt/no-text errors and field/page/byte limits.
+- [x] Preserve prior drafts after failures and late file reads, avoid automatic save/send, release PDF loading tasks, and verify desktop/mobile behavior.
+- [x] Match whitespace-normalized evidence to actual original source slices; reject case/word changes and retain source/part boundaries.
+- [x] Explain production AI quota errors and provide a no-extra-request local-checks action, with documented owner recovery options.
+- [ ] Resume typical/near-limit live timing after Cloudflare quota reset or increased allowance. Continue complex/conditional prompt and supported-device gates before removing(Beta).
