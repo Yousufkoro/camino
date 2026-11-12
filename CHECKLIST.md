@@ -251,3 +251,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Show each part in fresh/saved feedback and exports; keep alternatives/conditions grouped and disclose bounded/manual grouping.
 - [x] Cover partial/full results, duplicate/missing/malformed evidence, provider-failure summary, source guards and nested admission-claim rejection; verify desktop/mobile display/download/restore.
 - [ ] Confirm repeated production controls and finish remaining complex-prompt, upload/device and latency release gates before removing(Beta).
+
+## Parent requirement identifiers —0.32.1
+
+- [x] Keep exported part identifiers consistent with their parent requirement; regression covers multiple parents with local part index0.
+- [x] Confirm production stability: repeated incomplete draft2/3, completed draft3/3, original ethics regression and one-option prompt; live desktop/mobile and fresh mobile AI flow pass.
+- [ ] Finish remaining reviewer prompt, supported-upload and long-draft latency release gates before removing(Beta).

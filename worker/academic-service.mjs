@@ -55,7 +55,7 @@ export function assessRequirementParts(review,raw,body){
    const valid=item&&['addressed','partial','not-evidenced','uncertain'].includes(item.status)&&['direct','related-context','not-evidenced','uncertain'].includes(item.evidenceBasis)&&typeof item.evidence==='string'&&typeof item.feedback==='string';
    const safe=valid?{requirementIndex:0,status:item.status,evidenceBasis:item.evidenceBasis,evidence:typeof item.evidence==='string'?item.evidence.slice(0,700):'',feedback:typeof item.feedback==='string'?item.feedback.slice(0,600):''}:null;
    const checked=assessRequirements({requirementChecks:safe?[safe]:[]},{...body,requirements:text,prompt:text}).requirementChecks[0];
-   return{...checked,partIndex,text,assessmentAvailable:!!safe};
+   return{...checked,requirementIndex:plan.requirementIndex,partIndex,text,assessmentAvailable:!!safe};
   });
   const directEssay=parts.filter(p=>p.status==='addressed'&&p.evidenceBasis==='direct'&&p.evidenceSource==='essay').length;
   const anyDirect=parts.some(p=>['addressed','partial'].includes(p.status)&&p.evidenceBasis==='direct'),related=parts.some(p=>p.evidenceBasis==='related-context');

@@ -1,6 +1,6 @@
 {
-  "release": "0.32.0",
-  "marker": "camino-reviewer-part-by-part-coverage",
+  "release": "0.32.1",
+  "marker": "camino-reviewer-consistent-part-identifiers",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
