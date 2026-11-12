@@ -36,3 +36,5 @@ body[data-view="sources"] main table{min-width:0}body[data-view="sources"] main 
 .requirement-parts li{padding:.8rem;border:1px solid rgba(181,163,231,.22);border-radius:.8rem;overflow-wrap:anywhere}
 .requirement-parts .review-source{display:block;margin-top:.45rem}
 .requirement-parts blockquote{margin:.65rem 0;padding-left:.8rem}
+[data-review-upload-status]{overflow-wrap:anywhere}
+[data-review-upload-status]:empty{margin:0}

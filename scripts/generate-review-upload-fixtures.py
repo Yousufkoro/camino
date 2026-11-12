@@ -24,6 +24,8 @@ make('eleven-pages.pdf', [[(40,740,f'Synthetic page {i+1}.')] for i in range(11)
 make('blank.pdf',[[]])
 im=Image.new('RGB',(700,180),'white');ImageDraw.Draw(im).text((20,30),'Synthetic scanned statement. No extractable text.',fill='black');buf=io.BytesIO();im.save(buf,format='PNG');buf.seek(0);c=canvas.Canvas(str(p/'scanned.pdf'));c.drawImage(ImageReader(buf),40,500,width=500,height=130);c.save()
 w=PdfWriter();w.append(PdfReader(str(p/'two-pages.pdf')));w.encrypt('synthetic-only');w.write(str(p/'password.pdf'))
+for name,second in [('mixed-pages.pdf','scanned.pdf'),('blank-last.pdf','blank.pdf')]:
+ w=PdfWriter();w.add_page(PdfReader(p/'two-pages.pdf').pages[0]);w.add_page(PdfReader(p/second).pages[0]);w.write(p/name)
 (p/'unicode.txt').write_text('I built a sensor — then revised it.\n\nCafé discussions taught me to ask “why.” Ω\n',encoding='utf-8')
 (p/'utf16-le.txt').write_bytes(('\ufeffI built a sensor.\n\nCafé discussions changed my approach.').encode('utf-16le'))
 (p/'utf16-be.txt').write_bytes(('\ufeffI built a sensor.\n\nCafé discussions changed my approach.').encode('utf-16be'))

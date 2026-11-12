@@ -265,3 +265,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Match whitespace-normalized evidence to actual original source slices; reject case/word changes and retain source/part boundaries.
 - [x] Explain production AI quota errors and provide a no-extra-request local-checks action, with documented owner recovery options.
 - [ ] Resume typical/near-limit live timing after Cloudflare quota reset or increased allowance. Continue complex/conditional prompt and supported-device gates before removing(Beta).
+
+## Complete-page imports and late-edit preservation —0.33.1
+
+- [x] Detect an unreadable page within an otherwise readable PDF instead of silently importing only part of the document; provide page-specific recovery.
+- [x] Keep accessible upload status visible, preserve edits/restored writing made during a pending read, and clear status on reset.
+- [x] Pass22 format/limit cases per desktop/mobile run plus activities, mixed-page, race, persistence/transmission and quota-local-fallback checks.
+- [ ] Live AI timing remains blocked by Cloudflare quota. Resume after reset/increased allowance, then finish remaining reviewer release gates before removing(Beta).
