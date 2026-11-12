@@ -223,3 +223,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Correct blank/whitespace model explanation fallback so matched essay/activity evidence is described accurately.
 - [x] Inspect four live0.30 cases: engineering response recognized, care/work avoids unnecessary criticism, missing business decision remains incomplete, and activity-only evidence does not satisfy essay coverage.
 - [ ] Improve weakly implied/partial requirement interpretation and complete remaining prompt/file/device reviewer gates before removing(Beta).
+
+## Direct evidence versus related context —0.31
+
+- [x] Require an explicit direct-evidence classification before a source-matched quote can support addressed/partial; related context and missing classifications cannot be promoted.
+- [x] Preserve the distinction in fresh and saved feedback, including actual download/restore and responsive layout.
+- [x] Add business missing/direct choice, genuinely partial response, participation-versus-leadership and engineering regression cases.
+- [ ] Complete remaining semantic, public prompt and supported-file/device reviewer gates before removing(Beta); popular core programs follow reviewer completion.

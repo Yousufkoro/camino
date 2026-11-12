@@ -1,0 +1,47 @@
+[
+  {
+    "id": "business-partial",
+    "applicationContext": "Synthetic business application; not an official institutional prompt",
+    "prompt": "Describe a team contribution, its outcome and an ethical decision you faced.",
+    "requirements": "Describe your own contribution.\nDescribe the outcome.\nExplain an ethical decision you personally faced.",
+    "essay": "At our student shop I organized the weekly inventory sheet. I asked each volunteer to record deliveries in one shared spreadsheet instead of separate notebooks. I checked the entries against the boxes on Friday and taught the next shift how to find missing items. We stopped ordering products we already had and reduced duplicate orders during the next month. I learned to ask the people using a system what slows them down before designing a replacement.",
+    "activities": "I also attended a school seminar about business ethics.",
+    "wordLimit": 250
+  },
+  {
+    "id": "business-direct",
+    "applicationContext": "Synthetic business application; not an official institutional prompt",
+    "prompt": "Describe a team contribution, its outcome and an ethical decision you faced.",
+    "requirements": "Describe your own contribution.\nDescribe the outcome.\nExplain an ethical decision you personally faced.",
+    "essay": "At our student shop I organized the weekly inventory sheet. I asked each volunteer to record deliveries in one shared spreadsheet instead of separate notebooks. I checked the entries against the boxes on Friday and taught the next shift how to find missing items. We stopped ordering products we already had and reduced duplicate orders during the next month. I learned to ask the people using a system what slows them down before designing a replacement. When our supplier accidentally paid us twice for returned stock, I could have left the extra money in our shop budget. Instead I told the treasurer and contacted the supplier to return the duplicate payment. Keeping it would have helped our next event, but the supplier was owed accurate accounts.",
+    "activities": "I also attended a school seminar about business ethics.",
+    "wordLimit": 250
+  },
+  {
+    "id": "multi-part-direct",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a problem, your own action, and the outcome.",
+    "requirements": "Describe a problem, your own action, and the outcome.",
+    "essay": "Our club kept losing receipts before the weekly budget meeting. I made a shared folder and asked each member to upload a photo after a purchase. We have only just started using it.",
+    "activities": "",
+    "wordLimit": 200
+  },
+  {
+    "id": "leadership-related",
+    "applicationContext": "Synthetic application quality test, not an official prompt",
+    "prompt": "Describe a time you led a team and explain your decisions as its leader.",
+    "requirements": "Describe a time you led a team.",
+    "essay": "I joined our school cleanup team. The coordinator assigned me to carry bags to the collection point. I followed the route she selected and finished my assigned section. I enjoyed contributing alongside the other volunteers.",
+    "activities": "",
+    "wordLimit": 150
+  },
+  {
+    "id": "engineering-complete",
+    "applicationContext": "Synthetic engineering transfer application; not an official institutional prompt",
+    "prompt": "Describe a technical project, your own role, a setback and what you learned.",
+    "requirements": "Describe your own role.\nDescribe a setback and your response.\nExplain what you learned.",
+    "essay": "Our robotics club wanted to sort paper cups by color. I wrote the sensor calibration routine while two teammates built the conveyor. Under the classroom lights the sensor misclassified blue cups as green. I compared readings with the lights on and off, covered the sensor with a cardboard hood, and tested the same twenty cups again. The hood reduced errors from eight cups to one. I recorded both trials so the next team could repeat the test. I learned to test the environment before assuming my code was wrong. On our next prototype I included lighting tests in the first checklist.",
+    "activities": "",
+    "wordLimit": 250
+  }
+]
