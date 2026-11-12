@@ -2,6 +2,10 @@
 
 Requested November12,2026. Target date November16,2026, America/Los_Angeles. This is a prioritization target, not a guarantee of unattended work or completion of every historic request. Progress requires active work sessions; deployments follow tested tasks.
 
+## Approved narrowed scope
+
+The owner subsequently approved focusing on exactly five features: reviewer, transcript reader, existing core-program planning, priority-pathway application checkpoints, and mobile/essential flows. Broad degree-audit expansion is paused and is not a November16 deliverable. Validated personal admission percentages are not in this narrowed scope.
+
 ## Assessment
 
 The entire historic checklist cannot responsibly be promised by November16. Only76 of953 catalog entries currently have some structured academic rules; even these are not complete degree audits. Exhaustive prerequisites, equivalencies, current-cycle deadlines and all program policies remain substantial work. Validated personal admission percentages also require representative outcome data and calibration; simulations alone do not create that evidence. Public institutional sources remain sufficient for researching published requirements; no institution approval is a prerequisite.

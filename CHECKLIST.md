@@ -1,5 +1,15 @@
 # Camino requested-work checklist
 
+## Active scope through November16 (owner approved)
+
+1. Essay/application reviewer release gates.
+2. Transcript recognition, credit/origin accuracy and correction recovery.
+3. Existing core-program planning at UW Seattle, UW Bothell and Bellevue.
+4. Sourced application checkpoints for those priority pathways.
+5. Mobile usability and essential setup/import/plan/review/export/wipe flows.
+
+Broad degree-audit expansion is paused by the owner. Historical unchecked audit/catalog work below is retained as a record, not part of the November16 target. Reviewer stays(Beta) until actual quality and timing gates pass.
+
 Active priority (user request): engineering and its specializations; medicine/health pathways including biology, biochemistry, nursing and applicable professional-program prerequisites; computer science, software, data science, cybersecurity and informatics; business and its concentrations. Prioritize UW Seattle, UW Bothell and Bellevue College in these families ahead of unrelated majors. Medical preparation is not presented as an MD degree or an admission guarantee.
 
 Detailed release evidence and limitations: [RELEASE-0.9.md](RELEASE-0.9.md).
@@ -306,3 +316,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Do not invent a universal Bellevue essay or claim uploaded documents were officially submitted.
 - [x] Record November16 target, priority order and actual coverage/testing gaps in docs/NOVEMBER-16-TARGET.md.
 - [ ] Bellevue program-specific writing prompts, final live reviewer AI gates and broader academic coverage remain unfinished. Entire953-entry degree coverage and calibrated admission probabilities are not promised by November16.
+
+## Reviewer transport limits —0.39
+
+- [x] Accept supported Unicode/escaped-field envelopes without contradictory70KB transport rejection; retain field limits and bounded400KB transport.
+- [x] Clear400/413 malformed/oversize errors without invoking inference; prior writing remains recoverable through existing error handling.
+- [x] Record approved five-feature scope and pause broad degree-audit expansion.
+- [ ] Actual AI feedback quality and typical/near-limit timing remain unverified pending allowance restoration. Keep(Beta).

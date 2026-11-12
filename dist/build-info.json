@@ -1,6 +1,6 @@
 {
-  "release": "0.38.0",
-  "marker": "camino-bellevue-application-scopes",
+  "release": "0.39.0",
+  "marker": "camino-review-unicode-request-limits",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
