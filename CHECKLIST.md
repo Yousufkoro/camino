@@ -286,3 +286,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] General transfer prompt with650 maximum and explicit exclusions for programs requiring separate prompts; preserve Seattle/Bothell policy differences.
 - [x] Preserve writing and explicit preview/apply without auto transmission or saving.
 - [ ] Bothell's separate program prompts, Bellevue writing/application scopes, live AI quality/latency and remaining device gates are unfinished. Keep(Beta).
+
+## Bothell priority-program writing —0.36
+
+- [x] Add current-linked CE, EE, ME, Business and joint AC/CSSE prompt documents with program scope and conditional wording.
+- [x] Distinguish explicit650-word caps, general-transfer inherited limits and AC/CSSE's two-page formatting policy; no invented word cap for the latter.
+- [x] Flag ambiguous AC wording in the joint AC/CSSE source, preserve explicit apply and existing writing.
+- [ ] Remaining health/IAS/Nursing and Bellevue scopes, live AI quality/latency and broader device checks still prevent Beta removal.

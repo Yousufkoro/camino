@@ -349,6 +349,122 @@ var PublishedWritingPrompts=[
       "For the submitted statement file, include your name and Personal Statement as a heading on each page. Camino does not verify page headings or submit the application."
     ],
     "scope": "General transfer prompt only. Do not use for Business Administration; Computer Engineering; Computer Science & Software Engineering; Applied Computing; Electrical Engineering; Health Studies; Interdisciplinary Arts & Sciences; Mechanical Engineering; Nursing (RN to BSN). Those programs have separate prompts linked on the source page. This is not a major-specific application review. The public instructions accept PDF, DOC, RTF or TXT for submission; Camino currently imports TXT and text PDFs only. Confirm your portal instructions and current cycle."
+  },
+  {
+    "id": "uwb-transfer-ce",
+    "institution": "UW Bothell",
+    "route": "Transfer — Computer Engineering",
+    "section": "Program-specific personal statement",
+    "label": "Computer Engineering — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/CE-Prompt-updated-052022.pdf",
+    "prompt": "We want to learn more about you and your plans for University of Washington Bothell education and beyond. Why are you interested in computer engineering, and specifically a program at UW Bothell? What talents and skills will you bring as part of our community of scholars?\n\nDo you have any experience in software or hardware development outside of the classroom? If so, please describe.\n\nWhat interests and activities outside of computer science do you have (such as involvement in student organizations, volunteer work, employment, etc.)?\n\nIf you have applied before, what has changed since your previous application? If you have repeated courses, or overcome significant obstacles, please explain.",
+    "minWords": null,
+    "maxWords": 650,
+    "formatPolicy": null,
+    "requirements": [
+      "Respond to the published Computer Engineering personal statement prompt below.",
+      "Maximum: 650 words. No minimum is stated on the general transfer source page.",
+      "Treat experience examples and if-applicable clauses as conditional; do not invent activities, hardships or prior applications."
+    ],
+    "scope": "UW Bothell Computer Engineering prompt linked from current transfer instructions. The program PDF does not give a numeric word limit; the 650-word maximum comes from the general transfer instructions. Confirm any portal override.Confirm your applicant route and current cycle; this is not the first-year essay.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-ee",
+    "institution": "UW Bothell",
+    "route": "Transfer — Electrical Engineering",
+    "section": "Program-specific personal statement",
+    "label": "Electrical Engineering — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/EE-Prompt.pdf",
+    "prompt": "Your Personal Statement should be no longer than 650 words and answer both questions below. 1. Why are you interested in Electrical Engineering and specifically in UW Bothell’s program? How did your passion for Electrical Engineering form and what talents/skills will you bring to our community? In reviewing the Electrical Engineering program website (www.uwb.edu/ee), what research areas are you most interested in? 2. What relevant life experiences have you had (ex: employment, internships, in-class projects, military service, volunteer work, campus activities, etc.) that will guide you in your anticipated career as an Electrical Engineer? If you have experience with hardware development, please describe here.",
+    "minWords": null,
+    "maxWords": 650,
+    "formatPolicy": null,
+    "requirements": [
+      "Respond to the published Electrical Engineering personal statement prompt below.",
+      "Maximum: 650 words. No minimum is stated on the general transfer source page.",
+      "Treat experience examples and if-applicable clauses as conditional; do not invent activities, hardships or prior applications.",
+      "Answer both numbered questions, including their requested subparts."
+    ],
+    "scope": "UW Bothell Electrical Engineering prompt linked from current transfer instructions. The program PDF specifies 650 words and both numbered questions. Confirm your applicant route and current cycle; this is not the first-year essay.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-me",
+    "institution": "UW Bothell",
+    "route": "Transfer — Mechanical Engineering",
+    "section": "Program-specific personal statement",
+    "label": "Mechanical Engineering — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2023/06/ME-Administration-Prompt.pdf",
+    "prompt": "Your personal statement should be no longer than 650 words and answer both questions below.\n\n1. Describe one or two of your core values. Make sure to include an adequate description of experiences that have helped you form and test those values. In addition, please relate your core values to the values, mission, and vision of UW Bothell (www.uwb.edu/about/vision). 2. Describe why you are interested in earning a mechanical engineering degree both in general and more specifically at UW Bothell (make sure to check out our program website: www.uwb.edu/mechanical). This description should include discussion of (1) any relevant life experiences you may have had (e.g. employment, internships, military service, volunteer work, campus or civic activities, etcetera) and (2) your anticipated career as a mechanical engineer.",
+    "minWords": null,
+    "maxWords": 650,
+    "formatPolicy": null,
+    "requirements": [
+      "Respond to the published Mechanical Engineering personal statement prompt below.",
+      "Maximum: 650 words. No minimum is stated on the general transfer source page.",
+      "Treat experience examples and if-applicable clauses as conditional; do not invent activities, hardships or prior applications.",
+      "Answer both numbered questions, including their requested subparts."
+    ],
+    "scope": "UW Bothell Mechanical Engineering prompt linked from current transfer instructions. The program PDF specifies 650 words and both numbered questions. Confirm your applicant route and current cycle; this is not the first-year essay.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-business",
+    "institution": "UW Bothell",
+    "route": "Transfer — Business Administration",
+    "section": "Program-specific personal statement",
+    "label": "Business Administration — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2025/04/Business-Administration.pdf",
+    "prompt": "Write a brief personal statement describing the following as applicable:\n\n• Your motivation to pursue upper-division studies in business, including how your interest in business and/or your intended concentration evolved. • Any relevant experience (employment, volunteer work, military service, extracurricular activities, etc.), and your ability to contribute to the educational experiences of other students at UW Bothell. • Your reflection on how your education to date has prepared you for business studies, including any significant learning experiences. • Other factors that you wish to bring to the Admissions Committee.",
+    "minWords": null,
+    "maxWords": 650,
+    "formatPolicy": null,
+    "requirements": [
+      "Respond to the published Business Administration personal statement prompt below.",
+      "Maximum: 650 words. No minimum is stated on the general transfer source page.",
+      "Treat experience examples and if-applicable clauses as conditional; do not invent activities, hardships or prior applications."
+    ],
+    "scope": "UW Bothell Business Administration prompt linked from current transfer instructions. The program PDF does not give a numeric word limit; the 650-word maximum comes from the general transfer instructions. Confirm any portal override.Confirm your applicant route and current cycle; this is not the first-year essay.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
+  },
+  {
+    "id": "uwb-transfer-ac-csse",
+    "institution": "UW Bothell",
+    "route": "Transfer — Applied Computing / Computer Science & Software Engineering",
+    "section": "Program-specific personal statement",
+    "label": "Applied Computing / Computer Science & Software Engineering — program prompt",
+    "checked": "2026-11-12",
+    "source": "https://www.uwb.edu/admissions/wp-content/uploads/sites/7/2025/08/AC-and-CSSE.pdf",
+    "prompt": "We want to learn more about you and your plans for the University of Washington Bothell education and beyond. Why are you interested in computer science, and specifically UW Bothell's CSS Program?\n\nIf you are applying to the Applied Computing (AC) major, discuss what required minor, second major, or other customized area of study you plan to complete along with your degree.\n\nDo you have any experience in software or hardware development outside of the classroom? If so, please describe.\n\nThe computing field relies on communication and collaboration. Further we believe diverse collaborations create better solutions. How do you plan to work with a diverse group of students, and what diverse perspectives will you bring?\n\nWhat specifically interests you about UW Bothell’s AC major, and what long-term goals will the major help you achieve?\n\nIf you have applied before, what has changed since your previous application? If you have repeated courses, or overcome significant obstacles, please explain.",
+    "minWords": null,
+    "maxWords": null,
+    "formatPolicy": "Maximum two pages, double-spaced, 12-point font. No numeric word maximum stated in this program document.",
+    "requirements": [
+      "Respond to the joint Applied Computing / Computer Science & Software Engineering prompt; compare any AC-specific wording with your selected program and current application.",
+      "Explain your interest in computer science and UW Bothell CSS.",
+      "Describe any out-of-class software/hardware experience if you have it; do not invent experience.",
+      "Explain your plans for collaboration, the perspectives you will bring and your goals.",
+      "For AC applicants: discuss the required minor, second major or customized study area. The document also asks about AC-specific interests and goals; CSSE applicants should confirm applicability with the current application.",
+      "Discuss prior applications, repeated courses or significant obstacles only if applicable.",
+      "Maximum: two pages, double-spaced, 12-point font. No numeric word maximum is stated in this program document; confirm the portal. Camino cannot verify pagination or font from pasted text."
+    ],
+    "scope": "Joint AC/CSSE document linked by UW Bothell admissions. AC-specific clauses remain conditional; the additional question naming AC has ambiguous applicability for CSSE. Confirm your current application before reviewing. A page limit cannot be converted reliably into a word count.",
+    "relatedSources": [
+      "https://www.uwb.edu/admissions/apply/transfer/how-to-apply"
+    ]
   }
 ];
 if(typeof module!=='undefined')module.exports=PublishedWritingPrompts;
