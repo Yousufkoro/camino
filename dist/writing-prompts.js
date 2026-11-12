@@ -533,4 +533,44 @@ var PublishedWritingPrompts=[
     ]
   }
 ];
+var PublishedApplicationScopes=[
+  {
+    "id": "bc-general",
+    "institution": "Bellevue College",
+    "title": "General admission",
+    "checked": "2026-11-12",
+    "source": "https://www.bellevuecollege.edu/admissions-aid/getting-started/",
+    "notes": [
+      "Bellevue describes itself as open admission. Its published general getting-started steps do not list a universal essay prompt; this does not establish the requirements of every program.",
+      "Apply through the college’s application, then complete the applicable account, placement and enrollment steps. First-year, transfer, returning, international and under-18 routes differ.",
+      "Do not use a UW personal statement as a Bellevue requirement unless your actual program asks for it. Use your program’s current instructions in the reviewer."
+    ]
+  },
+  {
+    "id": "bc-program",
+    "institution": "Bellevue College",
+    "title": "Selective and bachelor’s programs",
+    "checked": "2026-11-12",
+    "source": "https://www.bellevuecollege.edu/admissions-aid/getting-started/",
+    "notes": [
+      "Some associate programs have selective admission; every bachelor’s program asks for additional application materials. General college admission does not establish admission to those programs.",
+      "Find the application requirements for your exact degree and cycle on the published program page. An essay, interview or supplemental form must not be assumed to apply to every program.",
+      "Paste the actual writing prompt, limits and requirements into this reviewer. Program-specific Bellevue prompts are not yet loaded in the prompt picker."
+    ]
+  },
+  {
+    "id": "bc-transfer",
+    "institution": "Bellevue College",
+    "title": "Transfer-credit review and multiple degrees",
+    "checked": "2026-11-12",
+    "source": "https://www.bellevuecollege.edu/admissions-aid/getting-started/transfer/",
+    "notes": [
+      "Camino’s transcript import is a planning aid, not an official submission or Bellevue transfer-credit evaluation. Bellevue asks for official records and a separate review request.",
+      "For multiple colleges, send original transcripts from each institution separately. A UW transcript listing transferred Bellevue credits does not replace Bellevue’s original transcript.",
+      "Bellevue says concurrent degrees can use multiple review requests. Select the actual degree for each request; credit applicability is decided in the college’s evaluation.",
+      "Enrollment-before-review has exceptions for current/continuing students, selective programs and military funding/benefits. Check the official instructions for your route."
+    ]
+  }
+];
+PublishedWritingPrompts.applicationScopes=PublishedApplicationScopes;
 if(typeof module!=='undefined')module.exports=PublishedWritingPrompts;

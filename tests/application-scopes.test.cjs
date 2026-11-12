@@ -1,0 +1,3 @@
+const assert=require('node:assert/strict'),rows=require('../dist/writing-prompts').applicationScopes;
+assert.equal(rows.length,3);for(const row of rows){assert.match(row.source,/^https:\/\/www\.bellevuecollege\.edu\//);assert.ok(row.notes.length>=3);assert.ok(!row.prompt,'Scope guidance must not become a fabricated essay prompt')}
+assert.match(rows[0].notes.join(' '),/do not list a universal essay/);assert.match(rows[1].notes.join(' '),/does not establish admission/);assert.match(rows[2].notes.join(' '),/each institution separately/);assert.match(rows[2].notes.join(' '),/multiple review requests/);console.log('Bellevue general/program/transfer scopes preserve distinct processes without inventing essay requirements.');

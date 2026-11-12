@@ -299,3 +299,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Health Studies500–650; RN-to-BSN650 maximum with ambiguous lower-bound wording visible and optional context preserved.
 - [x] IAS intended-major guidance, general-transfer limit provenance and explicit applicant/pathway scopes.
 - [ ] Bellevue and other writing scopes, final live AI quality/latency and broader device gates remain incomplete. Keep(Beta).
+
+## Bellevue scope and November16 target —0.38
+
+- [x] Bellevue source guide distinguishes general admission, selective/bachelor supplements and official transfer-credit review, including original transcripts and concurrent-degree requests.
+- [x] Do not invent a universal Bellevue essay or claim uploaded documents were officially submitted.
+- [x] Record November16 target, priority order and actual coverage/testing gaps in docs/NOVEMBER-16-TARGET.md.
+- [ ] Bellevue program-specific writing prompts, final live reviewer AI gates and broader academic coverage remain unfinished. Entire953-entry degree coverage and calibrated admission probabilities are not promised by November16.
