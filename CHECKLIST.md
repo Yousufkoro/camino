@@ -210,3 +210,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Require a concrete unanswered question for retained revisions; label optional enrichment and keep missing/duplicate/vague/unavailable assessments uncertain.
 - [x] Add synthetic care/work regression, secondary-output admission-claim guards and no-extra-call behavior for empty revisions.
 - [ ] Verify broader live semantic quality, source prompts and file/device coverage before removing(Beta). Reviewer first; popular core programs before narrow specializations afterward.
+
+## Saved-review consistency and requirement rescreening —0.30
+
+- [x] Preserve optional/uncertain labels, revision questions/reasons, length results and partial activity coverage when saved feedback is reopened; omit duplicate live controls.
+- [x] Reassess requirements against the entire draft, including later-sentence responses; retain exact source evidence and activity-only limits, and allow corrected revision source attribution.
+- [x] Add engineering, business, care/work and activities-only synthetic cases plus saved/download/restore and reassessment regression tests.
+- [ ] Continue broader semantic, source-prompt and file/device validation before removing(Beta); reviewer completion remains first priority, then popular programs ahead of narrower options.
