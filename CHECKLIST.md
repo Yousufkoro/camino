@@ -237,3 +237,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Use a separate current Cloudflare-hosted reasoning model for secondary review, parse final content only, and make incomplete/unavailable assessments uncertain.
 - [x] Add provider response/failure/truncation tests and a clearly observed-outcome partial-answer case alongside the original ambiguous case.
 - [ ] Confirm production classification quality and finish remaining prompt/file/device reviewer gates before removing(Beta).
+
+## Consistent checked revision actions —0.31.2
+
+- [x] Complete live comparison: implied ethics context rejected, explicit ethical choice accepted without a keyword dependency, leadership participation kept separate, and observed-outcome gap correctly partial.
+- [x] Use the checked question as the canonical action; prevent an old expected-outcome instruction from contradicting observed-outcome feedback. Preserve this in saved display and export.
+- [x] Verify immutable legacy alignment and desktop/mobile saving, download and restoration; communicate measured review wait time.
+- [ ] Finish remaining prompt, supported-file/device and latency reviewer quality checks before removing(Beta).
