@@ -341,3 +341,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Prioritize continuation of already completed courses, fixing CS211 delayed nine planned quarters after completed CS210 in the reproduced UWB EE lighter plan.
 - [x] Retain prerequisite quarter boundaries, credit/course caps and school-choice warnings; do not present a bounded heuristic as proof of global optimality.
 - [ ] Remaining core-program journeys, sourced priority checkpoints and essential mobile flows still require focused verification under the five-feature target.
+
+## Checkpoint provenance and save confirmation —0.43
+
+- [x] Preserve published fixed-year versus derived annual date kinds in saved checkpoints and PNG exports; do not label all sourced dates as derived.
+- [x] Explicit Added-to-plan button feedback prevents repeated clicks after a successful save.
+- [x] Keep source/cycle confirmation and fixed-year no-rollover behavior; this is not exhaustive deadline coverage or a fresh-source certification.

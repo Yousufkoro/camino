@@ -1,0 +1,9 @@
+# 0.43 — Preserve exact versus derived checkpoint provenance
+
+The PNG plan export labelled every checkpoint with a dateBasis field as a derived planning date. That incorrectly relabelled exact, fixed-year published events. Preserve a structured published/annual-rule/entered date kind from candidate generation through saved reminders and use the correct label in image exports. Legacy saved checkpoints use conservative text-based classification; unclear metadata stays an entered reminder rather than an invented verified date.
+
+After saving a sourced checkpoint, its finder button says Added to your plan and is disabled, giving immediate confirmation without a second click or implying that anything was submitted to the institution. Exact year/cycle matching remains unchanged: fixed-year events do not roll into another entry year. All source snapshots and derived rules still require current-cycle confirmation; this release does not refresh academic source dates or certify deadline completeness.
+
+Verification includes same-calendar-date exact and annual rules, legacy classification, no fixed-year rollover, saving both kinds through the UI, persistence and actual PNG text/download checks at desktop/mobile sizes, and full regression validation. No AI inference or external student-data submission is needed. Five-feature scope remains active; broad degree audits paused.
+
+Narrow source recheck: UW Seattle's first-year page still lists November15 (annual rule); Bothell's application-deadlines page explicitly lists Autumn2027 early action November15,2026 and regular decision January15,2027. These match the loaded records. Other deadline records were not refreshed by this check. Sources: https://admit.washington.edu/apply/first-year/ and https://www.uwb.edu/admissions/apply/application-dates-deadlines . Checked during this release; source evidence retained in the QA workspace.

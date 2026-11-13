@@ -1,6 +1,6 @@
 {
-  "release": "0.42.0",
-  "marker": "camino-completed-sequence-continuity",
+  "release": "0.43.0",
+  "marker": "camino-checkpoint-date-provenance",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
