@@ -367,3 +367,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Escape closes an open mobile navigation menu and returns focus to its toggle, from either toggle or nav link; closed-menu Escape is unaffected.
 - [x] Extend native PDF→confirmed import→PNG/ICS flow checks to Firefox and Chromium, including mobile Enter/Tab/Escape.
 - [ ] Safari/physical-device coverage is not certified. Reviewer real AI quality/timing is still blocked by account quota; owner usage/limit information requested. Keep(Beta).
+
+## Existing manual-plan workload limits —0.47
+
+- [x] Enforce maximum courses per term during scheduling, rather than generate an over-limit plan and flag it afterward.
+- [x] Keep prerequisites/credit caps, normalize numeric credits and align fallback scheduling with48-term validation bounds.
+- [x] Preserve clear student-entered-plan scope without implying new institutional degree audits.
