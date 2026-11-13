@@ -38,3 +38,4 @@ body[data-view="sources"] main table{min-width:0}body[data-view="sources"] main 
 .requirement-parts blockquote{margin:.65rem 0;padding-left:.8rem}
 [data-review-upload-status]{overflow-wrap:anywhere}
 [data-review-upload-status]:empty{margin:0}
+@media(max-width:480px){.degree-summary .btn{box-sizing:border-box;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center}}

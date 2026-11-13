@@ -1,6 +1,6 @@
 {
-  "release": "0.43.0",
-  "marker": "camino-checkpoint-date-provenance",
+  "release": "0.44.0",
+  "marker": "camino-provider-focus-mobile-flows",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

@@ -347,3 +347,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Preserve published fixed-year versus derived annual date kinds in saved checkpoints and PNG exports; do not label all sourced dates as derived.
 - [x] Explicit Added-to-plan button feedback prevents repeated clicks after a successful save.
 - [x] Keep source/cycle confirmation and fixed-year no-rollover behavior; this is not exhaustive deadline coverage or a fresh-source certification.
+
+## Essential-flow keyboard/mobile continuity —0.44
+
+- [x] Restore focus and open course details after a school-change redraw; keep the changed control visible and preserve other school choices.
+- [x] Retain scheduling/provider regressions and repeat essential image-export/deletion/cancellation/reload checks in responsive browser QA.
+- [ ] Physical-device/cross-browser coverage and live reviewer AI gates remain incomplete; viewport checks are not universal certification.
+- [x] Fix the long expanded-plan source-check action overflowing a320px viewport; wrap its label within the container.
