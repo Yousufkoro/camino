@@ -335,3 +335,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Prefer declared Attempted/Earned/Grade order over coincidental grade-point arithmetic.
 - [x] Preserve attempted and earned credits separately, including0-earned failed rows; retain ordinary grade-point regressions.
 - [ ] Transcript format coverage remains bounded; unknown layouts and missing fields still require student correction/confirmation.
+
+## Existing-plan sequence continuity —0.42
+
+- [x] Prioritize continuation of already completed courses, fixing CS211 delayed nine planned quarters after completed CS210 in the reproduced UWB EE lighter plan.
+- [x] Retain prerequisite quarter boundaries, credit/course caps and school-choice warnings; do not present a bounded heuristic as proof of global optimality.
+- [ ] Remaining core-program journeys, sourced priority checkpoints and essential mobile flows still require focused verification under the five-feature target.
