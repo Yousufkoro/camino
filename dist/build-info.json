@@ -1,6 +1,6 @@
 {
-  "release": "0.47.0",
-  "marker": "camino-manual-course-count-limits",
+  "release": "0.48.0",
+  "marker": "camino-workspace-recovery-transactions",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

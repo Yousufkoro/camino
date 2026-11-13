@@ -373,3 +373,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Enforce maximum courses per term during scheduling, rather than generate an over-limit plan and flag it afterward.
 - [x] Keep prerequisites/credit caps, normalize numeric credits and align fallback scheduling with48-term validation bounds.
 - [x] Preserve clear student-entered-plan scope without implying new institutional degree audits.
+
+## Workspace recovery and failed-save integrity —0.48
+
+- [x] Stage backup restore and retain current workspace/mode if the local save fails.
+- [x] Allow retry of the same backup after cancellation/failure; ignore stale reads and navigation-disconnected restores.
+- [x] Roll back failed manual course moves and their change history.
+- [x] Verify real backup export/restore, separate-draft exclusion, provider/checkpoint/workload/manual-term preservation and reload at desktop/mobile/narrow widths.
