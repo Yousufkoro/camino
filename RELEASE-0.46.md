@@ -1,0 +1,9 @@
+# 0.46 — Mobile-menu keyboard recovery and Firefox coverage
+
+The mobile disclosure menu stayed open on Escape and did not return focus to its toggle. Handle Escape from the menu button and navigation links, close the menu, update aria-expanded and restore toggle focus. Rebinding replaces keyboard handlers rather than accumulating them. Closed-menu Escape stays available to other interactions; the navigation remains a non-modal disclosure, not a focus trap.
+
+Extend scripts/browser-import-export.cjs to select Chromium or Firefox. Firefox tests use an isolated temporary profile and may import an explicitly supplied test-environment CA into that profile while retaining certificate verification. Each viewport clears the isolated test storage before the workflow. Browser cache/configuration is external to the production bundle. This environment required Firefox outside its startup-blocking command sandbox; it initially failed with namespace/framebuffer errors, then passed when the runtime was configured. No production security settings changed.
+
+Firefox and Chromium local tests passed actual native PDF upload, confirmed three courses/15credits/original schools, plan PNG, checkpoint save/reload, stable UTF-8 ICS export and mobile Enter/Tab/Escape at1440/390/320px (menu test applies at mobile widths). Durable DOM regression covers Escape from links/toggle, focus return, repeated binding and closed-menu behavior. Full validation and post-deployment runs accompany this release. This adds Firefox engine evidence, not physical-device or Safari certification.
+
+One small synthetic reviewer test more than90 minutes after the daily reset still returned503 AI_QUOTA_EXCEEDED in0.2s; further inference stopped. The owner was asked for account plan/usage/limit values. Reviewer stays(Beta); quota restoration and live quality/timing gates remain unfinished.

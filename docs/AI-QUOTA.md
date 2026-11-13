@@ -11,3 +11,5 @@ Once quota is available, test one review from the website. If it succeeds, resum
 Source checked: November 12, 2026.
 
 A single synthetic typical-draft test just after the daily00:00UTC boundary (November12,2026 at4p.m. Pacific) still returned503 AI_QUOTA_EXCEEDED before inference. Further calls stopped. The daily reset alone has not yet restored access in the observed test; check actual account usage/limits rather than promising that waiting fixes it. Evidence: review40/typical-ai.json in the QA workspace. No student writing was used.
+
+A second bounded availability test more than90 minutes after the reset also returned503 AI_QUOTA_EXCEEDED before inference. This rules out claiming that the immediate-boundary test alone explained the observed outage. No further inference was attempted. Account plan, current Neuron usage and any configured usage cap were requested from the owner; account information is not accessible through the GitHub deployment connection. QA evidence: review46/ai-availability-result.json. No real applicant data was sent.

@@ -1,6 +1,6 @@
 {
-  "release": "0.45.0",
-  "marker": "camino-import-calendar-integrity",
+  "release": "0.46.0",
+  "marker": "camino-menu-keyboard-firefox-checks",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

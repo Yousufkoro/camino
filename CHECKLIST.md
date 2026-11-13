@@ -361,3 +361,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Stable calendar IDs survive adding/reordering other reminders; personal milestones no longer get a fresh identity on every export.
 - [x] UTF-8 line folding, text escaping, date validation and sourced-date provenance in calendar/UI output.
 - [ ] External calendar reimport behavior, physical-device/cross-browser coverage, unseen transcript layouts and real reviewer AI gates remain unverified. Keep reviewer(Beta).
+
+## Mobile menu and second-engine verification —0.46
+
+- [x] Escape closes an open mobile navigation menu and returns focus to its toggle, from either toggle or nav link; closed-menu Escape is unaffected.
+- [x] Extend native PDF→confirmed import→PNG/ICS flow checks to Firefox and Chromium, including mobile Enter/Tab/Escape.
+- [ ] Safari/physical-device coverage is not certified. Reviewer real AI quality/timing is still blocked by account quota; owner usage/limit information requested. Keep(Beta).
