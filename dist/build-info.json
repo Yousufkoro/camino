@@ -1,6 +1,6 @@
 {
-  "release": "0.39.0",
-  "marker": "camino-review-unicode-request-limits",
+  "release": "0.40.0",
+  "marker": "camino-transcript-issuer-boundaries",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

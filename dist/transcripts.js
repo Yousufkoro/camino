@@ -14,6 +14,14 @@ const TranscriptImport=(()=>{
  function preparedLines(text){const lines=String(text||'').replace(/\r/g,'').split('\n').map(x=>x.trim()),out=[];for(let i=0;i<lines.length;i++){let line=lines[i];if(coursePrefix(line)){for(let n=0;n<3&&i+1<lines.length;n++){const next=lines[i+1];if(!next){i++;continue}if(coursePrefix(next)||/^(?:FALL|AUTUMN|WINTER|SPRING|SUMMER|TOTAL|CUM|TRANSFER|DETAIL|ATTENDED|UNIVERSITY|PAGE|INSTITUTION|COLUMN BREAK)\b/i.test(next)||detectHeaderInstitution(next))break;const ends=/\s(?:[0-4]\.\d+|[A-F][+-]?|CR|P|S|W|IP|I|NC|NS|NP|\d+\.\d{1,3})$/i.test(line);if(ends&&line.split(/\s+/).length>3)break;line+=' '+next;i++}}out.push(line)}return out}
  function numericTail(rest,header){const m=rest.match(/^(.*?)\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)$/);if(!m)return null;const [a,b,c]=m.slice(2).map(Number);if(a<=0||a>30)return null;if(b<=4&&Math.abs(a*b-c)<.06)return{title:m[1],credits:a,grade:m[3],gradePoints:c,method:'credit-grade-points arithmetic'};if(c<=4&&Math.abs(a*c-b)<.06)return{title:m[1],credits:a,grade:m[4],gradePoints:b,method:'credit-points-grade arithmetic'};if(/attempt|taken|earned|passed/i.test(header)&&b<=a&&c<=4)return{title:m[1],credits:b,grade:m[4],method:'attempted/earned/grade header'};return null}
  function detectInstitution(text,context={}){
+  // Resolve a document's issuer before looking inside its transfer-credit tables.
+  // Single-line calls still recognize the original school named by a transfer heading.
+  const headerLines=String(text||'').split(/\r?\n/);
+  if(headerLines.length>1){let issuer='';for(const raw of headerLines.slice(0,30)){const line=raw.trim();if(!line)continue;if(/^(?:(?:DETAILS?|SUMMARY)\s+OF\s+)?TRANSFER(?:RED)?\s+(?:CREDITS?|COURSES?|COURSEWORK)\b|^CREDITS?\s+(?:TRANSFERRED|ACCEPTED)\s+FROM\b/i.test(line))return issuer;
+    if(coursePrefix(line))break;
+    if(issuer==='University of Washington'){const campus=line.match(/^(?:(?:UW|University of Washington)\s+)?(Bothell|Seattle|Tacoma)(?:\s+CAMPUS)?$/i);if(campus)return 'University of Washington '+campus[1][0].toUpperCase()+campus[1].slice(1).toLowerCase();if(/Seattle[,\s]+(?:WA|Washington)\s+98195/i.test(line))return 'University of Washington Seattle';}
+    const found=detectInstitution(line,context);if(found){if(!issuer)issuer=found;else if(issuer==='University of Washington'&&found.startsWith('University of Washington '))issuer=found;if(issuer!=='University of Washington')return issuer;}
+   }if(issuer)return issuer;}
   const compact=schoolCompact(text),bcPosition=bellevuePosition(compact),uwPosition=compact.search(/universityofwashington|uwbothell|uwseattle|uwtacoma/);
   // The issuer's heading comes before transfer-school references. A generic UW
   // header must not become Bellevue merely because its transfer table names Bellevue.

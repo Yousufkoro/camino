@@ -323,3 +323,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Clear400/413 malformed/oversize errors without invoking inference; prior writing remains recoverable through existing error handling.
 - [x] Record approved five-feature scope and pause broad degree-audit expansion.
 - [ ] Actual AI feedback quality and typical/near-limit timing remain unverified pending allowance restoration. Keep(Beta).
+
+## Transcript issuer boundaries —0.40
+
+- [x] Fix Seattle Central→Bellevue and UW Seattle→Bothell issuer confusion caused by transfer references.
+- [x] Preserve split UW campus headings, single-line original-school recognition and separate issuer/source fields.
+- [x] Keep uncertain issuer recovery and existing credit/Oceanography regressions; do not claim every possible transcript works.
