@@ -329,3 +329,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Fix Seattle Central→Bellevue and UW Seattle→Bothell issuer confusion caused by transfer references.
 - [x] Preserve split UW campus headings, single-line original-school recognition and separate issuer/source fields.
 - [x] Keep uncertain issuer recovery and existing credit/Oceanography regressions; do not claim every possible transcript works.
+
+## Explicit transcript credit columns —0.41
+
+- [x] Prefer declared Attempted/Earned/Grade order over coincidental grade-point arithmetic.
+- [x] Preserve attempted and earned credits separately, including0-earned failed rows; retain ordinary grade-point regressions.
+- [ ] Transcript format coverage remains bounded; unknown layouts and missing fields still require student correction/confirmation.
