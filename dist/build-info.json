@@ -1,6 +1,6 @@
 {
-  "release": "0.44.0",
-  "marker": "camino-provider-focus-mobile-flows",
+  "release": "0.45.0",
+  "marker": "camino-import-calendar-integrity",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

@@ -354,3 +354,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Retain scheduling/provider regressions and repeat essential image-export/deletion/cancellation/reload checks in responsive browser QA.
 - [ ] Physical-device/cross-browser coverage and live reviewer AI gates remain incomplete; viewport checks are not universal certification.
 - [x] Fix the long expanded-plan source-check action overflowing a320px viewport; wrap its label within the container.
+
+## Native import/export and stable calendar identities —0.45
+
+- [x] Repeat live10-fixture reader/OCR matrix and full native PDF→confirmed import→plan PNG→checkpoint save/reload→ICS flow at desktop/mobile/narrow viewports.
+- [x] Stable calendar IDs survive adding/reordering other reminders; personal milestones no longer get a fresh identity on every export.
+- [x] UTF-8 line folding, text escaping, date validation and sourced-date provenance in calendar/UI output.
+- [ ] External calendar reimport behavior, physical-device/cross-browser coverage, unseen transcript layouts and real reviewer AI gates remain unverified. Keep reviewer(Beta).
