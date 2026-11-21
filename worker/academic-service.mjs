@@ -94,8 +94,9 @@ export function enforceObservedOutcomeAdvice(review,body){
  if(!/\b(?:observed|actual|measured|real)\s+(?:outcome|result|impact)|what (?:actually )?happened/i.test(body.prompt+' '+(body.requirements||'')))return review;
  for(const group of ['improvements','promptCoverage'])for(const item of review[group]||[]){
   const advice=[item.feedback,item.action,item.revisionQuestion,item.revisionReason].filter(Boolean).join(' ');
-  if(!/\b(?:expected|anticipated|projected|predicted|hypothetical|future)\s+(?:outcome|result|impact)|what will happen|what (?:do you|you) expect (?:to happen|the (?:outcome|result))/i.test(advice))continue;
-  item.feedback='The prompt asks for an observed result. A prediction cannot replace what actually happened.';
+  const unavailableObserved=group==='improvements'&&item.verification==='quote-matched'&&item.evidenceSource==='essay'&&/\b(?:do not|don.t|did not|didn.t|have not|haven.t) (?:yet )?(?:have|observe|see|measure|record) (?:an? |any )?(?:observed |actual |measured )?(?:outcome|result|impact)|\bno (?:observed|actual|measured) (?:outcome|result|impact)/i.test(item.evidence||'')&&/\b(?:outcome|result|impact)\b/i.test(advice);
+  if(!unavailableObserved&&!/\b(?:expected|anticipated|projected|predicted|hypothetical|future)\s+(?:outcome|result|impact)|what will happen|what (?:do you|you) expect (?:to happen|the (?:outcome|result))/i.test(advice))continue;
+  item.feedback=unavailableObserved?'Your draft explicitly says an observed result is not available yet. The prompt still asks for what actually happened.':'The prompt asks for an observed result. A prediction cannot replace what actually happened.';
   item.action='Describe a genuine observed result if you have one, or choose another truthful example with an observed result. Do not invent a result.';
   if(item.revisionQuestion)item.revisionQuestion='Do you have an actual observed result, or another truthful example that includes one?';
   if(item.revisionReason)item.revisionReason='An expected outcome does not establish an observed result.';

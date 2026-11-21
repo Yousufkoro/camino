@@ -398,3 +398,8 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Quote-grounded conditional applicability with conservative unknown handling and live/saved labels.
 - [x] Prevent expected-result advice substituting for explicitly requested observed results; retain genuine future-goal prompts.
 - [ ] Broader live reviewer quality and supported-device gates; Beta remains.
+
+## 0.51.1 — Explicitly unavailable results
+
+- [x] When a verified draft quote says no observed result exists yet, offer truthful alternatives instead of asking as though implementation already happened.
+- [ ] Broader reviewer quality gates remain open; Beta stays.
