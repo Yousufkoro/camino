@@ -1,6 +1,6 @@
 {
-  "release": "0.48.0",
-  "marker": "camino-workspace-recovery-transactions",
+  "release": "0.49.0",
+  "marker": "camino-review-duration-incomplete-checks",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

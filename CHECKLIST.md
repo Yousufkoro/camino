@@ -380,3 +380,10 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Allow retry of the same backup after cancellation/failure; ignore stale reads and navigation-disconnected restores.
 - [x] Roll back failed manual course moves and their change history.
 - [x] Verify real backup export/restore, separate-draft exclusion, provider/checkpoint/workload/manual-term preservation and reload at desktop/mobile/narrow widths.
+
+## Reviewer live access and measured duration —0.49
+
+- [x] Fresh Nov21 real synthetic model tests: complete4/4, genuine missing-outcome3/4, with exact evidence and constructive gap guidance.
+- [x] Replace90-second client cutoff with bounded180 seconds after measured132–139-second production responses; preserve cancellation and writing.
+- [x] Explicitly distinguish incomplete secondary assessments from missing content, preserving available feedback.
+- [ ] Near-limit secondary assessment completeness and conditional/choice quality gates remain; reviewer stays(Beta). Old quota failure is historical, not the latest availability result.
