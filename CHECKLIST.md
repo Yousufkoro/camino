@@ -392,3 +392,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 - [x] Replace the failing secondary provider with a separate structured pass using the existing primary model contract. Preserve conservative missing-output handling and evidence guards.
 - [ ] Complete live conditional/choice, missing-outcome and near-limit quality/timing gates; Beta remains. Two passes with one model are not independent validation.
+
+## 0.51 — Conditional applicability and observed outcomes
+
+- [x] Quote-grounded conditional applicability with conservative unknown handling and live/saved labels.
+- [x] Prevent expected-result advice substituting for explicitly requested observed results; retain genuine future-goal prompts.
+- [ ] Broader live reviewer quality and supported-device gates; Beta remains.

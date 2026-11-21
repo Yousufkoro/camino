@@ -1,0 +1,9 @@
+# 0.51 — Conditional applicability and truthful observed outcomes
+
+Production0.50 synthetic tests completed all secondary checks in17.6–32seconds, but exposed two quality failures: a first-time applicant was told to check a previously-applied requirement despite explicitly ruling it out, and missing-observed-result advice proposed expected outcomes. Availability was improved; those quality gates did not pass.
+
+Ask the second pass to classify requirement applicability separately and quote the essay evidence. A not-applicable presentation requires an explicitly conditional source requirement and a meaningful literal/whitespace-matched essay quote. It remains an inference to verify against instructions, never independent certification. An unknown condition or unmatched quote stays uncertain and does not imply missing content. An unconditional requirement cannot be waived. Live and saved reviews display the same conditional label and supporting quote.
+
+Both model instructions explicitly distinguish observed results from predictions. A server guard replaces suggestions to supply anticipated/expected/future results when the prompt explicitly requests observed/actual/measured results with truthful alternatives: describe a genuine observed result if available, or choose another example that includes one. It does not invent a result, rewrite the essay, or change prompts that actually request expected outcomes.
+
+Focused tests cover matched/unmatched/absent applicability evidence, unknown applicability, unconditional requirements, live/saved labels, prediction substitution and future-goal prompts. Full validation precedes deployment. Live synthetic conditional and missing-outcome probes remain required, along with broader reviewer gates; retain(Beta). Separate passes using one model are not independent validation.

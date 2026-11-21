@@ -1,6 +1,6 @@
 {
-  "release": "0.50.0",
-  "marker": "camino-structured-second-pass",
+  "release": "0.51.0",
+  "marker": "camino-conditional-observed-outcomes",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
