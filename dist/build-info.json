@@ -1,6 +1,6 @@
 {
-  "release": "0.49.0",
-  "marker": "camino-review-duration-incomplete-checks",
+  "release": "0.50.0",
+  "marker": "camino-structured-second-pass",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

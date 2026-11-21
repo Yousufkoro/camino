@@ -21,4 +21,4 @@ A reasonable target is a tested priority-campus release with specific limitation
 
 ## Current external blocker
 
-Workers AI returned AI_QUOTA_EXCEEDED in the recorded production tests. No more inference is attempted while that exhaustion is known. Owner can wait for the daily allowance reset or enable additional usage; see AI-QUOTA.md. Restoring allowance enables testing but does not itself establish review quality or timing.
+November21 update: actual synthetic inference is available again. The earlier quota outage is historical; see AI-QUOTA.md. Complete and missing-outcome samples returned useful checks, but conditional and near-limit secondary checks failed. The November16 target has passed with reviewer gates incomplete. Release0.50 replaces the failing secondary model with a separate structured pass using the working primary model; actual quality and timing tests remain required. Restored inference alone does not establish review quality or capacity.

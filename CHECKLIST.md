@@ -387,3 +387,8 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Replace90-second client cutoff with bounded180 seconds after measured132–139-second production responses; preserve cancellation and writing.
 - [x] Explicitly distinguish incomplete secondary assessments from missing content, preserving available feedback.
 - [ ] Near-limit secondary assessment completeness and conditional/choice quality gates remain; reviewer stays(Beta). Old quota failure is historical, not the latest availability result.
+
+## 0.50 — Secondary reviewer availability
+
+- [x] Replace the failing secondary provider with a separate structured pass using the existing primary model contract. Preserve conservative missing-output handling and evidence guards.
+- [ ] Complete live conditional/choice, missing-outcome and near-limit quality/timing gates; Beta remains. Two passes with one model are not independent validation.
