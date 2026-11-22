@@ -66,3 +66,6 @@ body[data-view="sources"] main table{min-width:0}body[data-view="sources"] main 
 
 .cover-stair-scene .camino-world{min-height:0;max-height:none;margin:0;aspect-ratio:7/5}
 .cover-stair-scene .stair-illustration{position:relative;inset:auto;transform:none}
+
+/* Keep changed plan controls clear of navigation when the course list grows. */
+#quarter-plan [data-toggle-motion],#lab-summer,#lab-bellevue,#quarter-plan [data-try-load]{scroll-margin-block:100px 24px}
