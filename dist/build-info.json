@@ -1,6 +1,6 @@
 {
-  "release": "0.54.0",
-  "marker": "camino-plan-viewer-navigation",
+  "release": "0.55.0",
+  "marker": "camino-optional-refinement-priority",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }

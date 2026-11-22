@@ -420,3 +420,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 - [x] Preserve the expanded quarter viewer during next/previous/direct quarter and milestone exploration; retain route, focus and saved records.
 - [ ] Reviewer optional-versus-required refinement classification remains next; Beta stays.
+
+## 0.55 — Optional versus prompt-related revisions
+
+- [x] Label covered-content/general enrichment optional, prioritize checked flagged requirements and retain uncertain scopes.
+- [x] Explain classification in summaries and live/saved feedback.
+- [ ] Broader reviewer quality checks remain; Beta stays.
