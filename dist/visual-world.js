@@ -5,9 +5,15 @@ function animateCaminoClimb(index,total){
  document.querySelectorAll('.stair-climber').forEach(el=>{const svg=el.closest('svg'),position=Math.min(+svg.dataset.stairCount-1,index),base=+svg.dataset.baseY;el.style.transform=`translate(${120+position*75}px,${base-position*48}px)`});
  document.querySelectorAll('.illustrated-step').forEach((el,i)=>el.classList.toggle('step-reached',i<=index));
 }
+function renderPlanExploration(){
+ const viewerOpen=document.querySelector('#quarter-plan')?.open,oldY=window.scrollY;
+ render();
+ const viewer=document.querySelector('#quarter-plan');if(viewer&&viewerOpen)viewer.open=true;
+ window.scrollTo(0,oldY);
+}
 function bindVisualWorld(){
  document.querySelectorAll('[data-toggle-motion]').forEach(el=>el.onclick=()=>{state.reduceMotion=!state.reduceMotion;save();render()});
  const total=window.currentPlan?.length?Math.max(...currentPlan.map(c=>c.term))+1:1;
  animateCaminoClimb(caminoViewedTerm,total);
- document.querySelectorAll('[data-climb-term]').forEach(el=>el.onclick=()=>{caminoViewedTerm=+el.dataset.climbTerm;const oldY=window.scrollY;render();window.scrollTo(0,oldY);const current=document.querySelector('.stair-climber');if(current&&!state.reduceMotion&&!window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches){const previous=Math.max(0,+el.dataset.fromTerm||0),start=previous,end=caminoViewedTerm,base=+current.closest('svg').dataset.baseY;if(current.animate)current.animate([{transform:`translate(${120+start*75}px,${base-start*48}px)`},{transform:`translate(${120+(start+end)/2*75}px,${base-(start+end)/2*48-18}px)`},{transform:`translate(${120+end*75}px,${base-end*48}px)`}],{duration:700,easing:'cubic-bezier(.22,.7,.3,1)'});}document.querySelector('[data-selected-landing]')?.focus({preventScroll:true})});
+ document.querySelectorAll('[data-climb-term]').forEach(el=>el.onclick=event=>{event.preventDefault();caminoViewedTerm=+el.dataset.climbTerm;renderPlanExploration();const current=document.querySelector('.stair-climber');if(current&&!state.reduceMotion&&!window.matchMedia?.('(prefers-reduced-motion: reduce)')?.matches){const previous=Math.max(0,+el.dataset.fromTerm||0),start=previous,end=caminoViewedTerm,base=+current.closest('svg').dataset.baseY;if(current.animate)current.animate([{transform:`translate(${120+start*75}px,${base-start*48}px)`},{transform:`translate(${120+(start+end)/2*75}px,${base-(start+end)/2*48-18}px)`},{transform:`translate(${120+end*75}px,${base-end*48}px)`}],{duration:700,easing:'cubic-bezier(.22,.7,.3,1)'});}document.querySelector('[data-selected-landing]')?.focus({preventScroll:true})});
 }

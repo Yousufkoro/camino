@@ -415,3 +415,8 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Prevent a source-backed absence statement from discarding same-requirement observed-result guidance; preserve genuine completed-outcome drops.
 - [x] Keep truthful alternatives in part feedback even when the primary model supplies no proposed revision.
 - [ ] Broader actual reviewer quality and supported-device gates; Beta remains.
+
+## 0.54 — Priority plan-viewer navigation repair
+
+- [x] Preserve the expanded quarter viewer during next/previous/direct quarter and milestone exploration; retain route, focus and saved records.
+- [ ] Reviewer optional-versus-required refinement classification remains next; Beta stays.

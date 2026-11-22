@@ -1,6 +1,6 @@
 {
-  "release": "0.53.0",
-  "marker": "camino-preserve-outcome-guidance",
+  "release": "0.54.0",
+  "marker": "camino-plan-viewer-navigation",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
