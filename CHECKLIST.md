@@ -403,3 +403,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 - [x] When a verified draft quote says no observed result exists yet, offer truthful alternatives instead of asking as though implementation already happened.
 - [ ] Broader reviewer quality gates remain open; Beta stays.
+
+## 0.52 — Consolidated coverage and scoped advice
+
+- [x] Consolidate visible prompt coverage into checked requirement rows; eliminate unchecked observation advice from fresh/saved feedback.
+- [x] Link screened revisions to requirements; preserve explicitly requested future-outcome advice and flag ambiguous mixed advice as uncertain.
+- [ ] Broader live reviewer quality and supported-device gates; Beta remains.
