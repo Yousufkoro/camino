@@ -1,6 +1,6 @@
 # Detailed-review availability and quota recovery
 
-Current observation, November21,2026: synthetic production requests returned HTTP200 again. The earlier quota outage is not the current observed blocker. Quality and response-time gates are still being tested; daily capacity has not been certified. Historical quota observations follow.
+Current observation, November21,2026: synthetic production requests returned HTTP200 again. The earlier quota outage is not the current observed blocker. Representative quality, response-time and browser acceptance checks passed for the reviewer release in0.56; daily capacity has not been certified. Historical quota observations follow.
 
 Production returned `AI_QUOTA_EXCEEDED` on November 12, 2026. That blocks new model reviews and live model timing tests. Upload extraction and local writing checks continue to run on the device; a failed model request preserves the draft.
 

@@ -39,3 +39,6 @@ body[data-view="sources"] main table{min-width:0}body[data-view="sources"] main 
 [data-review-upload-status]{overflow-wrap:anywhere}
 [data-review-upload-status]:empty{margin:0}
 @media(max-width:480px){.degree-summary .btn{box-sizing:border-box;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:center}}
+
+/* Vector CTA arrows stay crisp across system font fallbacks. */
+.btn-arrow{width:16px;height:16px;flex:none}

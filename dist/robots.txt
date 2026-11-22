@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Sitemap: https://camino-your-direction.yourdirection.workers.dev/sitemap.xml

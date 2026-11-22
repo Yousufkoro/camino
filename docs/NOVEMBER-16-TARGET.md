@@ -22,3 +22,7 @@ A reasonable target is a tested priority-campus release with specific limitation
 ## Current external blocker
 
 November21 update: actual synthetic inference is available again. The earlier quota outage is historical; see AI-QUOTA.md. Complete and missing-outcome samples returned useful checks, but conditional and near-limit secondary checks failed. The November16 target has passed with reviewer gates incomplete. Release0.50 replaces the failing secondary model with a separate structured pass using the working primary model; actual quality and timing tests remain required. Restored inference alone does not establish review quality or capacity.
+
+## Reviewer acceptance update — November21
+
+Release0.56 removes the reviewer Beta label after current-backend conditional, mixed past/future and near-limit live checks, the0.55 four-case matrix and desktop/mobile consent/save/download/cancellation/navigation acceptance. These are representative release checks, not a guarantee of every possible model interpretation. Fallibility and source-verification guidance remain visible. The originalNovember16 target was missed; later acceptance does not change that history. Public project packaging and launch scope are documented in RELEASE-0.56.md and docs/LINKEDIN-PROJECT.md.

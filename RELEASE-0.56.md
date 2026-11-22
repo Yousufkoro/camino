@@ -1,0 +1,9 @@
+# 0.56 — Public project presentation and reviewer release
+
+Prepare the public app and repository for a LinkedIn Projects entry. Clarify the Washington-first planning purpose on the homepage and add a sample-plan CTA above the fold. Keep the existing original animated path/compass experience. Use vector CTA arrows to avoid missing-glyph squares in font fallbacks.
+
+Add canonical/Open Graph/large-image share metadata, a branded1200x630 PNG with editable SVG source, crawler entry points and a no-JavaScript explanation. Replace the obsolete README describing an unpublished ChatGPT-hosted version with the actual standalone Workers architecture, privacy model, setup instructions, demo and honest coverage limits. Supply a LinkedIn project description, real technology list, demo outline and cover image in docs/LINKEDIN-PROJECT.md. No LinkedIn post or profile edit is made.
+
+Reviewer release checks on the unchanged0.55 backend completed: choice/conditional19.5s, mixed past/future27.9s and29.5k-character near-limit27.6s, allHTTP200 with complete secondary requirement checks. Unknown suggestions remained uncertain. Prior0.55 engineering/business/care/activities checks passed. Live Chromium1440/390/320 replays of the actual conditional result passed consent, text/JSON downloads, explicit save, stale draft/restore, route preservation, cancellation and late-response protection with no automatic draft save, errors or overflow. Remove the Beta navigation/heading label after these documented checks; retain visible fallibility, source-verification and scope limits. This is representative release acceptance, not universal model accuracy.
+
+Full validation and local desktop/mobile public-visitor checks precede deployment. Production metadata/image HTTP checks and the same visitor routes follow deployment. Selected pathway coverage, not comprehensive degree audits or individual admission forecasts, is the public claim. The0.54 plan-viewer fix is retained.

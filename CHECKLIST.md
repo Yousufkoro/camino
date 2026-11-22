@@ -1,5 +1,7 @@
 # Camino requested-work checklist
 
+Current release: **0.56**. The reviewer completed the documented representative release checks and its Beta label is removed. See [RELEASE-0.56.md](RELEASE-0.56.md) for the release-check summary. Older release sections below preserve the status at that time; their historical Beta notes do not describe the current product. Broad degree-audit expansion remains paused, and unresolved academic coverage is not represented as complete.
+
 ## Active scope through November16 (owner approved)
 
 1. Essay/application reviewer release gates.
@@ -426,3 +428,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Label covered-content/general enrichment optional, prioritize checked flagged requirements and retain uncertain scopes.
 - [x] Explain classification in summaries and live/saved feedback.
 - [ ] Broader reviewer quality checks remain; Beta stays.
+
+## 0.56 — Public project presentation and reviewer release
+
+- [x] Public README, LinkedIn project kit, branded share card/metadata and above-fold read-only sample-plan CTA.
+- [x] Fresh conditional/mixed/near-limit reviewer checks and desktop/mobile consent/save/download/cancel/navigation acceptance passed; remove Beta label, retain AI limitations.
+- [x] Keep coverage claims scoped to selected structured pathways; broad degree audits remain paused.
