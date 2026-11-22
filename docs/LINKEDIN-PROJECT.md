@@ -8,13 +8,15 @@
 
 **Source:** https://github.com/Yousufkoro/camino
 
-**Role:** Creator & Developer
+**Role:** Project Creator · AI-assisted development
 
 **Description to paste:**
 
-Built and deployed Camino, a Washington-first college and career planning web app. Developed an interactive 3D discovery experience, local transcript parsing and OCR, and prerequisite-aware course planning with school alternatives and downloadable plans. Integrated consent-based AI writing feedback with structured outputs, quote matching and safeguards for uncertain results. Implemented responsive layouts, automated regression tests and GitHub-to-Cloudflare deployment. The live app includes a sample plan visitors can explore without uploading documents.
+Created Camino, a Washington-first college and career planning web app, using AI-assisted development tools. Defined the student experience, directed the visual design and feature requirements, and iterated on transcript review, course planning and writing feedback through testing. The live project includes an interactive discovery quiz and a sample plan visitors can try without uploading documents.
 
-**Suggested skills:** JavaScript · Three.js · Cloudflare Workers · API Integration · Automated Testing
+**Suggested skills to consider:** Product Planning · User Experience (UX) · Prompt Engineering · Usability Testing · AI-assisted Development
+
+Only select skills you can explain and demonstrate yourself. JavaScript, Three.js and Cloudflare describe the project’s implementation, not necessarily your personal proficiency. Do not list them as your skills merely because the AI used them.
 
 Use your actual project start month and year. Do not invent user counts, impact metrics or time savings.
 
@@ -35,13 +37,13 @@ The 1200 × 630 image is also the site's social-share card. Editable vector sour
 
 Use synthetic data for screenshots or recordings. Show the actual live behavior rather than implying every degree path is fully modeled.
 
-## Engineering points to explain in an interview
+## Honest interview talking points
 
-- Why transcript extraction and OCR run locally, followed by human confirmation.
-- How prerequisites and workload limits affect scheduling, and when exact versus heuristic scheduling is used.
-- Why a quote match does not prove semantic correctness in an AI review.
-- How structured outputs, requirement checks, uncertainty labels, cancellation and stale-result protection make model feedback more inspectable.
-- How GitHub checks and Cloudflare builds support repeatable deployment.
+- The student problem you wanted to solve and how you prioritized features.
+- The requirements, design references and feedback you gave the AI tools.
+- Examples of issues you noticed and how you judged whether a revision improved them.
+- What you tested yourself, what automated checks reported, and what remains uncertain.
+- How AI assisted implementation, and which parts you can personally explain. Be direct about areas you are still learning.
 
 ## Accurate scope
 

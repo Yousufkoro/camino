@@ -16,7 +16,9 @@ Camino is a Washington-first student planning application. It connects interacti
 - **Review writing:** a separate, consent-based essay/application review workspace with quote-matched evidence and optional-versus-prompt-related feedback. AI feedback remains fallible and should be checked against the original prompt.
 - **Keep control:** browser-local workspaces, explicit backups/restores and a data-reset control. No ChatGPT login is needed on the live deployment.
 
-## Engineering
+## How it was built
+
+Camino was created through AI-assisted development. The implementation was produced largely with AI assistance, while the creator directed the product requirements, visual design and iterations. AI tools also assisted with testing. The technologies below describe the application, not a claim of unaided coding or personal proficiency in every library.
 
 The frontend uses JavaScript, HTML and CSS with self-hosted Three.js, PDF.js and Tesseract.js. Cloudflare Workers serves the application and optional Workers AI review API. GitHub validation and Cloudflare Workers Builds deploy changes from `main`.
 

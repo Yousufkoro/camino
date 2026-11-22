@@ -42,3 +42,27 @@ body[data-view="sources"] main table{min-width:0}body[data-view="sources"] main 
 
 /* Vector CTA arrows stay crisp across system font fallbacks. */
 .btn-arrow{width:16px;height:16px;flex:none}
+
+/* The homepage is the living version of the public staircase cover. */
+.cover-matched-hero{min-height:700px;background:radial-gradient(ellipse at 80% 35%,#7259a440,transparent 62%),#100e1b;position:relative}
+.cover-matched-hero .hero-wide-fallback{display:none}
+.cover-matched-hero h1{font-family:Georgia,serif;font-weight:400;letter-spacing:-3px;font-size:clamp(52px,6vw,84px);line-height:1.08}
+.cover-matched-hero h1 em{background:none;color:#c6b4f6}
+.cover-matched-hero .journey-hero-copy>p{color:#c1b6cd}
+.cover-stair-scene{position:relative;min-width:0;align-self:center;pointer-events:none}
+.cover-stair-scene .camino-world{position:relative;inset:auto;width:100%;height:auto;max-width:none;transform:none;opacity:1}
+.cover-stair-scene .stair-illustration{display:block;width:100%;height:auto;overflow:visible}
+.cover-stair-scene .stair-halo,.cover-stair-scene .stair-caption{display:none}
+.cover-scene-caption{display:block;text-align:center;color:#b4a5cc;font-size:11px;letter-spacing:2px;margin-top:10px}
+.cover-motion-control,.cover-motion-note{position:absolute;right:6%;bottom:22px;color:#b4a5cc;font:inherit;font-size:11px;background:transparent;border:1px solid #b4a5cc44;border-radius:20px;padding:9px 14px;min-height:36px}
+.cover-motion-note{border:0}
+.cover-stair-scene .stair-climber{animation:cover-climb 14s ease-in-out infinite}
+.cover-stair-scene .stair-destination{animation:cover-door 5s ease-in-out infinite}
+@keyframes cover-climb{0%,5%{transform:translate(120px,350px);opacity:1}11%{transform:translate(157px,300px)}17%{transform:translate(195px,302px)}23%{transform:translate(232px,252px)}29%{transform:translate(270px,254px)}35%{transform:translate(307px,204px)}41%{transform:translate(345px,206px)}47%{transform:translate(382px,156px)}53%{transform:translate(420px,158px)}59%{transform:translate(457px,108px)}65%,80%{transform:translate(495px,110px);opacity:1}90%,95%{transform:translate(495px,110px);opacity:0}96%,100%{transform:translate(120px,350px);opacity:0}}
+@keyframes cover-door{0%,100%{filter:drop-shadow(0 0 6px #d5b8f033)}50%{filter:drop-shadow(0 0 16px #d5b8f077)}}
+.reduce-motion .cover-stair-scene *, .reduce-motion .cover-stair-scene{animation:none!important}
+@media(prefers-reduced-motion:reduce){.cover-stair-scene *{animation:none!important}}
+@media(max-width:800px){.cover-matched-hero{padding-bottom:70px;min-height:auto}.cover-matched-hero h1{font-size:clamp(49px,11vw,72px)}.cover-stair-scene{width:100%;max-width:620px;margin:10px auto 0}.cover-scene-caption{font-size:9px}.cover-motion-control,.cover-motion-note{bottom:15px}}
+
+.cover-stair-scene .camino-world{min-height:0;max-height:none;margin:0;aspect-ratio:7/5}
+.cover-stair-scene .stair-illustration{position:relative;inset:auto;transform:none}
