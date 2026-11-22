@@ -2,7 +2,7 @@
 
 **College and career planning, one step at a time.**
 
-[Try Camino](https://camino-your-direction.yourdirection.workers.dev/) · [Open the sample plan](https://camino-your-direction.yourdirection.workers.dev/#preview) · [Project write-up](docs/LINKEDIN-PROJECT.md)
+[Try Camino](https://camino-your-direction.yourdirection.workers.dev/) · [Open the sample plan](https://camino-your-direction.yourdirection.workers.dev/#preview) · [Deployment guide](HOSTING.md)
 
 ![Camino: Your future. Your direction.](dist/social-card.png)
 

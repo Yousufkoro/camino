@@ -431,7 +431,7 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 ## 0.56 — Public project presentation and reviewer release
 
-- [x] Public README, LinkedIn project kit, branded share card/metadata and above-fold read-only sample-plan CTA.
+- [x] Public README, desktop/mobile screenshots, branded share card/metadata and above-fold read-only sample-plan CTA.
 - [x] Fresh conditional/mixed/near-limit reviewer checks and desktop/mobile consent/save/download/cancel/navigation acceptance passed; remove Beta label, retain AI limitations.
 - [x] Keep coverage claims scoped to selected structured pathways; broad degree audits remain paused.
 
