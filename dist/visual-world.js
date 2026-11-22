@@ -5,12 +5,7 @@ function animateCaminoClimb(index,total){
  document.querySelectorAll('.stair-climber').forEach(el=>{const svg=el.closest('svg'),position=Math.min(+svg.dataset.stairCount-1,index),base=+svg.dataset.baseY;el.style.transform=`translate(${120+position*75}px,${base-position*48}px)`});
  document.querySelectorAll('.illustrated-step').forEach((el,i)=>el.classList.toggle('step-reached',i<=index));
 }
-function renderPlanExploration(){
- const viewerOpen=document.querySelector('#quarter-plan')?.open,oldY=window.scrollY;
- render();
- const viewer=document.querySelector('#quarter-plan');if(viewer&&viewerOpen)viewer.open=true;
- window.scrollTo(0,oldY);
-}
+function renderPlanExploration(){render()}
 function bindVisualWorld(){
  document.querySelectorAll('[data-toggle-motion]').forEach(el=>el.onclick=()=>{state.reduceMotion=!state.reduceMotion;save();render()});
  const total=window.currentPlan?.length?Math.max(...currentPlan.map(c=>c.term))+1:1;
