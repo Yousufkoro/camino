@@ -409,3 +409,9 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 - [x] Consolidate visible prompt coverage into checked requirement rows; eliminate unchecked observation advice from fresh/saved feedback.
 - [x] Link screened revisions to requirements; preserve explicitly requested future-outcome advice and flag ambiguous mixed advice as uncertain.
 - [ ] Broader live reviewer quality and supported-device gates; Beta remains.
+
+## 0.53 — Preserve unavailable-result guidance
+
+- [x] Prevent a source-backed absence statement from discarding same-requirement observed-result guidance; preserve genuine completed-outcome drops.
+- [x] Keep truthful alternatives in part feedback even when the primary model supplies no proposed revision.
+- [ ] Broader actual reviewer quality and supported-device gates; Beta remains.

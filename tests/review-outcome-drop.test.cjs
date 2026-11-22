@@ -1,0 +1,15 @@
+const assert=require('node:assert/strict');
+(async()=>{const{applyRevisionChecks}=await import('../worker/academic-service.mjs');
+const quote='I do not have an observed result yet.',body={essay:'I made a shared folder. '+quote,activities:'',prompt:'Describe the observed result.',requirements:'Describe the observed result.'};
+const review=()=>({summary:'A draft.',strengths:[],promptCoverage:[],requirementChecks:[{requirementIndex:0,requirement:body.requirements}],improvements:[{evidence:quote,evidenceSource:'essay',verification:'quote-matched',feedback:'The observed result is missing.',action:'What was the outcome?',priority:'high'}]});
+const check={revisionIndex:0,requirementIndex:0,decision:'drop',alreadyCoveredQuote:quote,unansweredQuestion:'',reason:'Already mentioned.',revisedFeedback:''},part={partIndex:0,status:'not-evidenced',evidenceBasis:'related-context',evidence:quote,feedback:'No observed result yet.'};
+const raw={checks:[check],requirements:[{requirementIndex:0,parts:[part]}]};
+let r=applyRevisionChecks(review(),raw,body);assert.equal(r.improvements.length,1);assert.equal(r.revisionQuality.removed,0);assert.equal(r.revisionQuality.preventedOutcomeDrops,1);assert.match(r.improvements[0].revisionQuestion,/another truthful example/);assert.equal(r.improvements[0].evidence,quote);assert.match(r.requirementChecks[0].parts[0].feedback,/Do not invent/);assert.notEqual(r.requirementChecks[0].status,'addressed');
+// Part-level guidance still appears when the primary model proposes no revision.
+r=applyRevisionChecks({...review(),improvements:[]},raw,body);assert.equal(r.improvements.length,0);assert.match(r.requirementChecks[0].parts[0].feedback,/another truthful example/);
+// Positive outcomes must still permit removing already-answered criticism.
+const result='At the next meeting all twelve receipts were present.';r=applyRevisionChecks(review(),{checks:[{...check,alreadyCoveredQuote:result}],requirements:[{requirementIndex:0,parts:[{...part,status:'addressed',evidenceBasis:'direct',evidence:result}]}]},{...body,essay:body.essay+' '+result});assert.equal(r.improvements.length,0);assert.equal(r.requirementChecks[0].status,'addressed');assert.equal(r.revisionQuality.preventedOutcomeDrops,0);
+// Invented source text, missing assessments, or an explicit different requirement cannot revive a proposal.
+for(const changed of [{...raw,requirements:[]},{...raw,requirements:[{requirementIndex:0,parts:[{...part,evidence:'An invented unavailable result quote.'}]}]},{...raw,checks:[{...check,requirementIndex:1}]}]){r=applyRevisionChecks(review(),changed,body);assert.equal(r.revisionQuality.preventedOutcomeDrops,0);}
+const mixed={...body,prompt:body.prompt+' Explain the expected outcome of your next project.'};r=applyRevisionChecks(review(),{...raw,checks:[{...check,requirementIndex:-1}]},mixed);assert.equal(r.revisionQuality.preventedOutcomeDrops,0);
+console.log('Unavailable-result quotes cannot erase verified missing-outcome guidance; completed outcomes, missing/unmatched evidence and mixed/other scopes remain protected.');})().catch(e=>{console.error(e);process.exitCode=1});
