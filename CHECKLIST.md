@@ -1,6 +1,6 @@
 # Camino requested-work checklist
 
-Current release: **0.58**. The reviewer completed the documented representative release checks and its Beta label is removed. See [RELEASE-0.56.md](RELEASE-0.56.md) for the release-check summary. Older release sections below preserve the status at that time; their historical Beta notes do not describe the current product. Broad degree-audit expansion remains paused, and unresolved academic coverage is not represented as complete.
+Current release: **0.59**. The reviewer completed the documented representative release checks and its Beta label is removed. See [RELEASE-0.56.md](RELEASE-0.56.md) for the release-check summary. Older release sections below preserve the status at that time; their historical Beta notes do not describe the current product. Broad degree-audit expansion remains paused, and unresolved academic coverage is not represented as complete.
 
 ## Active scope through November16 (owner approved)
 
@@ -444,3 +444,8 @@ Deploy each completed task separately. The earlier0.10 Beta removal describes th
 
 - [x] Preserve expanded quarter viewer and preference-control focus on same-route redraws.
 - [x] Keep deliberate closed state, route-transition behavior, coursework and existing school/quarter navigation intact.
+
+## 0.59 — Preserve transcript review corrections
+
+- [x] Retain explicit corrections on matching unchanged source rows when confirming issuer or rescanning.
+- [x] Keep document/term/duplicate boundaries conservative, capture current text edits, and preserve corrections through save/reopen.

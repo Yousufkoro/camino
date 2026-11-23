@@ -1,6 +1,6 @@
 {
-  "release": "0.58.0",
-  "marker": "camino-stable-plan-preferences",
+  "release": "0.59.0",
+  "marker": "camino-preserve-transcript-review",
   "repository": "https://github.com/Yousufkoro/camino",
   "sourceReviewDate": "2026-11-12"
 }
